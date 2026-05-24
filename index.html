@@ -2,55 +2,87 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>SAIF | GLOBAL SYSTEM RECON</title>
+    <title>تتبع الأي بي</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap');
-        body { background: #000; color: #00ff41; font-family: 'Orbitron', sans-serif; padding: 20px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; }
-        .panel { border: 1px solid #00ff41; padding: 20px; border-radius: 10px; background: #050505; }
-        .val { color: #fff; }
-        .status-on { color: #00ff41; }
-        .status-off { color: #ff0044; }
+        :root {
+            --bg-color: #000000;
+            --card-bg: rgba(28, 28, 30, 0.8);
+            --text-color: #ffffff;
+            --accent-color: #0A84FF; /* لون أزرق آيفون */
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .ios-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border-radius: 10px;
+            border: none;
+            background: #2c2c2e;
+            color: white;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border-radius: 10px;
+            border: none;
+            background: var(--accent-color);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #333;
+        }
     </style>
 </head>
 <body>
 
-<h1 style="text-align:center;">[ RECON_CORE_V2.0 ]</h1>
-<div class="grid">
-    <div class="panel" id="vudu-panel">
-        <h3>VUDU_INTEGRATION</h3>
-        <div id="vudu-status">جاري الفحص...</div>
+<div class="container">
+    <h1 style="font-size: 24px; margin-bottom: 20px;">معلومات الشبكة</h1>
+
+    <!-- معلومات الأي بي الخاص بك -->
+    <div class="ios-card">
+        <h2 style="font-size: 16px; color: #8e8e93;">عنوانك الحالي</h2>
+        <div class="info-row"><span>IP:</span> <strong>192.168.1.1</strong></div>
+        <div class="info-row"><span>المزود:</span> <strong>Zain Iraq</strong></div>
     </div>
-    <div class="panel">
-        <h3>GEOGRAPHIC_LOCATOR</h3>
-        <div id="geo-data">جاري التحديد...</div>
-    </div>
-    <div class="panel">
-        <h3>HARDWARE_TELEMETRY</h3>
-        <div id="sys-data"></div>
+
+    <!-- خانة البحث -->
+    <div class="ios-card">
+        <h2 style="font-size: 16px; margin-bottom: 10px;">تتبع عنوان آخر</h2>
+        <input type="text" placeholder="أدخل عنوان IP هنا...">
+        <button>عرض على الخريطة</button>
     </div>
 </div>
 
-<script>
-    async function initRecon() {
-        // 1. فحص فودو
-        const vuduCheck = await fetch('https://isp.vodu.me/api/', {mode: 'no-cors'}).then(() => true).catch(() => false);
-        document.getElementById('vudu-status').innerHTML = vuduCheck ? 
-            '<span class="status-on">● VUDU_SERVICES_ACTIVE</span>' : '<span class="status-off">● VUDU_SERVICES_OFFLINE</span>';
-
-        // 2. الموقع والـ IP
-        fetch('https://ipapi.co/json/').then(r => r.json()).then(d => {
-            document.getElementById('geo-data').innerHTML = `IP: <span class="val">${d.ip}</span><br>المزود: <span class="val">${d.org}</span><br>المدينة: <span class="val">${d.city}</span>`;
-        });
-
-        // 3. معلومات النظام
-        document.getElementById('sys-data').innerHTML = `
-            <div>المعالج: <span class="val">${navigator.hardwareConcurrency} Cores</span></div>
-            <div>الذاكرة: <span class="val">${navigator.deviceMemory || 'N/A'} GB</span></div>
-            <div>المتصفح: <span class="val">${navigator.userAgent.split(' ').pop()}</span></div>
-        `;
-    }
-    initRecon();
-</script>
 </body>
 </html>
