@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
+    <meta charset="UTF-8">
+    <title>SAIF | System Forensic</title>
     <style>
-        .drop-zone { border: 2px dashed #0ea5e9; padding: 40px; text-align: center; cursor: pointer; transition: 0.3s; }
-        .drop-zone:hover { background: #1e293b; }
-        #progress-bar { height: 10px; background: #0ea5e9; width: 0%; transition: 0.3s; }
-        .hidden { display: none; }
+        body { background: #050505; color: #00ff41; font-family: 'Courier New', Courier, monospace; padding: 20px; }
+        .terminal { border: 1px solid #333; padding: 20px; border-radius: 10px; background: #000; width: 400px; }
+        .line { display: flex; justify-content: space-between; margin-bottom: 10px; }
+        .val { color: #fff; }
     </style>
 </head>
 <body>
 
-    <div class="drop-zone" id="dropZone">
-        اسحب ملف الـ APK هنا أو اضغط للرفع
-        <input type="file" id="fileInput" class="hidden">
-    </div>
-
-    <div id="progress-bar"></div>
-
-    <div id="resultPanel" class="hidden">
-        <h2>نتائج الفحص</h2>
-        <ul id="analysisData"></ul>
-    </div>
+<div class="terminal">
+    <div style="text-align:center; color:#fff; margin-bottom: 20px;">[ SYSTEM_DIAGNOSTIC ]</div>
+    <div class="line">IP Address: <span id="ip" class="val">جاري الجلب...</span></div>
+    <div class="line">المتصفح: <span id="browser" class="val"></span></div>
+    <div class="line">النظام: <span id="os" class="val"></span></div>
+    <div class="line">نسبة الشحن: <span id="battery" class="val"></span></div>
+    <div class="line">المعمارية: <span id="arch" class="val"></span></div>
+    <div class="line">الاتصال: <span id="network" class="val"></span></div>
+</div>
 
 <script>
-    const dropZone = document.getElementById('dropZone');
-    const fileInput = document.getElementById('fileInput');
+    // 1. جلب الـ IP
+    fetch('https://api.ipify.org?format=json')
+        .then(r => r.json()).then(data => document.getElementById('ip').innerText = data.ip);
 
-    dropZone.onclick = () => fileInput.click();
+    // 2. معلومات النظام والشاشة
+    document.getElementById('browser').innerText = navigator.appName;
+    document.getElementById('os').innerText = navigator.platform;
+    document.getElementById('arch').innerText = navigator.userAgent.includes('x86_64') ? 'x64' : 'ARM/32-bit';
 
-    fileInput.onchange = (e) => handleFile(e.target.files[0]);
+    // 3. نسبة الشحن
+    navigator.getBattery().then(battery => {
+        document.getElementById('battery').innerText = Math.round(battery.level * 100) + "%";
+    });
 
-    function handleFile(file) {
-        document.getElementById('progress-bar').style.width = '50%';
-        // هنا تبدأ التفاعلية: نقوم باستخراج البيانات وتحديث الـ UI
-        setTimeout(() => {
-            document.getElementById('progress-bar').style.width = '100%';
-            document.getElementById('resultPanel').classList.remove('hidden');
-            document.getElementById('analysisData').innerHTML = `<li>الاسم: ${file.name}</li><li>الحجم: ${(file.size/1024/1024).toFixed(2)} MB</li>`;
-        }, 1500);
+    // 4. حالة الشبكة
+    if (navigator.connection) {
+        document.getElementById('network').innerText = navigator.connection.effectiveType;
+    } else {
+        document.getElementById('network').innerText = "غير متاح";
     }
 </script>
 </body>
