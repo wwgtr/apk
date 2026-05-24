@@ -2,75 +2,46 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IP Tracker Pro</title>
+    <title>Clean YouTube Player</title>
     <style>
-        :root {
-            --bg-color: #f2f2f7;
-            --card-bg: #ffffff;
-            --text-color: #000000;
-            --accent-color: #007aff;
-        }
-        .dark-mode {
-            --bg-color: #000000;
-            --card-bg: #1c1c1e;
-            --text-color: #ffffff;
-        }
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-            transition: 0.3s;
-            padding: 20px;
-        }
-        .ios-card {
-            background: var(--card-bg);
-            border-radius: 15px;
-            padding: 16px;
-            margin-bottom: 20px;
-        }
-        /* تصميم زر التبديل (Switch) */
-        .switch { display: flex; justify-content: space-between; align-items: center; }
-        .toggle-btn { cursor: pointer; color: var(--accent-color); font-weight: bold; }
-        
-        .info-item { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #33333333; }
-        select { background: #8e8e9333; border: none; padding: 5px; border-radius: 5px; color: var(--text-color); }
+        :root { --bg: #000; --card: #1c1c1e; --text: #fff; }
+        body { background: var(--bg); color: var(--text); font-family: -apple-system, sans-serif; padding: 20px; }
+        .ios-card { background: var(--card); border-radius: 20px; padding: 20px; margin-bottom: 20px; }
+        input { width: 100%; padding: 15px; border-radius: 12px; border: none; background: #2c2c2e; color: white; box-sizing: border-box; }
+        button { width: 100%; padding: 15px; border-radius: 12px; border: none; background: #0A84FF; color: white; font-weight: bold; margin-top: 10px; cursor: pointer; }
+        #video-container { width: 100%; border-radius: 20px; overflow: hidden; margin-top: 20px; display: none; }
     </style>
 </head>
 <body>
 
-<div class="container" style="max-width: 500px; margin: auto;">
-    
-    <div class="ios-card">
-        <div class="switch">
-            <span>الوضع المظلم</span>
-            <span class="toggle-btn" onclick="toggleTheme()">تشغيل/إيقاف</span>
-        </div>
-        <div class="switch" style="margin-top:15px;">
-            <span>اللغة</span>
-            <select>
-                <option>العربية</option>
-                <option>English</option>
-            </select>
-        </div>
-    </div>
+<div class="ios-card">
+    <h2 style="margin: 0 0 10px 0;">مشاهدة بدون إزعاج</h2>
+    <input type="text" id="urlInput" placeholder="الصق رابط يوتيوب هنا...">
+    <button onclick="loadVideo()">عرض الفيديو</button>
+</div>
 
-    <div class="ios-card">
-        <h3 style="margin-top:0;">معلومات الاتصال</h3>
-        <div class="info-item"><span>عنوان IP الخاص بك:</span> <b>192.168.1.1</b></div>
-        <div class="info-item"><span>مزود الخدمة (ISP):</span> <b>Zain Iraq</b></div>
-        <div class="info-item"><span>الدولة:</span> <b>العراق</b></div>
-    </div>
-
-    <div class="ios-card">
-        <input type="text" placeholder="أدخل IP للبحث عنه..." style="width:100%; padding:10px; border-radius:10px; border:1px solid #ccc;">
-        <button style="width:100%; margin-top:10px; padding:10px; background:var(--accent-color); color:white; border:none; border-radius:10px;">تحديد الموقع على الخريطة</button>
-    </div>
+<div id="video-container" class="ios-card">
+    <iframe id="ytPlayer" width="100%" height="315" src="" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <script>
-    function toggleTheme() {
-        document.body.classList.toggle('dark-mode');
+    function loadVideo() {
+        const url = document.getElementById('urlInput').value;
+        const videoId = extractVideoID(url);
+        if (videoId) {
+            // استخدام رابط embed مع معامل rel=0 لتقليل الاقتراحات المزعجة
+            const embedUrl = `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1`;
+            document.getElementById('ytPlayer').src = embedUrl;
+            document.getElementById('video-container').style.display = 'block';
+        } else {
+            alert("رابط غير صحيح");
+        }
+    }
+
+    function extractVideoID(url) {
+        const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+        const match = url.match(regExp);
+        return (match && match[2].length === 11) ? match[2] : null;
     }
 </script>
 
