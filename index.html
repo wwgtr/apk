@@ -2,73 +2,85 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>Advanced APK Analyzer</title>
+    <title>SAIF | APK Analyzer</title>
+    <!-- مكتبات التحليل والتحويل -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
-        body { font-family: 'Cairo', sans-serif; background: #0b0e14; color: #fff; display: flex; flex-direction: column; align-items: center; min-height: 100vh; margin: 0; padding: 20px; }
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;600&display=swap');
         
+        body { font-family: 'Cairo', sans-serif; background: #09090b; color: #f8fafc; display: flex; flex-direction: column; align-items: center; padding: 40px; margin: 0; }
+
         /* تصميم البطاقة */
         #capture { 
-            background: linear-gradient(145deg, #161b22, #0d1117); 
-            padding: 30px; border-radius: 25px; 
-            width: 380px; border: 1px solid #30363d;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
-            position: relative; overflow: hidden;
+            background: linear-gradient(160deg, #1e293b, #0f172a); 
+            padding: 35px; border-radius: 28px; width: 420px; 
+            border: 1px solid #334155; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+            position: relative;
         }
 
-        h2 { color: #58a6ff; text-align: center; margin-bottom: 25px; border-bottom: 2px solid #30363d; padding-bottom: 10px; }
-        .info-row { display: flex; justify-content: space-between; margin: 12px 0; font-size: 14px; }
-        .val { color: #8b949e; font-weight: bold; }
+        h2 { color: #38bdf8; margin: 0 0 25px 0; border-bottom: 2px solid #334155; padding-bottom: 10px; text-align: center; }
+        .row { display: flex; justify-content: space-between; margin: 15px 0; font-size: 15px; }
+        .label { color: #94a3b8; }
+        .val { color: #f1f5f9; font-weight: 600; word-break: break-all; text-align: left; }
 
-        /* منطقة التلجرام */
-        .footer-branding { 
-            margin-top: 30px; padding-top: 15px; border-top: 1px solid #30363d;
-            display: flex; justify-content: space-between; align-items: center;
+        /* العلامة المائية */
+        .branding { 
+            margin-top: 35px; padding-top: 20px; border-top: 1px solid #334155; 
+            display: flex; justify-content: space-around; align-items: center;
         }
-        .channel { display: flex; align-items: center; gap: 5px; font-size: 12px; color: #58a6ff; }
-        
-        button { background: #238636; color: white; border: none; padding: 15px 30px; border-radius: 12px; cursor: pointer; margin-top: 30px; font-weight: bold; transition: 0.3s; }
-        button:hover { background: #2ea043; }
+        .chan { display: flex; align-items: center; gap: 8px; font-size: 13px; color: #38bdf8; }
+
+        /* التحكم */
+        .controls { margin-top: 40px; display: flex; flex-direction: column; gap: 15px; width: 400px; }
+        input { padding: 12px; border-radius: 10px; border: 1px solid #334155; background: #1e293b; color: white; }
+        button { padding: 15px; border-radius: 10px; border: none; background: #0ea5e9; color: white; font-weight: bold; cursor: pointer; transition: 0.3s; }
+        button:hover { background: #0284c7; }
     </style>
 </head>
 <body>
 
 <div id="capture">
-    <h2>📊 تقرير التطبيق</h2>
-    <div class="info-row"><span>اسم الملف:</span> <span id="fileName" class="val">-</span></div>
-    <div class="info-row"><span>الحجم:</span> <span id="fileSize" class="val">-</span></div>
-    <div class="info-row"><span>التاريخ:</span> <span class="val" id="date"></span></div>
+    <h2>تـقـريـر تـطـبـيـق APK</h2>
+    <div class="row"><span class="label">اسم الملف:</span> <span id="fileName" class="val">-</span></div>
+    <div class="row"><span class="label">الحجم:</span> <span id="fileSize" class="val">-</span></div>
+    <div class="row"><span class="label">المعمارية:</span> <span id="arch" class="val">-</span></div>
+    <div class="row"><span class="label">تاريخ التحليل:</span> <span id="date" class="val"></span></div>
 
-    <div class="footer-branding">
-        <div class="channel">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="16">
-            TechCsl
-        </div>
-        <div class="channel">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="16">
-            NEXAI_AR
-        </div>
+    <div class="branding">
+        <div class="chan"><span>📱 TechCsl</span></div>
+        <div class="chan"><span>🤖 NEXAI_AR</span></div>
     </div>
 </div>
 
-<input type="file" id="apkInput" style="margin: 20px;">
-<button onclick="captureCard()">تحميل الصورة بجودة عالية</button>
+<div class="controls">
+    <input type="file" id="apkInput" accept=".apk">
+    <button onclick="saveImage()">حفظ التقرير كصورة فائقة الجودة</button>
+</div>
 
 <script>
-    document.getElementById('date').innerText = new Date().toLocaleDateString('ar-EG');
-    
-    document.getElementById('apkInput').addEventListener('change', function(e) {
+    document.getElementById('date').innerText = new Date().toLocaleDateString();
+
+    document.getElementById('apkInput').addEventListener('change', async function(e) {
         const file = e.target.files[0];
-        if (file) {
-            document.getElementById('fileName').innerText = file.name;
-            document.getElementById('fileSize').innerText = (file.size / (1024 * 1024)).toFixed(2) + " MB";
-        }
+        if (!file) return;
+
+        document.getElementById('fileName').innerText = file.name;
+        document.getElementById('fileSize').innerText = (file.size / (1024 * 1024)).toFixed(2) + " MB";
+
+        // تحليل المعمارية عبر فحص المجلدات
+        const zip = await JSZip.loadAsync(file);
+        const architectures = [];
+        zip.folder("lib").forEach((path) => {
+            const arch = path.split('/')[0];
+            if (arch && !architectures.includes(arch)) architectures.push(arch);
+        });
+        document.getElementById('arch').innerText = architectures.length > 0 ? architectures.join(', ') : "Generic/Unknown";
     });
 
-    function captureCard() {
-        // رفع الـ scale إلى 3 لضمان أعلى جودة ممكنة
-        html2canvas(document.querySelector("#capture"), { scale: 3, backgroundColor: null }).then(canvas => {
+    function saveImage() {
+        const element = document.querySelector("#capture");
+        html2canvas(element, { scale: 4, backgroundColor: "#09090b" }).then(canvas => {
             const link = document.createElement('a');
             link.download = 'App_Report.png';
             link.href = canvas.toDataURL("image/png");
