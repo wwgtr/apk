@@ -2,47 +2,66 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>SAIF | System Forensic</title>
+    <title>SAIF | DEEP FORENSIC LAB</title>
+    <script src="https://cdn.jsdelivr.net/npm/apk-parser@0.1.0/dist/apk-parser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <style>
-        body { background: #050505; color: #00ff41; font-family: 'Courier New', Courier, monospace; padding: 20px; }
-        .terminal { border: 1px solid #333; padding: 20px; border-radius: 10px; background: #000; width: 400px; }
-        .line { display: flex; justify-content: space-between; margin-bottom: 10px; }
-        .val { color: #fff; }
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&family=Cairo:wght@200;400;700&display=swap');
+        
+        body { background: #000; color: #00ff41; font-family: 'Cairo', sans-serif; margin: 0; padding: 20px; }
+        
+        /* Grid Layout للإبهار البصري */
+        .dashboard { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 1000px; margin: auto; }
+        
+        .panel { border: 1px solid #00ff41; padding: 20px; background: rgba(0, 20, 0, 0.5); border-radius: 15px; }
+        .panel h3 { font-family: 'Orbitron'; border-bottom: 1px solid #00ff41; padding-bottom: 10px; }
+        
+        .data-point { display: flex; justify-content: space-between; margin: 10px 0; font-size: 14px; }
+        .val { color: #fff; font-weight: bold; }
+        
+        button { background: #00ff41; border: none; padding: 15px; width: 100%; font-weight: bold; cursor: pointer; border-radius: 5px; margin-top: 10px; }
     </style>
 </head>
 <body>
 
-<div class="terminal">
-    <div style="text-align:center; color:#fff; margin-bottom: 20px;">[ SYSTEM_DIAGNOSTIC ]</div>
-    <div class="line">IP Address: <span id="ip" class="val">جاري الجلب...</span></div>
-    <div class="line">المتصفح: <span id="browser" class="val"></span></div>
-    <div class="line">النظام: <span id="os" class="val"></span></div>
-    <div class="line">نسبة الشحن: <span id="battery" class="val"></span></div>
-    <div class="line">المعمارية: <span id="arch" class="val"></span></div>
-    <div class="line">الاتصال: <span id="network" class="val"></span></div>
+<h1 style="text-align: center; font-family: 'Orbitron'; letter-spacing: 5px;">SYS_INTEGRATION_LAB</h1>
+
+<div class="dashboard">
+    <div class="panel">
+        <h3>DEVICE_TELEMETRY</h3>
+        <div class="data-point">IP: <span id="ip" class="val">-</span></div>
+        <div class="data-point">BATTERY: <span id="batt" class="val">-</span></div>
+        <div class="data-point">PLATFORM: <span id="platform" class="val">-</span></div>
+    </div>
+
+    <div class="panel">
+        <h3>APK_DEEP_ANALYSIS</h3>
+        <input type="file" id="apk-input" style="display:none">
+        <button onclick="document.getElementById('apk-input').click()">UPLOAD_APK_CORE</button>
+        <div id="apk-stats"></div>
+    </div>
 </div>
 
 <script>
-    // 1. جلب الـ IP
-    fetch('https://api.ipify.org?format=json')
-        .then(r => r.json()).then(data => document.getElementById('ip').innerText = data.ip);
+    // 1. جلب بيانات المستخدم
+    fetch('https://api.ipify.org?format=json').then(r=>r.json()).then(d => document.getElementById('ip').innerText = d.ip);
+    navigator.getBattery().then(b => document.getElementById('batt').innerText = Math.round(b.level*100) + "%");
+    document.getElementById('platform').innerText = navigator.platform;
 
-    // 2. معلومات النظام والشاشة
-    document.getElementById('browser').innerText = navigator.appName;
-    document.getElementById('os').innerText = navigator.platform;
-    document.getElementById('arch').innerText = navigator.userAgent.includes('x86_64') ? 'x64' : 'ARM/32-bit';
-
-    // 3. نسبة الشحن
-    navigator.getBattery().then(battery => {
-        document.getElementById('battery').innerText = Math.round(battery.level * 100) + "%";
+    // 2. تحليل التطبيق العميق
+    document.getElementById('apk-input').addEventListener('change', async (e) => {
+        const file = e.target.files[0];
+        const parser = new ApkParser(file);
+        const data = await parser.parse();
+        
+        const stats = document.getElementById('apk-stats');
+        stats.innerHTML = `
+            <div class="data-point">NAME: <span class="val">${data.package.label}</span></div>
+            <div class="data-point">PKG: <span class="val">${data.package.name}</span></div>
+            <div class="data-point">ARCH: <span class="val">${data.package.nativeCode?.join(', ') || 'N/A'}</span></div>
+            <div class="data-point">MIN_SDK: <span class="val">${data.manifest.usesSdk.minSdkVersion}</span></div>
+        `;
     });
-
-    // 4. حالة الشبكة
-    if (navigator.connection) {
-        document.getElementById('network').innerText = navigator.connection.effectiveType;
-    } else {
-        document.getElementById('network').innerText = "غير متاح";
-    }
 </script>
 </body>
 </html>
