@@ -2,56 +2,54 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>SAIF | DEEP FORENSIC RECON</title>
+    <title>SAIF | GEOLOCATION FORENSICS</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-        body { background: #000; color: #00ff41; font-family: 'Share Tech Mono', monospace; padding: 20px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; }
-        .card { border: 1px solid #00ff41; padding: 15px; background: #0a0a0a; border-radius: 8px; }
-        .title { color: #fff; font-weight: bold; border-bottom: 1px solid #00ff41; margin-bottom: 10px; }
+        body { background: #000; color: #00ff41; font-family: 'Courier New', monospace; padding: 20px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .panel { border: 1px solid #00ff41; padding: 20px; border-radius: 10px; background: #0a0a0a; }
+        .val { color: #fff; font-weight: bold; }
     </style>
 </head>
 <body>
 
-<h1 style="text-align:center; color:#fff;">[ CORE_RECON_SYSTEM ]</h1>
+<h1 style="text-align:center;">[ GEOGRAPHIC_RECON_UNIT ]</h1>
 
-<div class="grid" id="recon-data">
+<div class="grid">
+    <div class="panel">
+        <h3>تحديد عبر الـ IP</h3>
+        <div id="ip-data">جاري البحث...</div>
     </div>
+    <div class="panel">
+        <h3>تحديد عبر الـ GPS (دقيق)</h3>
+        <div id="gps-data">يرجى السماح بالوصول للموقع...</div>
+    </div>
+</div>
 
 <script>
-    async function runRecon() {
-        const data = {
-            "الشبكة": {
-                "IP_العام": await fetch('https://api.ipify.org').then(r => r.text()),
-                "الاتصال": navigator.connection ? navigator.connection.effectiveType : "غير متاح"
-            },
-            "العتاد": {
-                "عدد_الأنوية": navigator.hardwareConcurrency || "غير متاح",
-                "الذاكرة_الرام": navigator.deviceMemory ? navigator.deviceMemory + " GB" : "غير متاح",
-                "المنصة": navigator.platform,
-                "المعمارية": navigator.userAgent.includes('x64') ? '64-bit' : '32-bit'
-            },
-            "البطارية": {
-                "الحالة": await navigator.getBattery().then(b => b.charging ? "يشحن" : "لا يشحن"),
-                "النسبة": await navigator.getBattery().then(b => Math.round(b.level * 100) + "%")
-            },
-            "الشاشة": {
-                "الدقة": `${window.screen.width}x${window.screen.height}`,
-                "كثافة_البكسل": window.devicePixelRatio
-            }
-        };
+    // 1. تحديد عبر IP
+    fetch('https://ipapi.co/json/')
+        .then(r => r.json())
+        .then(data => {
+            document.getElementById('ip-data').innerHTML = `
+                <div>الـ IP: <span class="val">${data.ip}</span></div>
+                <div>المدينة: <span class="val">${data.city}</span></div>
+                <div>الدولة: <span class="val">${data.country_name}</span></div>
+                <div>المزود: <span class="val">${data.org}</span></div>
+            `;
+        });
 
-        const container = document.getElementById('recon-data');
-        for (const [section, items] of Object.entries(data)) {
-            let html = `<div class="card"><div class="title">${section}</div>`;
-            for (const [key, val] of Object.entries(items)) {
-                html += `<div style="display:flex; justify-content:space-between"><span>${key}:</span><span style="color:#fff">${val}</span></div>`;
-            }
-            html += `</div>`;
-            container.innerHTML += html;
-        }
+    // 2. تحديد عبر GPS
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(pos => {
+            document.getElementById('gps-data').innerHTML = `
+                <div>خط العرض: <span class="val">${pos.coords.latitude.toFixed(4)}</span></div>
+                <div>خط الطول: <span class="val">${pos.coords.longitude.toFixed(4)}</span></div>
+                <div>الدقة: <span class="val">${pos.coords.accuracy} متر</span></div>
+            `;
+        });
+    } else {
+        document.getElementById('gps-data').innerText = "غير مدعوم في هذا المتصفح";
     }
-    runRecon();
 </script>
 </body>
 </html>
