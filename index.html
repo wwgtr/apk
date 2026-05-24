@@ -1,26 +1,57 @@
-<div class="ios-card">
-    <div style="display: flex; gap: 10px; margin-top: 10px;">
-        <select id="formatSelect" style="flex: 1; padding: 10px; border-radius: 10px; background: #2c2c2e; color: white;">
-            <option value="mp4_1080">فيديو (1080p)</option>
-            <option value="mp4_720">فيديو (720p)</option>
-            <option value="mp3">صوت (MP3)</option>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Downloader</title>
+    <style>
+        :root { --bg: #000; --card: #1c1c1e; --text: #fff; --accent: #0A84FF; --green: #34C759; }
+        body { background: var(--bg); color: var(--text); font-family: -apple-system, sans-serif; padding: 20px; display: flex; justify-content: center; }
+        .container { width: 100%; max-width: 500px; }
+        .ios-card { background: var(--card); border-radius: 20px; padding: 20px; margin-bottom: 20px; }
+        input, select { width: 100%; padding: 15px; border-radius: 12px; border: none; background: #2c2c2e; color: white; margin-bottom: 10px; box-sizing: border-box; }
+        button { width: 100%; padding: 15px; border-radius: 12px; border: none; font-weight: bold; cursor: pointer; color: white; }
+        .btn-view { background: var(--accent); }
+        .btn-dl { background: var(--green); margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="ios-card">
+        <h3>مشغل ومحمل الفيديو</h3>
+        <input type="text" id="urlInput" placeholder="الصق رابط يوتيوب هنا...">
+        <button class="btn-view" onclick="loadVideo()">عرض الفيديو</button>
+    </div>
+
+    <div id="video-container" class="ios-card" style="display: none;">
+        <iframe id="ytPlayer" width="100%" height="250" src="" frameborder="0" allowfullscreen></iframe>
+        <select id="formatSelect">
+            <option value="video">تحميل فيديو (MP4)</option>
+            <option value="audio">تحميل صوت (MP3)</option>
         </select>
-        <button onclick="downloadVideo()" style="background: #34C759; margin-top: 0;">تحميل</button>
+        <button class="btn-dl" onclick="downloadVideo()">بدء التحميل الآن</button>
     </div>
 </div>
 
 <script>
+    function loadVideo() {
+        const url = document.getElementById('urlInput').value;
+        const videoId = url.split('v=')[1]?.split('&')[0];
+        if (videoId) {
+            document.getElementById('ytPlayer').src = `https://www.youtube.com/embed/${videoId}`;
+            document.getElementById('video-container').style.display = 'block';
+        } else { alert("رابط غير صحيح"); }
+    }
+
     function downloadVideo() {
         const url = document.getElementById('urlInput').value;
         const format = document.getElementById('formatSelect').value;
-        
-        if (!url) {
-            alert("يرجى لصق رابط الفيديو أولاً");
-            return;
-        }
-
-        // هنا يتم توجيه الطلب إلى الخادم الخاص بك أو خدمة API
-        // مثال: https://api.yoursite.com/download?url=...&format=...
-        alert("جارٍ تجهيز ملف " + format + " للتحميل...");
+        // استخدام خدمة SaveFrom.net كـ Redirect مباشر للتحميل
+        const downloadUrl = `https://en.savefrom.net/1-youtube-video-downloader.html?url=${encodeURIComponent(url)}`;
+        window.open(downloadUrl, '_blank');
     }
 </script>
+
+</body>
+</html>
