@@ -2,77 +2,74 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>SAIF | PRO SECURITY ANALYZER</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <title>SAIF | Deep Forensic Analysis</title>
+    <!-- مكتبة التحليل العميق -->
+    <script src="https://cdn.jsdelivr.net/npm/apk-parser@0.1.0/dist/apk-parser.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
-        body { background: #050505; color: #fff; font-family: 'Cairo', sans-serif; display: flex; flex-direction: column; align-items: center; padding: 20px; }
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+        body { background: #080808; color: #00ff41; font-family: 'JetBrains Mono', monospace; padding: 20px; }
         
-        #report {
-            width: 450px; background: #111; padding: 30px; border-radius: 20px;
-            border: 2px solid #333; position: relative;
+        #deep-report {
+            width: 500px; padding: 30px; border: 1px solid #00ff41;
+            background: radial-gradient(circle at top right, #0a1a0a, #000);
+            box-shadow: 0 0 40px rgba(0,255,65,0.1);
         }
-        .header { text-align: center; color: #00ff41; font-weight: bold; border-bottom: 2px solid #333; padding-bottom: 10px; margin-bottom: 20px; }
-        .perm-tag { 
-            display: inline-block; background: #222; color: #ff0044; padding: 3px 8px; 
-            margin: 3px; border-radius: 5px; font-size: 11px; border: 1px solid #444; 
-        }
-        .safe { color: #00ff41; }
-        .danger { color: #ff0044; }
+
+        .section-title { color: #fff; border-bottom: 1px solid #00ff41; margin: 15px 0; padding-bottom: 5px; text-transform: uppercase; }
+        .val { color: #fff; }
+        .perm-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 10px; }
+        .tag { border: 1px solid #00ff41; padding: 2px 5px; border-radius: 3px; }
     </style>
 </head>
 <body>
 
-<div id="report">
-    <div class="header">SYS_SECURITY_AUDIT</div>
-    <div id="data">
-        <p><strong>التطبيق:</strong> <span id="name">-</span></p>
-        <p><strong>حالة الأمان:</strong> <span id="security">جاري الفحص...</span></p>
-        <p><strong>الأذونات الحرجة:</strong></p>
-        <div id="permissions"></div>
-    </div>
-    <div style="text-align: center; margin-top: 20px; font-size: 10px; color: #555;">
-        @TechCsl | @NEXAI_AR
+<div id="deep-report">
+    <div style="text-align:center; font-size: 20px; font-weight:bold;">DEEP_ANALYSIS_PROTOCOL</div>
+    
+    <div class="section-title">Identity</div>
+    <p>NAME: <span id="app-name" class="val">-</span></p>
+    <p>PACKAGE: <span id="pkg-name" class="val">-</span></p>
+    
+    <div class="section-title">Architecture</div>
+    <p id="arch-list" class="val">-</p>
+
+    <div class="section-title">Permissions (Security)</div>
+    <div id="perm-list" class="perm-grid"></div>
+
+    <div style="margin-top: 30px; text-align: center; font-size: 8px;">
+        POWERED BY TECH_CSL | NEXAI_AR
     </div>
 </div>
 
-<input type="file" id="apkInput" style="margin-top:20px">
-<button onclick="saveReport()">تصدير التقرير</button>
+<input type="file" id="input">
+<button onclick="capture()">EXPORT_CRITICAL_DATA</button>
 
 <script>
-    // قائمة الأذونات الخطيرة (للمقارنة)
-    const dangerous = ['CAMERA', 'LOCATION', 'RECORD_AUDIO', 'READ_CONTACTS', 'READ_SMS'];
-
-    document.getElementById('apkInput').addEventListener('change', async function(e) {
+    document.getElementById('input').addEventListener('change', async (e) => {
         const file = e.target.files[0];
-        const zip = await JSZip.loadAsync(file);
-        document.getElementById('name').innerText = file.name;
+        // استخدام محلل APK الحقيقي
+        const parser = new ApkParser(file);
+        const data = await parser.parse();
         
-        // محاكاة استخراج أذونات من ملف Manifest (يتم استخلاصها عادة عبر regex)
-        // ملاحظة: لتحليل حقيقي للـ Binary XML، يحتاج الكود مكتبات ضخمة، 
-        // هنا قمت ببرمجة محاكي ذكي يقرأ ملفات الـ lib والـ Manifest الهيكلية
-        const perms = ["CAMERA", "INTERNET", "LOCATION"]; // مثال توضيحي
-        const container = document.getElementById('permissions');
-        container.innerHTML = "";
+        // تعبئة البيانات العميقة
+        document.getElementById('app-name').innerText = data.package.label;
+        document.getElementById('pkg-name').innerText = data.package.name;
+        document.getElementById('arch-list').innerText = data.package.nativeCode?.join(' | ') || "Pure Java/Kotlin";
         
-        perms.forEach(p => {
-            const span = document.createElement('span');
-            span.className = "perm-tag " + (dangerous.includes(p) ? "danger" : "safe");
-            span.innerText = p;
-            container.appendChild(span);
-        });
-        
-        document.getElementById('security').innerText = perms.length > 3 ? "تحذير: أذونات مرتفعة" : "آمن";
+        const perms = data.manifest.usesPermission;
+        const pList = document.getElementById('perm-list');
+        pList.innerHTML = perms.map(p => `<div class="tag">${p.split('.').pop()}</div>`).join('');
     });
 
-    function saveReport() {
-        html2canvas(document.querySelector("#report"), { scale: 3 }).then(canvas => {
-            const link = document.createElement('a');
-            link.download = 'SECURITY_REPORT.png';
-            link.href = canvas.toDataURL("image/png");
-            link.click();
-        });
+    function capture() {
+        html2canvas(document.querySelector("#deep-report"), {scale: 4, backgroundColor: "#080808"})
+            .then(c => {
+                const a = document.createElement('a');
+                a.href = c.toDataURL();
+                a.download = 'DEEP_REPORT.png';
+                a.click();
+            });
     }
 </script>
 </body>
