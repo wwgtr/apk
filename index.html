@@ -2,29 +2,62 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>SAIF | App Analyzer</title>
+    <title>Advanced APK Analyzer</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #0f172a; color: #e2e8f0; display: flex; flex-direction: column; align-items: center; padding: 20px; }
-        .card { background: #1e293b; padding: 30px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.3); width: 100%; max-width: 400px; border: 1px solid #334155; }
-        h2 { color: #38bdf8; margin-top: 0; }
-        .info-row { display: flex; justify-content: space-between; margin: 15px 0; border-bottom: 1px solid #334155; padding-bottom: 5px; }
-        button { background: #38bdf8; border: none; padding: 12px 20px; border-radius: 10px; color: #000; font-weight: bold; cursor: pointer; margin-top: 20px; width: 100%; }
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+        body { font-family: 'Cairo', sans-serif; background: #0b0e14; color: #fff; display: flex; flex-direction: column; align-items: center; min-height: 100vh; margin: 0; padding: 20px; }
+        
+        /* تصميم البطاقة */
+        #capture { 
+            background: linear-gradient(145deg, #161b22, #0d1117); 
+            padding: 30px; border-radius: 25px; 
+            width: 380px; border: 1px solid #30363d;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+            position: relative; overflow: hidden;
+        }
+
+        h2 { color: #58a6ff; text-align: center; margin-bottom: 25px; border-bottom: 2px solid #30363d; padding-bottom: 10px; }
+        .info-row { display: flex; justify-content: space-between; margin: 12px 0; font-size: 14px; }
+        .val { color: #8b949e; font-weight: bold; }
+
+        /* منطقة التلجرام */
+        .footer-branding { 
+            margin-top: 30px; padding-top: 15px; border-top: 1px solid #30363d;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .channel { display: flex; align-items: center; gap: 5px; font-size: 12px; color: #58a6ff; }
+        
+        button { background: #238636; color: white; border: none; padding: 15px 30px; border-radius: 12px; cursor: pointer; margin-top: 30px; font-weight: bold; transition: 0.3s; }
+        button:hover { background: #2ea043; }
     </style>
 </head>
 <body>
 
-<div id="capture" class="card">
-    <h2>معلومات التطبيق</h2>
-    <div class="info-row"><span>اسم الملف:</span> <span id="fileName">-</span></div>
-    <div class="info-row"><span>حجم التطبيق:</span> <span id="fileSize">-</span></div>
-    <div class="info-row"><span>الحالة:</span> <span>جاهز للتحليل</span></div>
+<div id="capture">
+    <h2>📊 تقرير التطبيق</h2>
+    <div class="info-row"><span>اسم الملف:</span> <span id="fileName" class="val">-</span></div>
+    <div class="info-row"><span>الحجم:</span> <span id="fileSize" class="val">-</span></div>
+    <div class="info-row"><span>التاريخ:</span> <span class="val" id="date"></span></div>
+
+    <div class="footer-branding">
+        <div class="channel">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="16">
+            TechCsl
+        </div>
+        <div class="channel">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="16">
+            NEXAI_AR
+        </div>
+    </div>
 </div>
 
-<input type="file" id="apkInput" style="margin-top: 20px;">
-<button onclick="captureCard()">تحميل المعلومات كصورة</button>
+<input type="file" id="apkInput" style="margin: 20px;">
+<button onclick="captureCard()">تحميل الصورة بجودة عالية</button>
 
 <script>
+    document.getElementById('date').innerText = new Date().toLocaleDateString('ar-EG');
+    
     document.getElementById('apkInput').addEventListener('change', function(e) {
         const file = e.target.files[0];
         if (file) {
@@ -34,9 +67,10 @@
     });
 
     function captureCard() {
-        html2canvas(document.querySelector("#capture")).then(canvas => {
+        // رفع الـ scale إلى 3 لضمان أعلى جودة ممكنة
+        html2canvas(document.querySelector("#capture"), { scale: 3, backgroundColor: null }).then(canvas => {
             const link = document.createElement('a');
-            link.download = 'app-info.png';
+            link.download = 'App_Report.png';
             link.href = canvas.toDataURL("image/png");
             link.click();
         });
