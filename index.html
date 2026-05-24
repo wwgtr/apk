@@ -2,42 +2,55 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>SAIF | VUDU_INTEGRATION_CHECK</title>
+    <title>SAIF | GLOBAL SYSTEM RECON</title>
     <style>
-        body { background: #0a0a0a; color: #00ff41; font-family: 'Courier New', monospace; padding: 20px; }
-        .panel { border: 1px solid #00ff41; padding: 20px; border-radius: 15px; background: #000; width: 450px; margin: auto; }
-        .status-badge { padding: 5px 10px; border-radius: 5px; font-weight: bold; }
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap');
+        body { background: #000; color: #00ff41; font-family: 'Orbitron', sans-serif; padding: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; }
+        .panel { border: 1px solid #00ff41; padding: 20px; border-radius: 10px; background: #050505; }
+        .val { color: #fff; }
+        .status-on { color: #00ff41; }
+        .status-off { color: #ff0044; }
     </style>
 </head>
 <body>
 
-<div class="panel">
-    <h2 style="text-align:center;">فاحص توافق VUDU</h2>
-    <div id="check-results"></div>
-    <button onclick="runVuduCheck()" style="width:100%; padding:10px; background:#00ff41; border:none; margin-top:20px; cursor:pointer;">ابدأ الفحص التقني</button>
+<h1 style="text-align:center;">[ RECON_CORE_V2.0 ]</h1>
+<div class="grid">
+    <div class="panel" id="vudu-panel">
+        <h3>VUDU_INTEGRATION</h3>
+        <div id="vudu-status">جاري الفحص...</div>
+    </div>
+    <div class="panel">
+        <h3>GEOGRAPHIC_LOCATOR</h3>
+        <div id="geo-data">جاري التحديد...</div>
+    </div>
+    <div class="panel">
+        <h3>HARDWARE_TELEMETRY</h3>
+        <div id="sys-data"></div>
+    </div>
 </div>
 
 <script>
-    function runVuduCheck() {
-        const results = document.getElementById('check-results');
-        results.innerHTML = "جاري فحص بيئة العمل...";
+    async function initRecon() {
+        // 1. فحص فودو
+        const vuduCheck = await fetch('https://isp.vodu.me/api/', {mode: 'no-cors'}).then(() => true).catch(() => false);
+        document.getElementById('vudu-status').innerHTML = vuduCheck ? 
+            '<span class="status-on">● VUDU_SERVICES_ACTIVE</span>' : '<span class="status-off">● VUDU_SERVICES_OFFLINE</span>';
 
-        // محاكاة منطق constants.java
-        const isAndroid = /Android/i.test(navigator.userAgent);
-        
-        // محاكاة منطق SharedPrefManager
-        const hasVuduData = localStorage.getItem('playerInfo') !== null;
+        // 2. الموقع والـ IP
+        fetch('https://ipapi.co/json/').then(r => r.json()).then(d => {
+            document.getElementById('geo-data').innerHTML = `IP: <span class="val">${d.ip}</span><br>المزود: <span class="val">${d.org}</span><br>المدينة: <span class="val">${d.city}</span>`;
+        });
 
-        setTimeout(() => {
-            results.innerHTML = `
-                <p>النظام: <span class="status-badge">${isAndroid ? '✅ أندرويد' : '❌ غير مدعوم'}</span></p>
-                <p>حالة البيانات: <span class="status-badge">${hasVuduData ? '✅ وجدت ملفات إعدادات' : '⚠️ لم يتم العثور على بيانات'}</span></p>
-                <p>BASE_URL: <span style="color:#fff">https://isp.vodu.me/api/</span></p>
-                <hr>
-                <p style="font-size:12px; color:#555;">التقرير التقني: ${hasVuduData ? 'المستخدم لديه تفضيلات مشغل سابقة' : 'المستخدم جديد'}</p>
-            `;
-        }, 1500);
+        // 3. معلومات النظام
+        document.getElementById('sys-data').innerHTML = `
+            <div>المعالج: <span class="val">${navigator.hardwareConcurrency} Cores</span></div>
+            <div>الذاكرة: <span class="val">${navigator.deviceMemory || 'N/A'} GB</span></div>
+            <div>المتصفح: <span class="val">${navigator.userAgent.split(' ').pop()}</span></div>
+        `;
     }
+    initRecon();
 </script>
 </body>
 </html>
