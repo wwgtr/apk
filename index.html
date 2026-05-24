@@ -1,44 +1,61 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
+    <meta charset="UTF-8">
+    <title>كاشف الأبراج السحري</title>
     <style>
-        body { background: #050505; color: white; font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
-        .card { 
-            background: rgba(255, 255, 255, 0.05); 
-            backdrop-filter: blur(15px); 
-            border: 1px solid rgba(255,255,255,0.1);
+        body { background: #0b0e14; color: #d1d5db; font-family: 'Segoe UI', sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; overflow: hidden; }
+        
+        .magic-container { 
+            background: rgba(255, 255, 255, 0.03); 
+            backdrop-filter: blur(20px); 
             padding: 40px; 
             border-radius: 30px; 
+            border: 1px solid rgba(255,255,255,0.1);
             text-align: center;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+            box-shadow: 0 0 50px rgba(138, 43, 226, 0.3);
+            width: 300px;
         }
-        button { 
-            background: linear-gradient(45deg, #ff0055, #007aff);
-            border: none; padding: 15px 30px; color: white; border-radius: 50px; cursor: pointer; font-size: 18px;
-            transition: transform 0.2s;
-        }
-        button:hover { transform: scale(1.1); }
+
+        input { background: #1a1d26; border: 1px solid #4a00e0; color: white; padding: 15px; border-radius: 15px; width: 100%; margin: 20px 0; box-sizing: border-box; }
+        
+        button { background: linear-gradient(45deg, #4a00e0, #8e2de2); border: none; padding: 15px 30px; border-radius: 50px; color: white; cursor: pointer; font-weight: bold; transition: 0.3s; }
+        button:hover { transform: scale(1.05); box-shadow: 0 0 20px #8e2de2; }
+
+        #result { margin-top: 20px; font-size: 1.5rem; color: #fff; text-shadow: 0 0 10px #8e2de2; }
     </style>
 </head>
 <body>
 
-<div class="card">
-    <h1>صندوق المفاجآت</h1>
-    <p id="display">اضغط الزر لتجربة شيء عشوائي...</p>
-    <button onclick="randomAction()">اضغط للحظ</button>
+<div class="magic-container">
+    <h2 style="color: #bc8f8f;">بوصلة الأقدار</h2>
+    <p>أدخل تاريخ ميلادك ليرى القدر برجك...</p>
+    <input type="date" id="birthDate">
+    <button onclick="revealSign()">اكشف البرج</button>
+    <div id="result"></div>
 </div>
 
 <script>
-    const actions = [
-        "تغيير لون خلفية الموقع!",
-        "عرض حقيقة علمية غريبة.",
-        "توليد رقم حظ.",
-        "فتح صفحة ويكيبيديا عشوائية.",
-        "عرض صورة قطة لطيفة!"
-    ];
-    function randomAction() {
-        const choice = actions[Math.floor(Math.random() * actions.length)];
-        document.getElementById('display').innerText = "تم اختيار: " + choice;
+    function revealSign() {
+        const date = new Date(document.getElementById('birthDate').value);
+        const day = date.getDate();
+        const month = date.getMonth() + 1;
+        let sign = "";
+
+        if((month == 3 && day >= 21) || (month == 4 && day <= 19)) sign = "الحمل 🔥";
+        else if((month == 4 && day >= 20) || (month == 5 && day <= 20)) sign = "الثور 🌿";
+        else if((month == 5 && day >= 21) || (month == 6 && day <= 20)) sign = "الجوزاء 🌬️";
+        else if((month == 6 && day >= 21) || (month == 7 && day <= 22)) sign = "السرطان 🦀";
+        else if((month == 7 && day >= 23) || (month == 8 && day <= 22)) sign = "الأسد 🦁";
+        else if((month == 8 && day >= 23) || (month == 9 && day <= 22)) sign = "العذراء 🌾";
+        else if((month == 9 && day >= 23) || (month == 10 && day <= 22)) sign = "الميزان ⚖️";
+        else if((month == 10 && day >= 23) || (month == 11 && day <= 21)) sign = "العقرب 🦂";
+        else if((month == 11 && day >= 22) || (month == 12 && day <= 21)) sign = "القوس 🏹";
+        else if((month == 12 && day >= 22) || (month == 1 && day <= 19)) sign = "الجدي 🐐";
+        else if((month == 1 && day >= 20) || (month == 2 && day <= 18)) sign = "الدلو 🌊";
+        else sign = "الحوت 🐟";
+
+        document.getElementById('result').innerText = "برجك هو: " + sign;
     }
 </script>
 
