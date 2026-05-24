@@ -2,87 +2,77 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>تتبع الأي بي</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Tracker Pro</title>
     <style>
         :root {
-            --bg-color: #000000;
-            --card-bg: rgba(28, 28, 30, 0.8);
-            --text-color: #ffffff;
-            --accent-color: #0A84FF; /* لون أزرق آيفون */
+            --bg-color: #f2f2f7;
+            --card-bg: #ffffff;
+            --text-color: #000000;
+            --accent-color: #007aff;
         }
-
+        .dark-mode {
+            --bg-color: #000000;
+            --card-bg: #1c1c1e;
+            --text-color: #ffffff;
+        }
         body {
             background-color: var(--bg-color);
             color: var(--text-color);
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            display: flex;
-            justify-content: center;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            transition: 0.3s;
             padding: 20px;
         }
-
-        .container {
-            width: 100%;
-            max-width: 400px;
-        }
-
         .ios-card {
             background: var(--card-bg);
-            backdrop-filter: blur(20px);
-            border-radius: 20px;
-            padding: 20px;
+            border-radius: 15px;
+            padding: 16px;
             margin-bottom: 20px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
         }
-
-        input {
-            width: 100%;
-            padding: 12px;
-            border-radius: 10px;
-            border: none;
-            background: #2c2c2e;
-            color: white;
-            margin-bottom: 10px;
-            box-sizing: border-box;
-        }
-
-        button {
-            width: 100%;
-            padding: 12px;
-            border-radius: 10px;
-            border: none;
-            background: var(--accent-color);
-            color: white;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        .info-row {
-            display: flex;
-            justify-content: space-between;
-            padding: 10px 0;
-            border-bottom: 1px solid #333;
-        }
+        /* تصميم زر التبديل (Switch) */
+        .switch { display: flex; justify-content: space-between; align-items: center; }
+        .toggle-btn { cursor: pointer; color: var(--accent-color); font-weight: bold; }
+        
+        .info-item { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #33333333; }
+        select { background: #8e8e9333; border: none; padding: 5px; border-radius: 5px; color: var(--text-color); }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h1 style="font-size: 24px; margin-bottom: 20px;">معلومات الشبكة</h1>
-
-    <!-- معلومات الأي بي الخاص بك -->
+<div class="container" style="max-width: 500px; margin: auto;">
+    
     <div class="ios-card">
-        <h2 style="font-size: 16px; color: #8e8e93;">عنوانك الحالي</h2>
-        <div class="info-row"><span>IP:</span> <strong>192.168.1.1</strong></div>
-        <div class="info-row"><span>المزود:</span> <strong>Zain Iraq</strong></div>
+        <div class="switch">
+            <span>الوضع المظلم</span>
+            <span class="toggle-btn" onclick="toggleTheme()">تشغيل/إيقاف</span>
+        </div>
+        <div class="switch" style="margin-top:15px;">
+            <span>اللغة</span>
+            <select>
+                <option>العربية</option>
+                <option>English</option>
+            </select>
+        </div>
     </div>
 
-    <!-- خانة البحث -->
     <div class="ios-card">
-        <h2 style="font-size: 16px; margin-bottom: 10px;">تتبع عنوان آخر</h2>
-        <input type="text" placeholder="أدخل عنوان IP هنا...">
-        <button>عرض على الخريطة</button>
+        <h3 style="margin-top:0;">معلومات الاتصال</h3>
+        <div class="info-item"><span>عنوان IP الخاص بك:</span> <b>192.168.1.1</b></div>
+        <div class="info-item"><span>مزود الخدمة (ISP):</span> <b>Zain Iraq</b></div>
+        <div class="info-item"><span>الدولة:</span> <b>العراق</b></div>
+    </div>
+
+    <div class="ios-card">
+        <input type="text" placeholder="أدخل IP للبحث عنه..." style="width:100%; padding:10px; border-radius:10px; border:1px solid #ccc;">
+        <button style="width:100%; margin-top:10px; padding:10px; background:var(--accent-color); color:white; border:none; border-radius:10px;">تحديد الموقع على الخريطة</button>
     </div>
 </div>
+
+<script>
+    function toggleTheme() {
+        document.body.classList.toggle('dark-mode');
+    }
+</script>
 
 </body>
 </html>
