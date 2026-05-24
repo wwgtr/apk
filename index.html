@@ -1,59 +1,44 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>Video Downloader Pro</title>
     <style>
-        :root { --bg: #000; --card: #1c1c1e; --text: #fff; --accent: #0A84FF; --green: #34C759; }
-        body { background: var(--bg); color: var(--text); font-family: -apple-system, sans-serif; padding: 20px; display: flex; justify-content: center; }
-        .container { width: 100%; max-width: 500px; }
-        .ios-card { background: var(--card); border-radius: 20px; padding: 20px; margin-bottom: 20px; }
-        input { width: 100%; padding: 15px; border-radius: 12px; border: none; background: #2c2c2e; color: white; margin-bottom: 10px; }
-        button { width: 100%; padding: 15px; border-radius: 12px; border: none; font-weight: bold; cursor: pointer; color: white; margin-top: 10px; }
-        #download-result { margin-top: 20px; padding: 15px; border-radius: 12px; background: #2c2c2e; text-align: center; display: none; }
+        body { background: #050505; color: white; font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { 
+            background: rgba(255, 255, 255, 0.05); 
+            backdrop-filter: blur(15px); 
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 40px; 
+            border-radius: 30px; 
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+        button { 
+            background: linear-gradient(45deg, #ff0055, #007aff);
+            border: none; padding: 15px 30px; color: white; border-radius: 50px; cursor: pointer; font-size: 18px;
+            transition: transform 0.2s;
+        }
+        button:hover { transform: scale(1.1); }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <div class="ios-card">
-        <h3>محمل الفيديو</h3>
-        <input type="text" id="urlInput" placeholder="الصق رابط يوتيوب هنا...">
-        <button style="background: var(--accent);" onclick="generateDownloadLink()">جلب روابط التحميل</button>
-    </div>
-
-    <div id="download-result" class="ios-card">
-        <p>الرابط جاهز للتحميل:</p>
-        <a id="downloadLink" href="#" target="_blank" style="color: var(--green); text-decoration: none; font-weight: bold;">اضغط هنا لبدء التحميل</a>
-    </div>
+<div class="card">
+    <h1>صندوق المفاجآت</h1>
+    <p id="display">اضغط الزر لتجربة شيء عشوائي...</p>
+    <button onclick="randomAction()">اضغط للحظ</button>
 </div>
 
 <script>
-    async function generateDownloadLink() {
-        const url = document.getElementById('urlInput').value;
-        const resultDiv = document.getElementById('download-result');
-        const link = document.getElementById('downloadLink');
-
-        if (!url) return alert("يرجى لصق الرابط");
-
-        // نستخدم هنا API عام ومجاني لتحويل روابط يوتيوب
-        // ملاحظة: الـ API أدناه هو مثال توضيحي لخدمة وسيطة
-        const apiUrl = `https://api.cobalt.tools/api/json`;
-        
-        const response = await fetch(apiUrl, {
-            method: 'POST',
-            headers: {'Accept': 'application/json', 'Content-Type': 'application/json'},
-            body: JSON.stringify({ url: url, vQuality: "720" })
-        });
-
-        const data = await response.json();
-        
-        if (data.url) {
-            link.href = data.url;
-            resultDiv.style.display = 'block';
-        } else {
-            alert("حدث خطأ أثناء جلب الرابط، يرجى المحاولة مرة أخرى.");
-        }
+    const actions = [
+        "تغيير لون خلفية الموقع!",
+        "عرض حقيقة علمية غريبة.",
+        "توليد رقم حظ.",
+        "فتح صفحة ويكيبيديا عشوائية.",
+        "عرض صورة قطة لطيفة!"
+    ];
+    function randomAction() {
+        const choice = actions[Math.floor(Math.random() * actions.length)];
+        document.getElementById('display').innerText = "تم اختيار: " + choice;
     }
 </script>
 
