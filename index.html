@@ -2,33 +2,40 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>مشغل القرآن الكريم</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>My Dashboard</title>
+    <style>
+        :root { --bg: #000; --card: #1c1c1e; --text: #fff; --accent: #0A84FF; }
+        body { background: var(--bg); color: var(--text); font-family: sans-serif; padding: 20px; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 500px; }
+        .ios-card { background: var(--card); border-radius: 20px; padding: 20px; margin-bottom: 20px; }
+        h2 { font-size: 18px; margin-bottom: 10px; color: #8e8e93; }
+        .post { border-bottom: 1px solid #333; padding: 10px 0; }
+    </style>
 </head>
-<body class="bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center p-4">
+<body>
 
-    <div class="w-full max-w-lg bg-gray-800 p-6 rounded-2xl shadow-xl">
-        <h1 class="text-xl font-bold text-center mb-6 text-emerald-400">القرآن الكريم</h1>
-        <div id="aplayer"></div>
+<div class="container">
+    <div class="ios-card">
+        <h2>آخر منشورات TechCSL</h2>
+        <div id="feed">جاري التحميل...</div>
     </div>
+</div>
 
-    <script>
-        const surahNames = ["الفاتحة", "البقرة", "آل عمران", "النساء", "المائدة", "الأنعام", "الأعراف", "الأنفال", "التوبة", "يونس", "هود", "يوسف", "الرعد", "إبراهيم", "الحجر", "النحل", "الإسراء", "الكهف", "مريم", "طه", "الأنبياء", "الحج", "المؤمنون", "النور", "الفرقان", "الشعراء", "النمل", "القصص", "العنكبوت", "الروم", "لقمان", "السجدة", "الأحزاب", "سبأ", "فاطر", "يس", "الصافات", "ص", "الزمر", "غافر", "فصلت", "الشورى", "الزخرف", "الدخان", "الجاثية", "الأحقاف", "محمد", "الفتح", "الحجرات", "ق", "الذاريات", "الطور", "النجم", "القمر", "الرحمن", "الواقعة", "الحديد", "المجادلة", "الحشر", "الممتحنة", "الصف", "الجمعة", "المنافقون", "التغابن", "الطلاق", "التحريم", "الملك", "القلم", "الحاقة", "المعارج", "نوح", "الجن", "المزمل", "المدثر", "القيامة", "الإنسان", "المرسلات", "النبأ", "النازعات", "عبس", "التكوير", "الإنفطار", "المطففين", "الإنشقاق", "البروج", "الطارق", "الأعلى", "الغاشية", "البلد", "الشمس", "الليل", "الضحى", "الشرح", "التين", "العلق", "القدر", "البينة", "الزلزلة", "العاديات", "القارعة", "التكاثر", "العصر", "الهمزة", "الفيل", "قريش", "الماعون", "الكوثر", "الكافرون", "النصر", "المسد", "الإخلاص", "الفلق", "الناس"];
+<script>
+    // رابط RSS لجلب منشورات القناة
+    const rssUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://rss.app/feeds/techcsl_feed.xml";
 
-        const audioList = surahNames.map((name, index) => ({
-            name: `سورة ${name}`,
-            artist: 'استماع مباشر',
-            url: `https://hmomen.com/static/app-res/quran/addel/${(index + 1).toString().padStart(3, '0')}.mp3`
-        }));
-
-        const ap = new APlayer({
-            container: document.getElementById('aplayer'),
-            audio: audioList,
-            listMaxHeight: 300,
-            theme: '#10B981'
+    fetch(rssUrl)
+        .then(res => res.json())
+        .then(data => {
+            const feedDiv = document.getElementById('feed');
+            feedDiv.innerHTML = data.items.slice(0, 3).map(item => `
+                <div class="post">
+                    <p style="font-weight:bold;">${item.title}</p>
+                    <a href="${item.link}" style="color:var(--accent);">مشاهدة</a>
+                </div>
+            `).join('');
         });
-    </script>
+</script>
 </body>
 </html>
