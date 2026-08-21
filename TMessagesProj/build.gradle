@@ -113,6 +113,15 @@ android {
         minSdkVersion 21
         targetSdkVersion 35
 
+        def orbitApiId = (System.getenv("ORBIT_API_ID") ?: "0").replaceAll("[^0-9]", "")
+        if (orbitApiId.isEmpty()) {
+            orbitApiId = "0"
+        }
+        def orbitApiHashCandidate = System.getenv("ORBIT_API_HASH") ?: ""
+        def orbitApiHash = orbitApiHashCandidate ==~ /^[A-Za-z0-9]{32}$/ ? orbitApiHashCandidate : ""
+        buildConfigField "int", "ORBIT_API_ID", orbitApiId
+        buildConfigField "String", "ORBIT_API_HASH", "\"" + orbitApiHash + "\""
+
         vectorDrawables.generatedDensities = ['mdpi', 'hdpi', 'xhdpi', 'xxhdpi']
 
         multiDexEnabled true

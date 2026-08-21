@@ -2418,7 +2418,7 @@ public class AndroidUtilities {
                     return null;
                 }
             }
-            return typefaceCache.get(assetPath);
+            return OrbitFontManager.override(assetPath, typefaceCache.get(assetPath));
         }
     }
 

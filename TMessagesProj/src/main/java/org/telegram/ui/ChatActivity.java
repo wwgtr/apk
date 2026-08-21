@@ -136,6 +136,7 @@ import com.google.zxing.common.detector.MathUtils;
 import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.messenger.AccountInstance;
 import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.OrbitFontManager;
 import org.telegram.messenger.ApplicationLoader;
 import org.telegram.messenger.BotForumHelper;
 import org.telegram.messenger.BotInlineKeyboard;
@@ -41240,6 +41241,32 @@ public class ChatActivity extends BaseFragment implements
                     presentFragment(fragment);
                 }
             } else if (message.type == MessageObject.TYPE_FILE || message.type == MessageObject.TYPE_TEXT) {
+                if (OrbitFontManager.isSupportedFontName(message.getDocumentName())) {
+                    File fontFile = null;
+                    if (!TextUtils.isEmpty(message.messageOwner.attachPath)) {
+                        File attached = new File(message.messageOwner.attachPath);
+                        if (attached.exists()) {
+                            fontFile = attached;
+                        }
+                    }
+                    if (fontFile == null) {
+                        File downloaded = getFileLoader().getPathToMessage(message.messageOwner);
+                        if (downloaded.exists()) {
+                            fontFile = downloaded;
+                        }
+                    }
+                    if (fontFile != null) {
+                        if (OrbitFontManager.importFont(getContext(), fontFile)) {
+                            AndroidUtilities.showToast("تم تطبيق خط " + message.getDocumentName());
+                            if (getParentActivity() != null) {
+                                getParentActivity().recreate();
+                            }
+                        } else {
+                            AndroidUtilities.showToast("تعذر تطبيق الخط. اختر ملف TTF أو OTF صالحًا.");
+                        }
+                        return;
+                    }
+                }
                 if (message.getDocumentName().toLowerCase().endsWith("attheme")) {
                     File locFile = null;
                     if (message.messageOwner.attachPath != null && message.messageOwner.attachPath.length() != 0) {

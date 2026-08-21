@@ -149,4 +149,6 @@ android {
     }
 }
 
-apply plugin: 'com.google.gms.google-services'
+if (file('../TMessagesProj/config/release/google-services.json').exists()) {
+    apply plugin: 'com.google.gms.google-services'
+}
