@@ -1,0 +1,7 @@
+{
+  "world": { "width": 1000, "height": 600, "initialZoneRadius": 430, "finalZoneRadius": 135 },
+  "match": { "durationSeconds": 135, "botCount": 8, "targetFrameRate": 120 },
+  "player": { "speed": 260, "maxHealth": 100, "maxShield": 100, "ammo": 36 },
+  "bot": { "speed": 82, "health": 45, "touchDamagePerSecond": 9 },
+  "weapon": { "damage": 28, "cooldownSeconds": 0.18, "projectileSpeed": 820 }
+}
