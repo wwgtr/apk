@@ -3,14 +3,14 @@ name: Build Android APK
 on:
   workflow_dispatch:
   push:
-    branches: [tubevault]
+    branches: [stormhaven]
 
 permissions:
   contents: read
 
 jobs:
   build-apk:
-    name: Build installable Android APK
+    name: Build Stormhaven Android APK
     runs-on: ubuntu-latest
     timeout-minutes: 45
 
@@ -49,7 +49,7 @@ jobs:
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
-          name: TubeVault-APK
+          name: Stormhaven-Arena-APK
           path: android/app/build/outputs/apk/release/app-release.apk
           if-no-files-found: error
           retention-days: 30
