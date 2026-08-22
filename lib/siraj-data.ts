@@ -17,6 +17,10 @@ import visitsCatalog from "@/assets/data/heritage/ahlulbayt_visits_works_corpus_
 import wasayaLetters from "@/assets/data/heritage/ahlulbayt_wasaya_ihtijaj_manaqib_corpus__01_wasaya_letters_tawqi_at.json";
 import ihtijaj from "@/assets/data/heritage/ahlulbayt_wasaya_ihtijaj_manaqib_corpus__02_ihtijaj_munazarat.json";
 import manaqib from "@/assets/data/heritage/ahlulbayt_wasaya_ihtijaj_manaqib_corpus__03_manaqib_karamat.json";
+import nahjFull from "@/assets/data/heritage/open_source_nahj_al_balagha_full.json";
+import mafatihFull from "@/assets/data/heritage/open_source_mafatih_full.json";
+import enrichedReadings from "@/assets/data/heritage/enriched_ihtijaj_manaqib_readings.json";
+import nahjArabicFull from "@/assets/data/heritage/nahj_al_balagha_arabic_full.json";
 
 export type HeritageSection = "dua" | "visits" | "works" | "khutab" | "sayings" | "wasaya" | "ihtijaj" | "manaqib";
 
@@ -96,30 +100,68 @@ function toEntry(raw: RawEntry, section: HeritageSection): HeritageEntry {
   };
 }
 
+function isReadableEntry(raw: RawEntry) {
+  const category = asText(raw.category);
+  const textScope = asText(raw.text_scope);
+  return Boolean(asText(raw.text).trim()) && category !== "source_catalog_or_coverage" && !textScope.includes("catalog");
+}
+
 function add(section: HeritageSection, list: unknown): HeritageEntry[] {
-  return Array.isArray(list) ? (list as RawEntry[]).map((row) => toEntry(row, section)) : [];
+  return Array.isArray(list) ? (list as RawEntry[]).filter(isReadableEntry).map((row) => toEntry(row, section)) : [];
 }
 
 export const heritageEntries: HeritageEntry[] = [
   ...add("dua", duaSahifa),
   ...add("dua", duaIndividual),
+  ...add("khutab", (nahjArabicFull as RawEntry[]).filter((row) => asText(row.id).startsWith("balaghah-khutab-"))),
+  ...add("wasaya", (nahjArabicFull as RawEntry[]).filter((row) => asText(row.id).startsWith("balaghah-wasaya-"))),
+  ...add("sayings", (nahjArabicFull as RawEntry[]).filter((row) => asText(row.id).startsWith("balaghah-sayings-"))),
+  ...add("khutab", (nahjFull as RawEntry[]).filter((row) => asText(row.id).startsWith("nahj-khutab-"))),
   ...add("khutab", khitabNahj),
   ...add("khutab", khitabVerified),
   ...add("khutab", khitabExtended),
   ...add("khutab", khitabCoverage),
+  ...add("sayings", (nahjFull as RawEntry[]).filter((row) => asText(row.id).startsWith("nahj-sayings-"))),
   ...add("sayings", sayingsReason),
   ...add("sayings", sayingsCharacter),
   ...add("sayings", sayingsRelations),
   ...add("sayings", sayingsSpiritual),
   ...add("sayings", sayingsCoverage),
+  ...add("visits", (mafatihFull as RawEntry[]).filter((row) => asText(row.id).startsWith("mafatih-visits-"))),
   ...add("visits", visitsWeekly),
+  ...add("works", (mafatihFull as RawEntry[]).filter((row) => asText(row.id).startsWith("mafatih-works-"))),
   ...add("works", worksDaily),
   ...add("works", worksMonthly),
   ...add("visits", visitsCatalog),
+  ...add("wasaya", (nahjFull as RawEntry[]).filter((row) => asText(row.id).startsWith("nahj-wasaya-"))),
   ...add("wasaya", wasayaLetters),
+  ...add("ihtijaj", (enrichedReadings as RawEntry[]).filter((row) => asText(row.id).startsWith("ihtijaj-"))),
   ...add("ihtijaj", ihtijaj),
+  ...add("manaqib", (enrichedReadings as RawEntry[]).filter((row) => asText(row.id).startsWith("manaqib-"))),
   ...add("manaqib", manaqib),
 ];
+
+export const heritageFigures = [
+  { key: "prophet", label: "النبي ﷺ", terms: ["النبي", "الرسول", "محمد"] },
+  { key: "ali", label: "علي ع", terms: ["الإمام علي", "أمير المؤمنين", "علي بن أبي طالب"] },
+  { key: "hasan", label: "الحسن ع", terms: ["الإمام الحسن", "الحسن بن علي"] },
+  { key: "husayn", label: "الحسين ع", terms: ["الإمام الحسين", "الحسين بن علي"] },
+  { key: "sajjad", label: "السجاد ع", terms: ["السجاد", "زين العابدين", "علي بن الحسين"] },
+  { key: "baqir", label: "الباقر ع", terms: ["محمد الباقر", "الإمام الباقر", "الباقر"] },
+  { key: "sadiq", label: "الصادق ع", terms: ["الصادق", "جعفر بن محمد"] },
+  { key: "kadhim", label: "الكاظم ع", terms: ["الكاظم", "موسى بن جعفر"] },
+  { key: "rida", label: "الرضا ع", terms: ["الرضا", "علي بن موسى"] },
+  { key: "jawad", label: "الجواد ع", terms: ["محمد بن علي الجواد", "الإمام الجواد", "الجواد"] },
+  { key: "hadi", label: "الهادي ع", terms: ["علي بن محمد الهادي", "علي النقي", "الإمام الهادي", "الهادي"] },
+  { key: "askari", label: "العسكري ع", terms: ["الحسن العسكري", "الإمام العسكري", "العسكري"] },
+  { key: "mahdi", label: "المهدي عج", terms: ["المهدي", "الحجة", "القائم"] },
+] as const;
+
+export function figureForEntry(entry: HeritageEntry) {
+  const haystack = `${entry.speaker} ${entry.title} ${entry.tags.join(" ")}`;
+  const matches = heritageFigures.flatMap((figure) => figure.terms.filter((term) => haystack.includes(term)).map((term) => ({ figure, term })));
+  return matches.sort((left, right) => right.term.length - left.term.length)[0]?.figure.key;
+}
 
 export const heritageSections = (Object.keys(sectionMeta) as HeritageSection[]).map((key) => ({
   key,

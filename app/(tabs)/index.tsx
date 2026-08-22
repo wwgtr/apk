@@ -43,12 +43,12 @@ export default function HomeScreen() {
 
         <SectionTitle title="من المكتبة" action="كل الأقسام" onAction={() => router.push("/(tabs)/library" as never)} />
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.sectionScroller}>
-          {heritageSections.slice(0, 6).map((section) => (
-            <View key={section.key} style={styles.sectionCard}>
+          {heritageSections.map((section) => (
+            <Pressable key={section.key} onPress={() => router.push(`/(tabs)/library?section=${section.key}` as never)} style={({ pressed }) => [styles.sectionCard, pressed && styles.pressed]}>
               <View style={[styles.sectionIcon, { backgroundColor: section.color }]}><MaterialIcons name={section.icon as never} size={22} color="#FFFFFF" /></View>
               <Text style={styles.sectionName}>{section.title}</Text>
               <Text style={styles.sectionCount}>{section.count} مادة</Text>
-            </View>
+            </Pressable>
           ))}
         </ScrollView>
 

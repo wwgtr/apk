@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { calendar, calendarDays, heritageEntries, heritageSections } from "@/lib/siraj-data";
+import { calendar, calendarDays, figureForEntry, heritageEntries, heritageFigures, heritageSections } from "@/lib/siraj-data";
 
 describe("بيانات سراج الولاية", () => {
   it("يدمج تقويم 1448هـ المرفق كاملاً", () => {
@@ -10,11 +10,15 @@ describe("بيانات سراج الولاية", () => {
     expect(calendarDays.filter((day) => day.events.length > 0)).toHaveLength(137);
   });
 
-  it("يوفر مجموعات التراث الثماني المدمجة", () => {
-    expect(heritageEntries.length).toBeGreaterThanOrEqual(537);
+  it("يوفر نصوصاً قابلة للقراءة في الأقسام الثمانية", () => {
+    expect(heritageEntries.length).toBeGreaterThanOrEqual(400);
     expect(heritageSections).toHaveLength(8);
-    expect(heritageSections.find((section) => section.key === "dua")?.count).toBeGreaterThan(0);
-    expect(heritageSections.find((section) => section.key === "khutab")?.count).toBeGreaterThan(0);
+    expect(heritageSections.every((section) => section.count > 0)).toBe(true);
+    expect(heritageSections.find((section) => section.key === "visits")?.count).toBeGreaterThanOrEqual(80);
+    expect(heritageSections.find((section) => section.key === "works")?.count).toBeGreaterThanOrEqual(180);
+    expect(heritageEntries.filter((entry) => entry.text.length >= 180).length).toBeGreaterThanOrEqual(300);
+    expect(heritageEntries.some((entry) => entry.text.startsWith("يفهرس الاحتجاج"))).toBe(false);
+    expect(heritageFigures.filter((figure) => !heritageEntries.some((entry) => figureForEntry(entry) === figure.key)).map((figure) => figure.key)).toEqual([]);
   });
 
   it("يحافظ على بيانات المصدر في كل سجل", () => {
