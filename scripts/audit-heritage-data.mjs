@@ -9,6 +9,7 @@ function inferredSection(fileName, row) {
   if (id.includes("balaghah-khutab")) return "khutab";
   if (id.includes("balaghah-wasaya")) return "wasaya";
   if (id.includes("balaghah-sayings")) return "sayings";
+  if (id.startsWith("dialogue-")) return "ihtijaj";
   if (id.startsWith("ihtijaj-")) return "ihtijaj";
   if (id.startsWith("manaqib-")) return "manaqib";
   if (fileName.includes("enriched_ihtijaj")) return row.tags?.includes("مناقب") ? "manaqib" : "ihtijaj";
