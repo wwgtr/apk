@@ -1,0 +1,43 @@
+{
+  "input": "assets/data/heritage/staging/open_imami_library_raw_pages.json",
+  "output": "assets/data/heritage/staging/open_imami_library_classified_pages.json",
+  "unique_segments": 11245,
+  "exact_duplicates_removed": 37,
+  "by_content_type_candidate": {
+    "رواية أو أثر": 4011,
+    "حوار واحتجاج": 3426,
+    "دعاء": 2787,
+    "وصية أو رسالة": 403,
+    "تفسير وبيان قرآني": 342,
+    "خطبة": 159,
+    "فضائل ومناقب": 117
+  },
+  "by_figure_candidate": {
+    "prophet": 5148,
+    "ali": 3192,
+    "hasan": 1411,
+    "sajjad": 1327,
+    "mahdi": 583,
+    "husayn": 543,
+    "fatima": 187,
+    "rida": 109,
+    "sadiq": 61,
+    "askari": 43,
+    "baqir": 39,
+    "hadi": 20,
+    "jawad": 12,
+    "kadhim": 12
+  },
+  "by_topic_candidate": {
+    "عام": 4789,
+    "الفقه والعبادة": 2939,
+    "الإمامة": 1739,
+    "القرآن والتفسير": 1719,
+    "الأخلاق والآداب": 1046,
+    "الغيبة والمهدي": 824,
+    "التوحيد": 495,
+    "الفضائل والمناقب": 489
+  },
+  "method": "streaming exact-hash deduplication plus candidate keyword grouping",
+  "editorial_warning": "Candidates require editorial review before being presented as a specific Imam's statement."
+}

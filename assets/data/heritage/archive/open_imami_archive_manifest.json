@@ -1,0 +1,742 @@
+[
+  {
+    "id": "u0627-u0644-u0627-u062d-u062a-u062c-u0627-u06-01",
+    "title": "الاحتجاج على أهل اللجاج — book.txt — الجزء 1",
+    "source_name": "الاحتجاج على أهل اللجاج",
+    "source_file": "book.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0627-u062d-u062a-u062c-u0627-u06-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0627-u062d-u062a-u062c-u0627-u06-02",
+    "title": "الاحتجاج على أهل اللجاج — book.txt — الجزء 2",
+    "source_name": "الاحتجاج على أهل اللجاج",
+    "source_file": "book.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0627-u062d-u062a-u062c-u0627-u06-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0627-u062d-u062a-u062c-u0627-u06-03",
+    "title": "الاحتجاج على أهل اللجاج — book.txt — الجزء 3",
+    "source_name": "الاحتجاج على أهل اللجاج",
+    "source_file": "book.txt",
+    "part": 3,
+    "count": 39,
+    "asset_path": "./open_imami_library/u0627-u0644-u0627-u062d-u062a-u062c-u0627-u06-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u062f-u0644-u0627-u0626-u0644-u0627-u0644-u06-01",
+    "title": "دلائل الإمامة — book.txt — الجزء 1",
+    "source_name": "دلائل الإمامة",
+    "source_file": "book.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u062f-u0644-u0627-u0626-u0644-u0627-u0644-u06-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u062f-u0644-u0627-u0626-u0644-u0627-u0644-u06-02",
+    "title": "دلائل الإمامة — book.txt — الجزء 2",
+    "source_name": "دلائل الإمامة",
+    "source_file": "book.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u062f-u0644-u0627-u0626-u0644-u0627-u0644-u06-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u062f-u0644-u0627-u0626-u0644-u0627-u0644-u06-03",
+    "title": "دلائل الإمامة — book.txt — الجزء 3",
+    "source_name": "دلائل الإمامة",
+    "source_file": "book.txt",
+    "part": 3,
+    "count": 180,
+    "asset_path": "./open_imami_library/u062f-u0644-u0627-u0626-u0644-u0627-u0644-u06-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u062f-u0644-u0627-u0626-u0644-u0627-u0644-u06-04",
+    "title": "دلائل الإمامة — book.txt — الجزء 4",
+    "source_name": "دلائل الإمامة",
+    "source_file": "book.txt",
+    "part": 4,
+    "count": 91,
+    "asset_path": "./open_imami_library/u062f-u0644-u0627-u0626-u0644-u0627-u0644-u06-04.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u062a-u062d-u0641-u0627-u0644-u0639-u0642-u06-01",
+    "title": "تحف العقول عن آل الرسول — book.txt — الجزء 1",
+    "source_name": "تحف العقول عن آل الرسول",
+    "source_file": "book.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u062a-u062d-u0641-u0627-u0644-u0639-u0642-u06-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u062a-u062d-u0641-u0627-u0644-u0639-u0642-u06-02",
+    "title": "تحف العقول عن آل الرسول — book.txt — الجزء 2",
+    "source_name": "تحف العقول عن آل الرسول",
+    "source_file": "book.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u062a-u062d-u0641-u0627-u0644-u0639-u0642-u06-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u062a-u062d-u0641-u0627-u0644-u0639-u0642-u06-03",
+    "title": "تحف العقول عن آل الرسول — book.txt — الجزء 3",
+    "source_name": "تحف العقول عن آل الرسول",
+    "source_file": "book.txt",
+    "part": 3,
+    "count": 150,
+    "asset_path": "./open_imami_library/u062a-u062d-u0641-u0627-u0644-u0639-u0642-u06-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book-txt-01",
+    "title": "الكافي — book.txt — الجزء 1",
+    "source_name": "الكافي",
+    "source_file": "book.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book-txt-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book-txt-02",
+    "title": "الكافي — book.txt — الجزء 2",
+    "source_name": "الكافي",
+    "source_file": "book.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book-txt-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book-txt-03",
+    "title": "الكافي — book.txt — الجزء 3",
+    "source_name": "الكافي",
+    "source_file": "book.txt",
+    "part": 3,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book-txt-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book-txt-04",
+    "title": "الكافي — book.txt — الجزء 4",
+    "source_name": "الكافي",
+    "source_file": "book.txt",
+    "part": 4,
+    "count": 13,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book-txt-04.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book2-txt-01",
+    "title": "الكافي — book2.txt — الجزء 1",
+    "source_name": "الكافي",
+    "source_file": "book2.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book2-txt-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book2-txt-02",
+    "title": "الكافي — book2.txt — الجزء 2",
+    "source_name": "الكافي",
+    "source_file": "book2.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book2-txt-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book2-txt-03",
+    "title": "الكافي — book2.txt — الجزء 3",
+    "source_name": "الكافي",
+    "source_file": "book2.txt",
+    "part": 3,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book2-txt-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book2-txt-04",
+    "title": "الكافي — book2.txt — الجزء 4",
+    "source_name": "الكافي",
+    "source_file": "book2.txt",
+    "part": 4,
+    "count": 135,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book2-txt-04.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book3-txt-01",
+    "title": "الكافي — book3.txt — الجزء 1",
+    "source_name": "الكافي",
+    "source_file": "book3.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book3-txt-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book3-txt-02",
+    "title": "الكافي — book3.txt — الجزء 2",
+    "source_name": "الكافي",
+    "source_file": "book3.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book3-txt-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book3-txt-03",
+    "title": "الكافي — book3.txt — الجزء 3",
+    "source_name": "الكافي",
+    "source_file": "book3.txt",
+    "part": 3,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book3-txt-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book3-txt-04",
+    "title": "الكافي — book3.txt — الجزء 4",
+    "source_name": "الكافي",
+    "source_file": "book3.txt",
+    "part": 4,
+    "count": 28,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book3-txt-04.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book4-txt-01",
+    "title": "الكافي — book4.txt — الجزء 1",
+    "source_name": "الكافي",
+    "source_file": "book4.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book4-txt-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book4-txt-02",
+    "title": "الكافي — book4.txt — الجزء 2",
+    "source_name": "الكافي",
+    "source_file": "book4.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book4-txt-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book4-txt-03",
+    "title": "الكافي — book4.txt — الجزء 3",
+    "source_name": "الكافي",
+    "source_file": "book4.txt",
+    "part": 3,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book4-txt-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book4-txt-04",
+    "title": "الكافي — book4.txt — الجزء 4",
+    "source_name": "الكافي",
+    "source_file": "book4.txt",
+    "part": 4,
+    "count": 48,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book4-txt-04.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book5-txt-01",
+    "title": "الكافي — book5.txt — الجزء 1",
+    "source_name": "الكافي",
+    "source_file": "book5.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book5-txt-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book5-txt-02",
+    "title": "الكافي — book5.txt — الجزء 2",
+    "source_name": "الكافي",
+    "source_file": "book5.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book5-txt-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book5-txt-03",
+    "title": "الكافي — book5.txt — الجزء 3",
+    "source_name": "الكافي",
+    "source_file": "book5.txt",
+    "part": 3,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book5-txt-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book5-txt-04",
+    "title": "الكافي — book5.txt — الجزء 4",
+    "source_name": "الكافي",
+    "source_file": "book5.txt",
+    "part": 4,
+    "count": 33,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book5-txt-04.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book6-txt-01",
+    "title": "الكافي — book6.txt — الجزء 1",
+    "source_name": "الكافي",
+    "source_file": "book6.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book6-txt-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book6-txt-02",
+    "title": "الكافي — book6.txt — الجزء 2",
+    "source_name": "الكافي",
+    "source_file": "book6.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book6-txt-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book6-txt-03",
+    "title": "الكافي — book6.txt — الجزء 3",
+    "source_name": "الكافي",
+    "source_file": "book6.txt",
+    "part": 3,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book6-txt-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book6-txt-04",
+    "title": "الكافي — book6.txt — الجزء 4",
+    "source_name": "الكافي",
+    "source_file": "book6.txt",
+    "part": 4,
+    "count": 12,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book6-txt-04.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book7-txt-01",
+    "title": "الكافي — book7.txt — الجزء 1",
+    "source_name": "الكافي",
+    "source_file": "book7.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book7-txt-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book7-txt-02",
+    "title": "الكافي — book7.txt — الجزء 2",
+    "source_name": "الكافي",
+    "source_file": "book7.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book7-txt-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book7-txt-03",
+    "title": "الكافي — book7.txt — الجزء 3",
+    "source_name": "الكافي",
+    "source_file": "book7.txt",
+    "part": 3,
+    "count": 103,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book7-txt-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book8-txt-01",
+    "title": "الكافي — book8.txt — الجزء 1",
+    "source_name": "الكافي",
+    "source_file": "book8.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book8-txt-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book8-txt-02",
+    "title": "الكافي — book8.txt — الجزء 2",
+    "source_name": "الكافي",
+    "source_file": "book8.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book8-txt-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0643-u0627-u0641-u064a-book8-txt-03",
+    "title": "الكافي — book8.txt — الجزء 3",
+    "source_name": "الكافي",
+    "source_file": "book8.txt",
+    "part": 3,
+    "count": 47,
+    "asset_path": "./open_imami_library/u0627-u0644-u0643-u0627-u0641-u064a-book8-txt-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-01",
+    "title": "الأمالي — book.txt — الجزء 1",
+    "source_name": "الأمالي",
+    "source_file": "book.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-02",
+    "title": "الأمالي — book.txt — الجزء 2",
+    "source_name": "الأمالي",
+    "source_file": "book.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-03",
+    "title": "الأمالي — book.txt — الجزء 3",
+    "source_name": "الأمالي",
+    "source_file": "book.txt",
+    "part": 3,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-04",
+    "title": "الأمالي — book.txt — الجزء 4",
+    "source_name": "الأمالي",
+    "source_file": "book.txt",
+    "part": 4,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-04.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-05",
+    "title": "الأمالي — book.txt — الجزء 5",
+    "source_name": "الأمالي",
+    "source_file": "book.txt",
+    "part": 5,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-05.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-06",
+    "title": "الأمالي — book.txt — الجزء 6",
+    "source_name": "الأمالي",
+    "source_file": "book.txt",
+    "part": 6,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-06.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-07",
+    "title": "الأمالي — book.txt — الجزء 7",
+    "source_name": "الأمالي",
+    "source_file": "book.txt",
+    "part": 7,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-07.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-08",
+    "title": "الأمالي — book.txt — الجزء 8",
+    "source_name": "الأمالي",
+    "source_file": "book.txt",
+    "part": 8,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-08.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-09",
+    "title": "الأمالي — book.txt — الجزء 9",
+    "source_name": "الأمالي",
+    "source_file": "book.txt",
+    "part": 9,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-09.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-10",
+    "title": "الأمالي — book.txt — الجزء 10",
+    "source_name": "الأمالي",
+    "source_file": "book.txt",
+    "part": 10,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-10.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-11",
+    "title": "الأمالي — book.txt — الجزء 11",
+    "source_name": "الأمالي",
+    "source_file": "book.txt",
+    "part": 11,
+    "count": 54,
+    "asset_path": "./open_imami_library/u0627-u0644-u0623-u0645-u0627-u0644-u064a-boo-11.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u062a-u0648-u062d-u064a-u062f-boo-01",
+    "title": "التوحيد — book.txt — الجزء 1",
+    "source_name": "التوحيد",
+    "source_file": "book.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u062a-u0648-u062d-u064a-u062f-boo-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u062a-u0648-u062d-u064a-u062f-boo-02",
+    "title": "التوحيد — book.txt — الجزء 2",
+    "source_name": "التوحيد",
+    "source_file": "book.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u062a-u0648-u062d-u064a-u062f-boo-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u062a-u0648-u062d-u064a-u062f-boo-03",
+    "title": "التوحيد — book.txt — الجزء 3",
+    "source_name": "التوحيد",
+    "source_file": "book.txt",
+    "part": 3,
+    "count": 94,
+    "asset_path": "./open_imami_library/u0627-u0644-u062a-u0648-u062d-u064a-u062f-boo-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0643-u0645-u0627-u0644-u0627-u0644-u062f-u06-01",
+    "title": "كمال الدين وتمام النعمة — book.txt — الجزء 1",
+    "source_name": "كمال الدين وتمام النعمة",
+    "source_file": "book.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0643-u0645-u0627-u0644-u0627-u0644-u062f-u06-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0643-u0645-u0627-u0644-u0627-u0644-u062f-u06-02",
+    "title": "كمال الدين وتمام النعمة — book.txt — الجزء 2",
+    "source_name": "كمال الدين وتمام النعمة",
+    "source_file": "book.txt",
+    "part": 2,
+    "count": 151,
+    "asset_path": "./open_imami_library/u0643-u0645-u0627-u0644-u0627-u0644-u062f-u06-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u062e-u0635-u0627-u0644-book-txt-01",
+    "title": "الخصال — book.txt — الجزء 1",
+    "source_name": "الخصال",
+    "source_file": "book.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u062e-u0635-u0627-u0644-book-txt-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u062e-u0635-u0627-u0644-book-txt-02",
+    "title": "الخصال — book.txt — الجزء 2",
+    "source_name": "الخصال",
+    "source_file": "book.txt",
+    "part": 2,
+    "count": 173,
+    "asset_path": "./open_imami_library/u0627-u0644-u062e-u0635-u0627-u0644-book-txt-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u063a-u064a-u0628-u0629-book-txt-01",
+    "title": "الغيبة — book.txt — الجزء 1",
+    "source_name": "الغيبة",
+    "source_file": "book.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u063a-u064a-u0628-u0629-book-txt-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u063a-u064a-u0628-u0629-book-txt-02",
+    "title": "الغيبة — book.txt — الجزء 2",
+    "source_name": "الغيبة",
+    "source_file": "book.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u063a-u064a-u0628-u0629-book-txt-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u063a-u064a-u0628-u0629-book-txt-03",
+    "title": "الغيبة — book.txt — الجزء 3",
+    "source_name": "الغيبة",
+    "source_file": "book.txt",
+    "part": 3,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u063a-u064a-u0628-u0629-book-txt-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u063a-u064a-u0628-u0629-book-txt-04",
+    "title": "الغيبة — book.txt — الجزء 4",
+    "source_name": "الغيبة",
+    "source_file": "book.txt",
+    "part": 4,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0627-u0644-u063a-u064a-u0628-u0629-book-txt-04.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0627-u0644-u063a-u064a-u0628-u0629-book-txt-05",
+    "title": "الغيبة — book.txt — الجزء 5",
+    "source_name": "الغيبة",
+    "source_file": "book.txt",
+    "part": 5,
+    "count": 60,
+    "asset_path": "./open_imami_library/u0627-u0644-u063a-u064a-u0628-u0629-book-txt-05.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0639-u0644-u0644-u0627-u0644-u0634-u0631-u06-01",
+    "title": "علل الشرائع — book.txt — الجزء 1",
+    "source_name": "علل الشرائع",
+    "source_file": "book.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0639-u0644-u0644-u0627-u0644-u0634-u0631-u06-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0639-u0644-u0644-u0627-u0644-u0634-u0631-u06-02",
+    "title": "علل الشرائع — book.txt — الجزء 2",
+    "source_name": "علل الشرائع",
+    "source_file": "book.txt",
+    "part": 2,
+    "count": 130,
+    "asset_path": "./open_imami_library/u0639-u0644-u0644-u0627-u0644-u0634-u0631-u06-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0645-u0639-u0627-u0646-u064a-u0627-u0644-u06-01",
+    "title": "معاني الأخبار — book.txt — الجزء 1",
+    "source_name": "معاني الأخبار",
+    "source_file": "book.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0645-u0639-u0627-u0646-u064a-u0627-u0644-u06-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0645-u0639-u0627-u0646-u064a-u0627-u0644-u06-02",
+    "title": "معاني الأخبار — book.txt — الجزء 2",
+    "source_name": "معاني الأخبار",
+    "source_file": "book.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0645-u0639-u0627-u0646-u064a-u0627-u0644-u06-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0645-u0639-u0627-u0646-u064a-u0627-u0644-u06-03",
+    "title": "معاني الأخبار — book.txt — الجزء 3",
+    "source_name": "معاني الأخبار",
+    "source_file": "book.txt",
+    "part": 3,
+    "count": 53,
+    "asset_path": "./open_imami_library/u0645-u0639-u0627-u0646-u064a-u0627-u0644-u06-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0642-u0631-u0628-u0627-u0644-u0625-u0633-u06-01",
+    "title": "قرب الإسناد — book.txt — الجزء 1",
+    "source_name": "قرب الإسناد",
+    "source_file": "book.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0642-u0631-u0628-u0627-u0644-u0625-u0633-u06-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0642-u0631-u0628-u0627-u0644-u0625-u0633-u06-02",
+    "title": "قرب الإسناد — book.txt — الجزء 2",
+    "source_name": "قرب الإسناد",
+    "source_file": "book.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u0642-u0631-u0628-u0627-u0644-u0625-u0633-u06-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u0642-u0631-u0628-u0627-u0644-u0625-u0633-u06-03",
+    "title": "قرب الإسناد — book.txt — الجزء 3",
+    "source_name": "قرب الإسناد",
+    "source_file": "book.txt",
+    "part": 3,
+    "count": 56,
+    "asset_path": "./open_imami_library/u0642-u0631-u0628-u0627-u0644-u0625-u0633-u06-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u062a-u0641-u0633-u064a-u0631-u0627-u0644-u06-01",
+    "title": "تفسير القمي — book.txt — الجزء 1",
+    "source_name": "تفسير القمي",
+    "source_file": "book.txt",
+    "part": 1,
+    "count": 180,
+    "asset_path": "./open_imami_library/u062a-u0641-u0633-u064a-u0631-u0627-u0644-u06-01.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u062a-u0641-u0633-u064a-u0631-u0627-u0644-u06-02",
+    "title": "تفسير القمي — book.txt — الجزء 2",
+    "source_name": "تفسير القمي",
+    "source_file": "book.txt",
+    "part": 2,
+    "count": 180,
+    "asset_path": "./open_imami_library/u062a-u0641-u0633-u064a-u0631-u0627-u0644-u06-02.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  },
+  {
+    "id": "u062a-u0641-u0633-u064a-u0631-u0627-u0644-u06-03",
+    "title": "تفسير القمي — book.txt — الجزء 3",
+    "source_name": "تفسير القمي",
+    "source_file": "book.txt",
+    "part": 3,
+    "count": 55,
+    "asset_path": "./open_imami_library/u062a-u0641-u0633-u064a-u0631-u0627-u0644-u06-03.json",
+    "description": "مقاطع مصدر عربية مصنفة مبدئيًا؛ راجع بيانات المصدر داخل كل مادة."
+  }
+]
