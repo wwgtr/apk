@@ -18,7 +18,7 @@ export default function LibraryScreen() {
         contentContainerStyle={styles.content}
         showsVerticalScrollIndicator={false}
         ListHeaderComponent={<View>
-          <ScreenHeading eyebrow={`${heritageEntries.length} مادة محلية`} title="المكتبة" body="اختر القسم ثم افتح المادة لقراءة النص وبيانات مصدره." />
+          <ScreenHeading eyebrow={`${heritageEntries.length} مادة محلية`} title="المكتبة" body="اختر القسم، ثم صفِّ النتائج باسم النبي أو الإمام، وافتح المادة لقراءة النص وبيانات مصدره." />
           <FlatList horizontal data={heritageSections} keyExtractor={(item) => item.key} showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chips} renderItem={({ item }) => {
             const selected = item.key === current.key;
             return <Pressable onPress={() => router.setParams({ section: item.key })} style={({ pressed }) => [styles.chip, selected && styles.chipSelected, pressed && styles.pressed]}><Text style={[styles.chipText, selected && styles.chipTextSelected]}>{item.title} · {item.count}</Text></Pressable>;
