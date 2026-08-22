@@ -20,6 +20,8 @@ import manaqib from "@/assets/data/heritage/ahlulbayt_wasaya_ihtijaj_manaqib_cor
 import nahjFull from "@/assets/data/heritage/open_source_nahj_al_balagha_full.json";
 import mafatihFull from "@/assets/data/heritage/open_source_mafatih_full.json";
 import enrichedReadings from "@/assets/data/heritage/enriched_ihtijaj_manaqib_readings.json";
+import expandedIhtijajManaqib from "@/assets/data/heritage/expanded_ihtijaj_manaqib_readings.json";
+import riyadManaqib from "@/assets/data/heritage/manaqib_riyad_al_nadra_excerpts.json";
 import nahjArabicFull from "@/assets/data/heritage/nahj_al_balagha_arabic_full.json";
 
 export type HeritageSection = "dua" | "visits" | "works" | "khutab" | "sayings" | "wasaya" | "ihtijaj" | "manaqib";
@@ -136,8 +138,11 @@ export const heritageEntries: HeritageEntry[] = [
   ...add("wasaya", (nahjFull as RawEntry[]).filter((row) => asText(row.id).startsWith("nahj-wasaya-"))),
   ...add("wasaya", wasayaLetters),
   ...add("ihtijaj", (enrichedReadings as RawEntry[]).filter((row) => asText(row.id).startsWith("ihtijaj-"))),
+  ...add("ihtijaj", (expandedIhtijajManaqib as RawEntry[]).filter((row) => asText(row.id).startsWith("ihtijaj-"))),
   ...add("ihtijaj", ihtijaj),
   ...add("manaqib", (enrichedReadings as RawEntry[]).filter((row) => asText(row.id).startsWith("manaqib-"))),
+  ...add("manaqib", (expandedIhtijajManaqib as RawEntry[]).filter((row) => asText(row.id).startsWith("manaqib-"))),
+  ...add("manaqib", riyadManaqib),
   ...add("manaqib", manaqib),
 ];
 

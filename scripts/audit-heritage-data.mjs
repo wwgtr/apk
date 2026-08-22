@@ -4,7 +4,14 @@ import path from "node:path";
 const heritageDir = path.resolve("assets/data/heritage");
 const files = fs.readdirSync(heritageDir).filter((name) => name.endsWith(".json"));
 
-function inferredSection(fileName) {
+function inferredSection(fileName, row) {
+  const id = typeof row.id === "string" ? row.id : "";
+  if (id.includes("balaghah-khutab")) return "khutab";
+  if (id.includes("balaghah-wasaya")) return "wasaya";
+  if (id.includes("balaghah-sayings")) return "sayings";
+  if (id.startsWith("ihtijaj-")) return "ihtijaj";
+  if (id.startsWith("manaqib-")) return "manaqib";
+  if (fileName.includes("enriched_ihtijaj")) return row.tags?.includes("مناقب") ? "manaqib" : "ihtijaj";
   if (fileName.includes("__01_wasaya")) return "wasaya";
   if (fileName.includes("__02_ihtijaj")) return "ihtijaj";
   if (fileName.includes("__03_manaqib")) return "manaqib";
@@ -21,7 +28,7 @@ const report = {};
 for (const fileName of files) {
   const rows = JSON.parse(fs.readFileSync(path.join(heritageDir, fileName), "utf8"));
   for (const row of rows) {
-    const section = inferredSection(fileName);
+    const section = inferredSection(fileName, row);
     const contentLength = typeof row.text === "string" ? row.text.trim().length : 0;
     const isCoverage = row.category === "source_catalog_or_coverage" || row.text_scope === "coverage_note";
     const hasSubstantiveText = contentLength >= 180 && !isCoverage;
@@ -33,3 +40,4 @@ for (const fileName of files) {
 }
 
 console.table(report);
+console.log("\nنصوص كاملة فقط:", Object.fromEntries(Object.entries(report).map(([section, counts]) => [section, counts.substantive])));
