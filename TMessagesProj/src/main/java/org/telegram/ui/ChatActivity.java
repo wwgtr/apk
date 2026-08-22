@@ -41257,12 +41257,12 @@ public class ChatActivity extends BaseFragment implements
                     }
                     if (fontFile != null) {
                         if (OrbitFontManager.importFont(getContext(), fontFile)) {
-                            AndroidUtilities.showToast("تم تطبيق خط " + message.getDocumentName());
+                            android.widget.Toast.makeText(getContext(), "تم تطبيق خط " + message.getDocumentName(), android.widget.Toast.LENGTH_SHORT).show();
                             if (getParentActivity() != null) {
                                 getParentActivity().recreate();
                             }
                         } else {
-                            AndroidUtilities.showToast("تعذر تطبيق الخط. اختر ملف TTF أو OTF صالحًا.");
+                            android.widget.Toast.makeText(getContext(), "تعذر تطبيق الخط. اختر ملف TTF أو OTF صالحًا.", android.widget.Toast.LENGTH_SHORT).show();
                         }
                         return;
                     }

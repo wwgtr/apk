@@ -76,7 +76,7 @@ public class OrbitFeaturesActivity extends BaseFragment {
         if (uri != null && OrbitFontManager.importFont(getContext(), uri)) {
             restartInterface();
         } else {
-            AndroidUtilities.showToast("تعذر قراءة الخط. اختر ملف TTF أو OTF صالحًا.");
+            android.widget.Toast.makeText(getContext(), "تعذر قراءة الخط. اختر ملف TTF أو OTF صالحًا.", android.widget.Toast.LENGTH_SHORT).show();
         }
     }
 
