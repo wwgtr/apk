@@ -1,0 +1,119 @@
+[
+  {
+    "id": "manaqib-001",
+    "topic": "المناقب والكرامات",
+    "title": "الخرائج والجرائح: فهرس مصدر",
+    "text": "الخرائج والجرائح كتاب لقطب الدين الراوندي في معجزات النبي والأئمة، ويذكر المدخل أنه في ثلاثة أجزاء. يسجل هذا المدخل عائلة المصدر ولا يحكم بصحة كل خبر فيها.",
+    "speaker": "النبي والأئمة عليهم السلام",
+    "source_name": "الخرائج والجرائح",
+    "author_or_compiler": "قطب الدين الراوندي",
+    "source_locator": "فهرس الكتاب العام؛ ثلاثة أجزاء",
+    "source_url": "https://ar.wikishia.net/view/%D8%A7%D9%84%D8%AE%D8%B1%D8%A7%D8%A6%D8%AC_%D9%88%D8%A7%D9%84%D8%AC%D8%B1%D8%A7%D8%AD_(%D9%83%D8%AA%D8%A7%D8%A8)",
+    "locator_status": "needs_edition_check",
+    "attribution_status": "meaning_paraphrase",
+    "verification_note": "سجل فهرسي أو تلخيص موضعي، لا اقتباس حرفي ولا حكم بصحة الإسناد. يلزم الرجوع إلى الطبعة المحددة قبل النقل العلمي أو إيراد النص الكامل.",
+    "dialect": "msa",
+    "category": "source_catalog_or_coverage",
+    "is_original_quote": false,
+    "tags": [
+      "معجزات",
+      "مناقب",
+      "راوندي"
+    ],
+    "corpus_version": "0.1.0"
+  },
+  {
+    "id": "manaqib-002",
+    "topic": "المناقب والكرامات",
+    "title": "الإرشاد في معرفة حجج الله على العباد: فهرس مصدر",
+    "text": "الإرشاد للشيخ المفيد مصدر سيري في حياة أئمة الشيعة؛ يدرج مرجعاً للمناقب والسير بشرط تعيين الجزء والباب عند إضافة كل خبر.",
+    "speaker": "الأئمة عليهم السلام",
+    "source_name": "الإرشاد في معرفة حجج الله على العباد",
+    "author_or_compiler": "محمد بن محمد النعمان المفيد",
+    "source_locator": "طبعة مؤسسة آل البيت لإحياء التراث، 1416هـ؛ يحتاج الخبر المفرد إلى موضعه",
+    "source_url": "https://aljawadain.com/library/books/single?book_id=895",
+    "locator_status": "needs_edition_check",
+    "attribution_status": "meaning_paraphrase",
+    "verification_note": "سجل فهرسي أو تلخيص موضعي، لا اقتباس حرفي ولا حكم بصحة الإسناد. يلزم الرجوع إلى الطبعة المحددة قبل النقل العلمي أو إيراد النص الكامل.",
+    "dialect": "msa",
+    "category": "source_catalog_or_coverage",
+    "is_original_quote": false,
+    "tags": [
+      "إرشاد",
+      "سيرة",
+      "مناقب"
+    ],
+    "corpus_version": "0.1.0"
+  },
+  {
+    "id": "manaqib-003",
+    "topic": "المناقب والكرامات",
+    "title": "دلائل الإمامة: فهرس مصدر",
+    "text": "يدرج دلائل الإمامة ضمن عائلات المصادر التي تضم دلائل وفضائل منسوبة للأئمة؛ لا يدخل النص الحرفي في الحزمة قبل تعيين طبعة وباب.",
+    "speaker": "الأئمة عليهم السلام",
+    "source_name": "دلائل الإمامة",
+    "author_or_compiler": "محمد بن جرير الطبري الإمامي — نسبة الكتاب تحتاج مراجعة ببليوغرافية عند العمل الأكاديمي",
+    "source_locator": "فهرس مصدر فقط؛ needs_edition_check",
+    "source_url": "https://nosos.net/%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85%D8%A9-%D9%81%D9%8A-%D9%85%D8%B5%D8%A7%D8%AF%D8%B1%D9%87%D8%A7-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89/",
+    "locator_status": "needs_edition_check",
+    "attribution_status": "meaning_paraphrase",
+    "verification_note": "سجل فهرسي أو تلخيص موضعي، لا اقتباس حرفي ولا حكم بصحة الإسناد. يلزم الرجوع إلى الطبعة المحددة قبل النقل العلمي أو إيراد النص الكامل.",
+    "dialect": "msa",
+    "category": "source_catalog_or_coverage",
+    "is_original_quote": false,
+    "tags": [
+      "دلائل الإمامة",
+      "مناقب",
+      "مصدر"
+    ],
+    "corpus_version": "0.1.0"
+  },
+  {
+    "id": "manaqib-004",
+    "topic": "المناقب والكرامات",
+    "title": "استسقاء الإمام الرضا: سجل رواية",
+    "text": "ينقل المصدر رواية استسقاء للإمام الرضا ويعزوها إلى عيون أخبار الرضا ج1 ص179. يسجل هذا بوصفه رواية منقولة في المصدر لا تقريراً تاريخياً مستقلاً.",
+    "speaker": "الإمام علي بن موسى الرضا عليه السلام",
+    "source_name": "عيون أخبار الرضا",
+    "author_or_compiler": "محمد بن علي الصدوق",
+    "source_locator": "ج1، ص179؛ باب استسقاء المأمون بالرضا بحسب النقل في الصفحة",
+    "source_url": "https://ns1.almerja.com/more.php?idm=235889",
+    "locator_status": "needs_edition_check",
+    "attribution_status": "meaning_paraphrase",
+    "verification_note": "سجل فهرسي أو تلخيص موضعي، لا اقتباس حرفي ولا حكم بصحة الإسناد. يلزم الرجوع إلى الطبعة المحددة قبل النقل العلمي أو إيراد النص الكامل.",
+    "dialect": "msa",
+    "category": "source_catalog_or_coverage",
+    "is_original_quote": false,
+    "tags": [
+      "رضا",
+      "استسقاء",
+      "كرامة",
+      "رواية"
+    ],
+    "corpus_version": "0.1.0"
+  },
+  {
+    "id": "manaqib-005",
+    "topic": "المناقب والكرامات",
+    "title": "روايات دلائل الإمام الرضا في مجلس المأمون",
+    "text": "تورد الصفحة الناقلة أخباراً عن مجلس المأمون وتربطها بعيون أخبار الرضا، وتضم سرداً لمعجزات في بعض مصادر المناقب. لا تفصل الحزمة بين الرواية والتقييم السندي، ولذلك تصنفها مادة تحتاج إلى مراجعة إسنادية.",
+    "speaker": "الإمام علي بن موسى الرضا عليه السلام",
+    "source_name": "عيون أخبار الرضا / دلائل الإمامة",
+    "author_or_compiler": "محمد بن علي الصدوق / منسوب إلى الطبري الإمامي",
+    "source_locator": "عيون أخبار الرضا ج2 ص139؛ ومواضع أخرى يذكرها المصدر الناقل",
+    "source_url": "https://ns1.almerja.com/more.php?idm=235889",
+    "locator_status": "needs_edition_check",
+    "attribution_status": "meaning_paraphrase",
+    "verification_note": "سجل فهرسي أو تلخيص موضعي، لا اقتباس حرفي ولا حكم بصحة الإسناد. يلزم الرجوع إلى الطبعة المحددة قبل النقل العلمي أو إيراد النص الكامل.",
+    "dialect": "msa",
+    "category": "source_catalog_or_coverage",
+    "is_original_quote": false,
+    "tags": [
+      "رضا",
+      "مأمون",
+      "دلائل",
+      "تحتاج تحقق"
+    ],
+    "corpus_version": "0.1.0"
+  }
+]

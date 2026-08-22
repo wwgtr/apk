@@ -1,0 +1,3163 @@
+{
+  "title": "مواقيت الأهلة والتقويم السنوي الشامل لعام 1448 هـ (2026 – 2027 م)",
+  "source": "مكتب سماحة السيد السيستاني (دام ظله) - وفقاً لأفق مدينة النجف الأشرف",
+  "year_hijri": 1448,
+  "year_gregorian": "2026 - 2027",
+  "general_info": {
+    "introduction": "التقويم السنوي الخاص بمعرفة أوائل الشهور القمرية للعام الهجري (1448) وفقاً لأفق مدينة النجف الأشرف وطبقاً للحسابات العلمية الخاصة بحركة القمر. علماً أن هذه الحسابات لا تمثل رأي المرجعية الدينية، بل هي مجرد توقعات فلكية حيث أن بداية الشهور القمرية تعتمد على ثبوت رؤية الهلال شرعاً.",
+    "qibla_determination": {
+      "description": "تعيين القبلة بصورة دقيقة في النصف الشمالي للكرة الأرضية بتعامد الشمس على الكعبة المشرفة عند الزوال:",
+      "dates": [
+        {
+          "gregorian_date": "28 أيار / مايو",
+          "time_najaf": "12:17 بعد الظهر"
+        },
+        {
+          "gregorian_date": "16 تموز / يوليو",
+          "time_najaf": "12:26 بعد الظهر"
+        }
+      ],
+      "method": "إذا وضع شاخص شاقولي تماماً في أي مكان في النصف الشمالي من الكرة الأرضية ولوحظ ظله وقت الزوال في مكة المكرمة يتبين اتجاه ظل جهة القبلة بصورة دقيقة جداً."
+    },
+    "astronomical_equinoxes": [
+      {
+        "event": "الاعتدال الخريفي",
+        "date": "الأربعاء 23 أيلول 2026 م",
+        "time": "3:05 مساءً"
+      },
+      {
+        "event": "الاعتدال الربيعي",
+        "date": "السبت 20 آذار 2027 م",
+        "time": "11:24 مساءً"
+      }
+    ]
+  },
+  "months": [
+    {
+      "month_order": 1,
+      "name": "المحرم الحرام",
+      "year_hijri": 1448,
+      "total_days": 29,
+      "gregorian_period": "حزيران / تموز 2026 م",
+      "crescent_forecast": {
+        "primary_night": {
+          "hijri_date": "30 ذي الحجة 1447 هـ",
+          "gregorian_date": "16 حزيران 2026 م",
+          "day_of_week": "الثلاثاء",
+          "sunset_time": "7:12",
+          "moon_age": "37 ساعة و18 دقيقة",
+          "altitude_deg": "18 درجة و28 دقيقة",
+          "duration_after_sunset": "1 ساعة و41 دقيقة",
+          "illuminated_fraction": "3.71%",
+          "visibility_expectation": "في هذه الحالة يُتوقع أن يُرى الهلال مرتفعاً واضحاً جداً."
+        },
+        "previous_night": {
+          "hijri_date": "29 ذي الحجة 1447 هـ",
+          "gregorian_date": "15 حزيران 2026 م",
+          "sunset_time": "7:11",
+          "moon_age": "13 ساعة و17 دقيقة",
+          "altitude_deg": "7 درجات و23 دقيقة",
+          "duration_after_sunset": "47 دقيقة",
+          "illuminated_fraction": "0.62%",
+          "visibility_expectation": "في هذه الحالة لا يُتوقع التمكن من رؤية الهلال بالعين المجردة."
+        }
+      },
+      "days": [
+        {
+          "hijri_day": 1,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "17 حزيران 2026",
+          "iso_date": "2026-06-17",
+          "events": [
+            "اليوم الأول من بداية السنة الهجرية",
+            "الأول من بداية المحاصرة للنبي الأكرم (ص) في شعب أبي طالب، سنة (3) قبل الهجرة"
+          ]
+        },
+        {
+          "hijri_day": 2,
+          "day_of_week": "الخميس",
+          "gregorian_date": "18 حزيران 2026",
+          "iso_date": "2026-06-18",
+          "events": [
+            "ورود الإمام الحسين بن علي بن أبي طالب (ع) أرض كربلاء، سنة (61 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 3,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "19 حزيران 2026",
+          "iso_date": "2026-06-19",
+          "events": [
+            "ورود عمر بن سعد مع جيشه أرض كربلاء، سنة (61 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 4,
+          "day_of_week": "السبت",
+          "gregorian_date": "20 حزيران 2026",
+          "iso_date": "2026-06-20",
+          "events": []
+        },
+        {
+          "hijri_day": 5,
+          "day_of_week": "الأحد",
+          "gregorian_date": "21 حزيران 2026",
+          "iso_date": "2026-06-21",
+          "events": []
+        },
+        {
+          "hijri_day": 6,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "22 حزيران 2026",
+          "iso_date": "2026-06-22",
+          "events": []
+        },
+        {
+          "hijri_day": 7,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "23 حزيران 2026",
+          "iso_date": "2026-06-23",
+          "events": []
+        },
+        {
+          "hijri_day": 8,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "24 حزيران 2026",
+          "iso_date": "2026-06-24",
+          "events": [
+            "دخول القمر برج العقرب الساعة 9:44 صباحاً"
+          ]
+        },
+        {
+          "hijri_day": 9,
+          "day_of_week": "الخميس",
+          "gregorian_date": "25 حزيران 2026",
+          "iso_date": "2026-06-25",
+          "events": []
+        },
+        {
+          "hijri_day": 10,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "26 حزيران 2026",
+          "iso_date": "2026-06-26",
+          "events": [
+            "واقعة الطف واستشهاد الإمام الحسين (ع) وأهل بيته وأصحابه، سنة (61 هـ)",
+            "خروج القمر من برج العقرب الساعة 9:41 مساءً"
+          ]
+        },
+        {
+          "hijri_day": 11,
+          "day_of_week": "السبت",
+          "gregorian_date": "27 حزيران 2026",
+          "iso_date": "2026-06-27",
+          "events": []
+        },
+        {
+          "hijri_day": 12,
+          "day_of_week": "الأحد",
+          "gregorian_date": "28 حزيران 2026",
+          "iso_date": "2026-06-28",
+          "events": [
+            "دخول سبايا أهل البيت (ع) إلى الكوفة، سنة (61 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 13,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "29 حزيران 2026",
+          "iso_date": "2026-06-29",
+          "events": [
+            "دفن أجساد شهداء الطف (ع)، سنة (61 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 14,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "30 حزيران 2026",
+          "iso_date": "2026-06-30",
+          "events": []
+        },
+        {
+          "hijri_day": 15,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "1 تموز 2026",
+          "iso_date": "2026-07-01",
+          "events": []
+        },
+        {
+          "hijri_day": 16,
+          "day_of_week": "الخميس",
+          "gregorian_date": "2 تموز 2026",
+          "iso_date": "2026-07-02",
+          "events": []
+        },
+        {
+          "hijri_day": 17,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "3 تموز 2026",
+          "iso_date": "2026-07-03",
+          "events": []
+        },
+        {
+          "hijri_day": 18,
+          "day_of_week": "السبت",
+          "gregorian_date": "4 تموز 2026",
+          "iso_date": "2026-07-04",
+          "events": []
+        },
+        {
+          "hijri_day": 19,
+          "day_of_week": "الأحد",
+          "gregorian_date": "5 تموز 2026",
+          "iso_date": "2026-07-05",
+          "events": [
+            "خروج سبايا أهل البيت (ع) من الكوفة إلى الشام، سنة (61 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 20,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "6 تموز 2026",
+          "iso_date": "2026-07-06",
+          "events": []
+        },
+        {
+          "hijri_day": 21,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "7 تموز 2026",
+          "iso_date": "2026-07-07",
+          "events": []
+        },
+        {
+          "hijri_day": 22,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "8 تموز 2026",
+          "iso_date": "2026-07-08",
+          "events": [
+            "وصول الإمام أمير المؤمنين (ع) إلى صفين، سنة (37 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 23,
+          "day_of_week": "الخميس",
+          "gregorian_date": "9 تموز 2026",
+          "iso_date": "2026-07-09",
+          "events": [
+            "الاعتداء الأثيم بتفجير حرم الإمامين العسكريين (ع)، سنة (1427 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 24,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "10 تموز 2026",
+          "iso_date": "2026-07-10",
+          "events": []
+        },
+        {
+          "hijri_day": 25,
+          "day_of_week": "السبت",
+          "gregorian_date": "11 تموز 2026",
+          "iso_date": "2026-07-11",
+          "events": [
+            "شهادة الإمام علي بن الحسين زين العابدين (ع) في المدينة المنورة، سنة (95 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 26,
+          "day_of_week": "الأحد",
+          "gregorian_date": "12 تموز 2026",
+          "iso_date": "2026-07-12",
+          "events": [
+            "شهادة علي بن الحسن المثلث (علي الخير) (رضوان الله عليه)، سنة (146 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 27,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "13 تموز 2026",
+          "iso_date": "2026-07-13",
+          "events": []
+        },
+        {
+          "hijri_day": 28,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "14 تموز 2026",
+          "iso_date": "2026-07-14",
+          "events": [
+            "وفاة الصحابي الجليل حذيفة بن اليمان (رضوان الله عليه)، سنة (36 هـ)",
+            "إحضار الإمام محمد بن علي الجواد (ع) من المدينة المنورة إلى بغداد، سنة (220 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 29,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "15 تموز 2026",
+          "iso_date": "2026-07-15",
+          "events": []
+        }
+      ]
+    },
+    {
+      "month_order": 2,
+      "name": "صفر الخير",
+      "year_hijri": 1448,
+      "total_days": 30,
+      "gregorian_period": "تموز / آب 2026 م",
+      "crescent_forecast": {
+        "primary_night": {
+          "hijri_date": "29 المحرم الحرام 1448 هـ",
+          "gregorian_date": "15 تموز 2026 م",
+          "day_of_week": "الأربعاء",
+          "sunset_time": "7:11",
+          "moon_age": "30 ساعة و26 دقيقة",
+          "altitude_deg": "11 درجة و23 دقيقة",
+          "duration_after_sunset": "1 ساعة و1 دقيقة",
+          "illuminated_fraction": "2.28%",
+          "visibility_expectation": "في هذه الحالة يُتوقع أن يُرى الهلال مرتفعاً واضحاً."
+        },
+        "previous_night": null
+      },
+      "days": [
+        {
+          "hijri_day": 1,
+          "day_of_week": "الخميس",
+          "gregorian_date": "16 تموز 2026",
+          "iso_date": "2026-07-16",
+          "events": [
+            "اليوم الأول من واقعة صفين، سنة (37 هـ)",
+            "دخول سبايا آل البيت (ع) إلى بلاد الشام، سنة (61 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 2,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "17 تموز 2026",
+          "iso_date": "2026-07-17",
+          "events": [
+            "شهادة زيد بن علي بن الحسين (ع)، سنة (121 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 3,
+          "day_of_week": "السبت",
+          "gregorian_date": "18 تموز 2026",
+          "iso_date": "2026-07-18",
+          "events": []
+        },
+        {
+          "hijri_day": 4,
+          "day_of_week": "الأحد",
+          "gregorian_date": "19 تموز 2026",
+          "iso_date": "2026-07-19",
+          "events": []
+        },
+        {
+          "hijri_day": 5,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "20 تموز 2026",
+          "iso_date": "2026-07-20",
+          "events": [
+            "شهادة رقية بنت الإمام الحسين (ع)، سنة (61 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 6,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "21 تموز 2026",
+          "iso_date": "2026-07-21",
+          "events": [
+            "دخول القمر برج العقرب الساعة 4:35 مساءً"
+          ]
+        },
+        {
+          "hijri_day": 7,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "22 تموز 2026",
+          "iso_date": "2026-07-22",
+          "events": [
+            "شهادة الإمام الحسن بن علي بن أبي طالب (ع)، سنة (50 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 8,
+          "day_of_week": "الخميس",
+          "gregorian_date": "23 تموز 2026",
+          "iso_date": "2026-07-23",
+          "events": [
+            "وفاة الصحابي الجليل سلمان الفارسي (رضوان الله عليه)، سنة (35 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 9,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "24 تموز 2026",
+          "iso_date": "2026-07-24",
+          "events": [
+            "شهادة الصحابي الجليل عمار بن ياسر (رضوان الله عليه) في معركة صفين، سنة (37 هـ)",
+            "واقعة النهروان، سنة (38 هـ)",
+            "خروج القمر من برج العقرب الساعة 4:07 صباحاً"
+          ]
+        },
+        {
+          "hijri_day": 10,
+          "day_of_week": "السبت",
+          "gregorian_date": "25 تموز 2026",
+          "iso_date": "2026-07-25",
+          "events": []
+        },
+        {
+          "hijri_day": 11,
+          "day_of_week": "الأحد",
+          "gregorian_date": "26 تموز 2026",
+          "iso_date": "2026-07-26",
+          "events": []
+        },
+        {
+          "hijri_day": 12,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "27 تموز 2026",
+          "iso_date": "2026-07-27",
+          "events": []
+        },
+        {
+          "hijri_day": 13,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "28 تموز 2026",
+          "iso_date": "2026-07-28",
+          "events": []
+        },
+        {
+          "hijri_day": 14,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "29 تموز 2026",
+          "iso_date": "2026-07-29",
+          "events": [
+            "شهادة محمد بن أبي بكر (رضوان الله عليه) بمصر، سنة (38 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 15,
+          "day_of_week": "الخميس",
+          "gregorian_date": "30 تموز 2026",
+          "iso_date": "2026-07-30",
+          "events": []
+        },
+        {
+          "hijri_day": 16,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "31 تموز 2026",
+          "iso_date": "2026-07-31",
+          "events": []
+        },
+        {
+          "hijri_day": 17,
+          "day_of_week": "السبت",
+          "gregorian_date": "1 آب 2026",
+          "iso_date": "2026-08-01",
+          "events": [
+            "شهادة الإمام علي بن موسى الرضا (ع)، سنة (203 هـ) على رواية"
+          ]
+        },
+        {
+          "hijri_day": 18,
+          "day_of_week": "الأحد",
+          "gregorian_date": "2 آب 2026",
+          "iso_date": "2026-08-02",
+          "events": []
+        },
+        {
+          "hijri_day": 19,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "3 آب 2026",
+          "iso_date": "2026-08-03",
+          "events": []
+        },
+        {
+          "hijri_day": 20,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "4 آب 2026",
+          "iso_date": "2026-08-04",
+          "events": [
+            "ورود السبايا من آل بيت النبي (ص) أرض كربلاء (أربعينية الإمام الحسين عليه السلام)، سنة (61 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 21,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "5 آب 2026",
+          "iso_date": "2026-08-05",
+          "events": []
+        },
+        {
+          "hijri_day": 22,
+          "day_of_week": "الخميس",
+          "gregorian_date": "6 آب 2026",
+          "iso_date": "2026-08-06",
+          "events": []
+        },
+        {
+          "hijri_day": 23,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "7 آب 2026",
+          "iso_date": "2026-08-07",
+          "events": []
+        },
+        {
+          "hijri_day": 24,
+          "day_of_week": "السبت",
+          "gregorian_date": "8 آب 2026",
+          "iso_date": "2026-08-08",
+          "events": []
+        },
+        {
+          "hijri_day": 25,
+          "day_of_week": "الأحد",
+          "gregorian_date": "9 آب 2026",
+          "iso_date": "2026-08-09",
+          "events": []
+        },
+        {
+          "hijri_day": 26,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "10 آب 2026",
+          "iso_date": "2026-08-10",
+          "events": []
+        },
+        {
+          "hijri_day": 27,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "11 آب 2026",
+          "iso_date": "2026-08-11",
+          "events": []
+        },
+        {
+          "hijri_day": 28,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "12 آب 2026",
+          "iso_date": "2026-08-12",
+          "events": [
+            "وفاة النبي الأكرم محمد (ص)، سنة (11 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 29,
+          "day_of_week": "الخميس",
+          "gregorian_date": "13 آب 2026",
+          "iso_date": "2026-08-13",
+          "events": []
+        },
+        {
+          "hijri_day": 30,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "14 آب 2026",
+          "iso_date": "2026-08-14",
+          "events": []
+        }
+      ]
+    },
+    {
+      "month_order": 3,
+      "name": "ربيع الأول",
+      "year_hijri": 1448,
+      "total_days": 29,
+      "gregorian_period": "آب / أيلول 2026 م",
+      "crescent_forecast": {
+        "primary_night": {
+          "hijri_date": "30 صفر 1448 هـ",
+          "gregorian_date": "14 آب 2026 م",
+          "day_of_week": "الجمعة",
+          "sunset_time": "6:48",
+          "moon_age": "46 ساعة و10 دقائق",
+          "altitude_deg": "12 درجة و3 دقائق",
+          "duration_after_sunset": "1 ساعة",
+          "illuminated_fraction": "4.38%",
+          "visibility_expectation": "في هذه الحالة يُتوقع أن يُرى الهلال مرتفعاً واضحاً."
+        },
+        "previous_night": {
+          "hijri_date": "29 صفر 1448 هـ",
+          "gregorian_date": "13 آب 2026 م",
+          "sunset_time": "6:49",
+          "moon_age": "22 ساعة و11 دقيقة",
+          "altitude_deg": "5 درجات و33 دقيقة",
+          "duration_after_sunset": "28 دقيقة",
+          "illuminated_fraction": "1.08%",
+          "visibility_expectation": "في هذه الحالة لا يُتوقع التمكن من رؤية الهلال بالعين المجردة."
+        }
+      },
+      "days": [
+        {
+          "hijri_day": 1,
+          "day_of_week": "السبت",
+          "gregorian_date": "15 آب 2026",
+          "iso_date": "2026-08-15",
+          "events": [
+            "مبيت الإمام أمير المؤمنين علي بن أبي طالب (ع) في فراش النبي الأكرم (ص) (ليلة المبيت)",
+            "هجرة النبي (ص) إلى المدينة المنورة"
+          ]
+        },
+        {
+          "hijri_day": 2,
+          "day_of_week": "الأحد",
+          "gregorian_date": "16 آب 2026",
+          "iso_date": "2026-08-16",
+          "events": []
+        },
+        {
+          "hijri_day": 3,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "17 آب 2026",
+          "iso_date": "2026-08-17",
+          "events": [
+            "إحراق الكعبة المشرفة بالمنجنيق بأمر حصين بن نمير قائد جيش يزيد، سنة (64 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 4,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "18 آب 2026",
+          "iso_date": "2026-08-18",
+          "events": [
+            "خروج النبي (ص) من غار ثور متوجهاً إلى المدينة المنورة في السنة الأولى من الهجرة",
+            "دخول القمر برج العقرب الساعة 0:47 بعد منتصف الليل"
+          ]
+        },
+        {
+          "hijri_day": 5,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "19 آب 2026",
+          "iso_date": "2026-08-19",
+          "events": [
+            "وفاة السيدة سكينة بنت الإمام الحسين (ع)، سنة (117 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 6,
+          "day_of_week": "الخميس",
+          "gregorian_date": "20 آب 2026",
+          "iso_date": "2026-08-20",
+          "events": [
+            "خروج القمر من برج العقرب الساعة 11:30 صباحاً"
+          ]
+        },
+        {
+          "hijri_day": 7,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "21 آب 2026",
+          "iso_date": "2026-08-21",
+          "events": []
+        },
+        {
+          "hijri_day": 8,
+          "day_of_week": "السبت",
+          "gregorian_date": "22 آب 2026",
+          "iso_date": "2026-08-22",
+          "events": [
+            "شهادة الإمام الحسن العسكري (ع)، سنة (260 هـ)، وبداية إمامة بقية الله الأعظم الحجة بن الحسن العسكري (عج)، على رواية"
+          ]
+        },
+        {
+          "hijri_day": 9,
+          "day_of_week": "الأحد",
+          "gregorian_date": "23 آب 2026",
+          "iso_date": "2026-08-23",
+          "events": []
+        },
+        {
+          "hijri_day": 10,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "24 آب 2026",
+          "iso_date": "2026-08-24",
+          "events": [
+            "وفاة عبد المطلب جد النبي الأكرم (ص) في السنة الثامنة من ولادته، سنة (45) قبل الهجرة",
+            "زواج الرسول الأكرم (ص) من خديجة الكبرى (ع)، وهو في سن الخامسة والعشرين، سنة (28) قبل الهجرة"
+          ]
+        },
+        {
+          "hijri_day": 11,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "25 آب 2026",
+          "iso_date": "2026-08-25",
+          "events": []
+        },
+        {
+          "hijri_day": 12,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "26 آب 2026",
+          "iso_date": "2026-08-26",
+          "events": [
+            "ولادة النبي الأكرم (ص)، على رواية",
+            "دخول النبي الأكرم (ص) المدينة المنورة في السنة الأولى من الهجرة"
+          ]
+        },
+        {
+          "hijri_day": 13,
+          "day_of_week": "الخميس",
+          "gregorian_date": "27 آب 2026",
+          "iso_date": "2026-08-27",
+          "events": []
+        },
+        {
+          "hijri_day": 14,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "28 آب 2026",
+          "iso_date": "2026-08-28",
+          "events": []
+        },
+        {
+          "hijri_day": 15,
+          "day_of_week": "السبت",
+          "gregorian_date": "29 آب 2026",
+          "iso_date": "2026-08-29",
+          "events": []
+        },
+        {
+          "hijri_day": 16,
+          "day_of_week": "الأحد",
+          "gregorian_date": "30 آب 2026",
+          "iso_date": "2026-08-30",
+          "events": []
+        },
+        {
+          "hijri_day": 17,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "31 آب 2026",
+          "iso_date": "2026-08-31",
+          "events": [
+            "ولادة سيد الرسل محمد بن عبد الله (ص)، سنة (53) قبل الهجرة، على الرواية المشهورة",
+            "ولادة الإمام جعفر بن محمد الصادق (ع)، سنة (83 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 18,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "1 أيلول 2026",
+          "iso_date": "2026-09-01",
+          "events": []
+        },
+        {
+          "hijri_day": 19,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "2 أيلول 2026",
+          "iso_date": "2026-09-02",
+          "events": []
+        },
+        {
+          "hijri_day": 20,
+          "day_of_week": "الخميس",
+          "gregorian_date": "3 أيلول 2026",
+          "iso_date": "2026-09-03",
+          "events": []
+        },
+        {
+          "hijri_day": 21,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "4 أيلول 2026",
+          "iso_date": "2026-09-04",
+          "events": []
+        },
+        {
+          "hijri_day": 22,
+          "day_of_week": "السبت",
+          "gregorian_date": "5 أيلول 2026",
+          "iso_date": "2026-09-05",
+          "events": [
+            "غزوة بني النضير، سنة (4 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 23,
+          "day_of_week": "الأحد",
+          "gregorian_date": "6 أيلول 2026",
+          "iso_date": "2026-09-06",
+          "events": []
+        },
+        {
+          "hijri_day": 24,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "7 أيلول 2026",
+          "iso_date": "2026-09-07",
+          "events": []
+        },
+        {
+          "hijri_day": 25,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "8 أيلول 2026",
+          "iso_date": "2026-09-08",
+          "events": [
+            "استشهاد سعيد بن جبير (رضوان الله عليه) على يد الحجاج، سنة (95 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 26,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "9 أيلول 2026",
+          "iso_date": "2026-09-09",
+          "events": [
+            "إبرام معاهدة الصلح بين الإمام الحسن بن علي بن أبي طالب (ع) ومعاوية بن أبي سفيان، سنة (41 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 27,
+          "day_of_week": "الخميس",
+          "gregorian_date": "10 أيلول 2026",
+          "iso_date": "2026-09-10",
+          "events": []
+        },
+        {
+          "hijri_day": 28,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "11 أيلول 2026",
+          "iso_date": "2026-09-11",
+          "events": []
+        },
+        {
+          "hijri_day": 29,
+          "day_of_week": "السبت",
+          "gregorian_date": "12 أيلول 2026",
+          "iso_date": "2026-09-12",
+          "events": []
+        }
+      ]
+    },
+    {
+      "month_order": 4,
+      "name": "ربيع الآخر",
+      "year_hijri": 1448,
+      "total_days": 30,
+      "gregorian_period": "أيلول / تشرين الأول 2026 م",
+      "crescent_forecast": {
+        "primary_night": {
+          "hijri_date": "29 ربيع الأول 1448 هـ",
+          "gregorian_date": "12 أيلول 2026 م",
+          "day_of_week": "السبت",
+          "sunset_time": "6:12",
+          "moon_age": "35 ساعة و46 دقيقة",
+          "altitude_deg": "6 درجات و6 دقائق",
+          "duration_after_sunset": "30 دقيقة",
+          "illuminated_fraction": "2.36%",
+          "visibility_expectation": "في هذه الحالة يُتوقع التمكن من رؤية الهلال بالعين المجردة في حالة صفاء الجو تماماً."
+        },
+        "previous_night": null
+      },
+      "days": [
+        {
+          "hijri_day": 1,
+          "day_of_week": "الأحد",
+          "gregorian_date": "13 أيلول 2026",
+          "iso_date": "2026-09-13",
+          "events": []
+        },
+        {
+          "hijri_day": 2,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "14 أيلول 2026",
+          "iso_date": "2026-09-14",
+          "events": [
+            "دخول القمر برج العقرب الساعة 9:45 صباحاً"
+          ]
+        },
+        {
+          "hijri_day": 3,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "15 أيلول 2026",
+          "iso_date": "2026-09-15",
+          "events": []
+        },
+        {
+          "hijri_day": 4,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "16 أيلول 2026",
+          "iso_date": "2026-09-16",
+          "events": [
+            "خروج القمر من برج العقرب الساعة 07:41 مساءً"
+          ]
+        },
+        {
+          "hijri_day": 5,
+          "day_of_week": "الخميس",
+          "gregorian_date": "17 أيلول 2026",
+          "iso_date": "2026-09-17",
+          "events": []
+        },
+        {
+          "hijri_day": 6,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "18 أيلول 2026",
+          "iso_date": "2026-09-18",
+          "events": []
+        },
+        {
+          "hijri_day": 7,
+          "day_of_week": "السبت",
+          "gregorian_date": "19 أيلول 2026",
+          "iso_date": "2026-09-19",
+          "events": []
+        },
+        {
+          "hijri_day": 8,
+          "day_of_week": "الأحد",
+          "gregorian_date": "20 أيلول 2026",
+          "iso_date": "2026-09-20",
+          "events": [
+            "شهادة سيدة نساء العالمين فاطمة الزهراء (ع)، سنة (11 هـ)، على رواية"
+          ]
+        },
+        {
+          "hijri_day": 9,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "21 أيلول 2026",
+          "iso_date": "2026-09-21",
+          "events": []
+        },
+        {
+          "hijri_day": 10,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "22 أيلول 2026",
+          "iso_date": "2026-09-22",
+          "events": [
+            "ولادة الإمام الحسن العسكري (ع)، سنة (232 هـ)، على رواية",
+            "وفاة السيدة فاطمة المعصومة بنت الإمام موسى بن جعفر الكاظم (ع)، سنة (201 هـ)، على رواية"
+          ]
+        },
+        {
+          "hijri_day": 11,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "23 أيلول 2026",
+          "iso_date": "2026-09-23",
+          "events": [
+            "الاعتدال الخريفي الساعة 3:05 مساءً"
+          ]
+        },
+        {
+          "hijri_day": 12,
+          "day_of_week": "الخميس",
+          "gregorian_date": "24 أيلول 2026",
+          "iso_date": "2026-09-24",
+          "events": []
+        },
+        {
+          "hijri_day": 13,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "25 أيلول 2026",
+          "iso_date": "2026-09-25",
+          "events": []
+        },
+        {
+          "hijri_day": 14,
+          "day_of_week": "السبت",
+          "gregorian_date": "26 أيلول 2026",
+          "iso_date": "2026-09-26",
+          "events": [
+            "خروج المختار الثقفي (رض) في الكوفة للأخذ بثأر الإمام الحسين (ع)، سنة (66 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 15,
+          "day_of_week": "الأحد",
+          "gregorian_date": "27 أيلول 2026",
+          "iso_date": "2026-09-27",
+          "events": []
+        },
+        {
+          "hijri_day": 16,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "28 أيلول 2026",
+          "iso_date": "2026-09-28",
+          "events": []
+        },
+        {
+          "hijri_day": 17,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "29 أيلول 2026",
+          "iso_date": "2026-09-29",
+          "events": []
+        },
+        {
+          "hijri_day": 18,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "30 أيلول 2026",
+          "iso_date": "2026-09-30",
+          "events": []
+        },
+        {
+          "hijri_day": 19,
+          "day_of_week": "الخميس",
+          "gregorian_date": "1 تشرين الأول 2026",
+          "iso_date": "2026-10-01",
+          "events": []
+        },
+        {
+          "hijri_day": 20,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "2 تشرين الأول 2026",
+          "iso_date": "2026-10-02",
+          "events": []
+        },
+        {
+          "hijri_day": 21,
+          "day_of_week": "السبت",
+          "gregorian_date": "3 تشرين الأول 2026",
+          "iso_date": "2026-10-03",
+          "events": []
+        },
+        {
+          "hijri_day": 22,
+          "day_of_week": "الأحد",
+          "gregorian_date": "4 تشرين الأول 2026",
+          "iso_date": "2026-10-04",
+          "events": []
+        },
+        {
+          "hijri_day": 23,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "5 تشرين الأول 2026",
+          "iso_date": "2026-10-05",
+          "events": []
+        },
+        {
+          "hijri_day": 24,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "6 تشرين الأول 2026",
+          "iso_date": "2026-10-06",
+          "events": []
+        },
+        {
+          "hijri_day": 25,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "7 تشرين الأول 2026",
+          "iso_date": "2026-10-07",
+          "events": []
+        },
+        {
+          "hijri_day": 26,
+          "day_of_week": "الخميس",
+          "gregorian_date": "8 تشرين الأول 2026",
+          "iso_date": "2026-10-08",
+          "events": []
+        },
+        {
+          "hijri_day": 27,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "9 تشرين الأول 2026",
+          "iso_date": "2026-10-09",
+          "events": []
+        },
+        {
+          "hijri_day": 28,
+          "day_of_week": "السبت",
+          "gregorian_date": "10 تشرين الأول 2026",
+          "iso_date": "2026-10-10",
+          "events": []
+        },
+        {
+          "hijri_day": 29,
+          "day_of_week": "الأحد",
+          "gregorian_date": "11 تشرين الأول 2026",
+          "iso_date": "2026-10-11",
+          "events": [
+            "دخول القمر برج العقرب الساعة 6:22 مساءً"
+          ]
+        },
+        {
+          "hijri_day": 30,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "12 تشرين الأول 2026",
+          "iso_date": "2026-10-12",
+          "events": []
+        }
+      ]
+    },
+    {
+      "month_order": 5,
+      "name": "جمادى الأولى",
+      "year_hijri": 1448,
+      "total_days": 30,
+      "gregorian_period": "تشرين الأول / تشرين الثاني 2026 م",
+      "crescent_forecast": {
+        "primary_night": {
+          "hijri_date": "30 ربيع الآخر 1448 هـ",
+          "gregorian_date": "12 تشرين الأول 2026 م",
+          "day_of_week": "الاثنين",
+          "sunset_time": "5:33",
+          "moon_age": "46 ساعة و43 دقيقة",
+          "altitude_deg": "7 درجات و18 دقيقة",
+          "duration_after_sunset": "41 دقيقة",
+          "illuminated_fraction": "3.36%",
+          "visibility_expectation": "في هذه الحالة يُتوقع أن يُرى الهلال واضحاً جداً."
+        },
+        "previous_night": {
+          "hijri_date": "29 ربيع الآخر 1448 هـ",
+          "gregorian_date": "11 تشرين الأول 2026 م",
+          "sunset_time": "5:34",
+          "moon_age": "22 ساعة و44 دقيقة",
+          "altitude_deg": "1 درجة و35 دقيقة",
+          "duration_after_sunset": "10 دقائق",
+          "illuminated_fraction": "1.05%",
+          "visibility_expectation": "في هذه الحالة لا يُتوقع التمكن من رؤية الهلال بالعين المجردة."
+        }
+      },
+      "days": [
+        {
+          "hijri_day": 1,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "13 تشرين الأول 2026",
+          "iso_date": "2026-10-13",
+          "events": []
+        },
+        {
+          "hijri_day": 2,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "14 تشرين الأول 2026",
+          "iso_date": "2026-10-14",
+          "events": [
+            "خروج القمر من برج العقرب الساعة 03:59 صباحاً"
+          ]
+        },
+        {
+          "hijri_day": 3,
+          "day_of_week": "الخميس",
+          "gregorian_date": "15 تشرين الأول 2026",
+          "iso_date": "2026-10-15",
+          "events": []
+        },
+        {
+          "hijri_day": 4,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "16 تشرين الأول 2026",
+          "iso_date": "2026-10-16",
+          "events": []
+        },
+        {
+          "hijri_day": 5,
+          "day_of_week": "السبت",
+          "gregorian_date": "17 تشرين الأول 2026",
+          "iso_date": "2026-10-17",
+          "events": [
+            "ولادة السيدة زينب بنت الإمام أمير المؤمنين (ع)، سنة (5 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 6,
+          "day_of_week": "الأحد",
+          "gregorian_date": "18 تشرين الأول 2026",
+          "iso_date": "2026-10-18",
+          "events": [
+            "حرب مؤتة واستشهاد جعفر بن أبي طالب (ع)، سنة (8 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 7,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "19 تشرين الأول 2026",
+          "iso_date": "2026-10-19",
+          "events": []
+        },
+        {
+          "hijri_day": 8,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "20 تشرين الأول 2026",
+          "iso_date": "2026-10-20",
+          "events": []
+        },
+        {
+          "hijri_day": 9,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "21 تشرين الأول 2026",
+          "iso_date": "2026-10-21",
+          "events": []
+        },
+        {
+          "hijri_day": 10,
+          "day_of_week": "الخميس",
+          "gregorian_date": "22 تشرين الأول 2026",
+          "iso_date": "2026-10-22",
+          "events": [
+            "واقعة الجمل، سنة (36 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 11,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "23 تشرين الأول 2026",
+          "iso_date": "2026-10-23",
+          "events": []
+        },
+        {
+          "hijri_day": 12,
+          "day_of_week": "السبت",
+          "gregorian_date": "24 تشرين الأول 2026",
+          "iso_date": "2026-10-24",
+          "events": []
+        },
+        {
+          "hijri_day": 13,
+          "day_of_week": "الأحد",
+          "gregorian_date": "25 تشرين الأول 2026",
+          "iso_date": "2026-10-25",
+          "events": [
+            "شهادة سيدة نساء العالمين فاطمة الزهراء (ع)، سنة (11 هـ)، على رواية"
+          ]
+        },
+        {
+          "hijri_day": 14,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "26 تشرين الأول 2026",
+          "iso_date": "2026-10-26",
+          "events": []
+        },
+        {
+          "hijri_day": 15,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "27 تشرين الأول 2026",
+          "iso_date": "2026-10-27",
+          "events": [
+            "فتح البصرة على يد الإمام أمير المؤمنين (ع)، سنة (36 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 16,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "28 تشرين الأول 2026",
+          "iso_date": "2026-10-28",
+          "events": []
+        },
+        {
+          "hijri_day": 17,
+          "day_of_week": "الخميس",
+          "gregorian_date": "29 تشرين الأول 2026",
+          "iso_date": "2026-10-29",
+          "events": []
+        },
+        {
+          "hijri_day": 18,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "30 تشرين الأول 2026",
+          "iso_date": "2026-10-30",
+          "events": []
+        },
+        {
+          "hijri_day": 19,
+          "day_of_week": "السبت",
+          "gregorian_date": "31 تشرين الأول 2026",
+          "iso_date": "2026-10-31",
+          "events": [
+            "شهادة زيد بن صوحان (رضوان الله عليه) في حرب الجمل، سنة (36 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 20,
+          "day_of_week": "الأحد",
+          "gregorian_date": "1 تشرين الثاني 2026",
+          "iso_date": "2026-11-01",
+          "events": []
+        },
+        {
+          "hijri_day": 21,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "2 تشرين الثاني 2026",
+          "iso_date": "2026-11-02",
+          "events": []
+        },
+        {
+          "hijri_day": 22,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "3 تشرين الثاني 2026",
+          "iso_date": "2026-11-03",
+          "events": [
+            "وفاة القاسم بن الإمام موسى بن جعفر (ع)، سنة (192 هـ) على رواية"
+          ]
+        },
+        {
+          "hijri_day": 23,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "4 تشرين الثاني 2026",
+          "iso_date": "2026-11-04",
+          "events": []
+        },
+        {
+          "hijri_day": 24,
+          "day_of_week": "الخميس",
+          "gregorian_date": "5 تشرين الثاني 2026",
+          "iso_date": "2026-11-05",
+          "events": []
+        },
+        {
+          "hijri_day": 25,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "6 تشرين الثاني 2026",
+          "iso_date": "2026-11-06",
+          "events": []
+        },
+        {
+          "hijri_day": 26,
+          "day_of_week": "السبت",
+          "gregorian_date": "7 تشرين الثاني 2026",
+          "iso_date": "2026-11-07",
+          "events": []
+        },
+        {
+          "hijri_day": 27,
+          "day_of_week": "الأحد",
+          "gregorian_date": "8 تشرين الثاني 2026",
+          "iso_date": "2026-11-08",
+          "events": [
+            "تجدد الاعتداء على مرقد الإمامين العسكريين (ع) في سامراء بتفجير المأذنتين الشريفتين، سنة (1428 هـ)",
+            "دخول القمر برج العقرب الساعة 1:41 صباحاً"
+          ]
+        },
+        {
+          "hijri_day": 28,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "9 تشرين الثاني 2026",
+          "iso_date": "2026-11-09",
+          "events": []
+        },
+        {
+          "hijri_day": 29,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "10 تشرين الثاني 2026",
+          "iso_date": "2026-11-10",
+          "events": [
+            "خروج القمر من برج العقرب الساعة 11:36 صباحاً"
+          ]
+        },
+        {
+          "hijri_day": 30,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "11 تشرين الثاني 2026",
+          "iso_date": "2026-11-11",
+          "events": [
+            "وفاة محمد بن عثمان بن سعيد الخلاني (رضوان الله عليه) السفير الثاني للإمام المهدي (عج)، سنة (304 هـ)"
+          ]
+        }
+      ]
+    },
+    {
+      "month_order": 6,
+      "name": "جمادى الآخرة",
+      "year_hijri": 1448,
+      "total_days": 29,
+      "gregorian_period": "تشرين الثاني / كانون الأول 2026 م",
+      "crescent_forecast": {
+        "primary_night": {
+          "hijri_date": "30 جمادى الأولى 1448 هـ",
+          "gregorian_date": "11 تشرين الثاني 2026 م",
+          "day_of_week": "الأربعاء",
+          "sunset_time": "5:05",
+          "moon_age": "55 ساعة و3 دقائق",
+          "altitude_deg": "10 درجات و55 دقيقة",
+          "duration_after_sunset": "1 ساعة و10 دقائق",
+          "illuminated_fraction": "3.98%",
+          "visibility_expectation": "في هذه الحالة يُتوقع أن يُرى الهلال مرتفعاً واضحاً جداً."
+        },
+        "previous_night": {
+          "hijri_date": "29 جمادى الأولى 1448 هـ",
+          "gregorian_date": "10 تشرين الثاني 2026 م",
+          "sunset_time": "5:06",
+          "moon_age": "31 ساعة و4 دقائق",
+          "altitude_deg": "4 درجات و3 دقائق",
+          "duration_after_sunset": "23 دقيقة",
+          "illuminated_fraction": "1.42%",
+          "visibility_expectation": "في هذه الحالة لا يُتوقع التمكن من رؤية الهلال بالعين المجردة."
+        }
+      },
+      "days": [
+        {
+          "hijri_day": 1,
+          "day_of_week": "الخميس",
+          "gregorian_date": "12 تشرين الثاني 2026",
+          "iso_date": "2026-11-12",
+          "events": []
+        },
+        {
+          "hijri_day": 2,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "13 تشرين الثاني 2026",
+          "iso_date": "2026-11-13",
+          "events": []
+        },
+        {
+          "hijri_day": 3,
+          "day_of_week": "السبت",
+          "gregorian_date": "14 تشرين الثاني 2026",
+          "iso_date": "2026-11-14",
+          "events": [
+            "شهادة سيدة نساء العالمين فاطمة الزهراء (ع)، سنة (11 هـ)، على رواية"
+          ]
+        },
+        {
+          "hijri_day": 4,
+          "day_of_week": "الأحد",
+          "gregorian_date": "15 تشرين الثاني 2026",
+          "iso_date": "2026-11-15",
+          "events": []
+        },
+        {
+          "hijri_day": 5,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "16 تشرين الثاني 2026",
+          "iso_date": "2026-11-16",
+          "events": []
+        },
+        {
+          "hijri_day": 6,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "17 تشرين الثاني 2026",
+          "iso_date": "2026-11-17",
+          "events": []
+        },
+        {
+          "hijri_day": 7,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "18 تشرين الثاني 2026",
+          "iso_date": "2026-11-18",
+          "events": []
+        },
+        {
+          "hijri_day": 8,
+          "day_of_week": "الخميس",
+          "gregorian_date": "19 تشرين الثاني 2026",
+          "iso_date": "2026-11-19",
+          "events": []
+        },
+        {
+          "hijri_day": 9,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "20 تشرين الثاني 2026",
+          "iso_date": "2026-11-20",
+          "events": []
+        },
+        {
+          "hijri_day": 10,
+          "day_of_week": "السبت",
+          "gregorian_date": "21 تشرين الثاني 2026",
+          "iso_date": "2026-11-21",
+          "events": []
+        },
+        {
+          "hijri_day": 11,
+          "day_of_week": "الأحد",
+          "gregorian_date": "22 تشرين الثاني 2026",
+          "iso_date": "2026-11-22",
+          "events": []
+        },
+        {
+          "hijri_day": 12,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "23 تشرين الثاني 2026",
+          "iso_date": "2026-11-23",
+          "events": []
+        },
+        {
+          "hijri_day": 13,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "24 تشرين الثاني 2026",
+          "iso_date": "2026-11-24",
+          "events": [
+            "وفاة أم البنين أم العباس وإخوته (سلام الله عليهم أجمعين)، سنة (64 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 14,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "25 تشرين الثاني 2026",
+          "iso_date": "2026-11-25",
+          "events": []
+        },
+        {
+          "hijri_day": 15,
+          "day_of_week": "الخميس",
+          "gregorian_date": "26 تشرين الثاني 2026",
+          "iso_date": "2026-11-26",
+          "events": []
+        },
+        {
+          "hijri_day": 16,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "27 تشرين الثاني 2026",
+          "iso_date": "2026-11-27",
+          "events": []
+        },
+        {
+          "hijri_day": 17,
+          "day_of_week": "السبت",
+          "gregorian_date": "28 تشرين الثاني 2026",
+          "iso_date": "2026-11-28",
+          "events": []
+        },
+        {
+          "hijri_day": 18,
+          "day_of_week": "الأحد",
+          "gregorian_date": "29 تشرين الثاني 2026",
+          "iso_date": "2026-11-29",
+          "events": []
+        },
+        {
+          "hijri_day": 19,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "30 تشرين الثاني 2026",
+          "iso_date": "2026-11-30",
+          "events": [
+            "زواج عبد الله وآمنة والدي النبي الأكرم (ص)"
+          ]
+        },
+        {
+          "hijri_day": 20,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "1 كانون الأول 2026",
+          "iso_date": "2026-12-01",
+          "events": [
+            "ولادة سيدة نساء العالمين فاطمة الزهراء (ع)، سنة (8) قبل الهجرة"
+          ]
+        },
+        {
+          "hijri_day": 21,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "2 كانون الأول 2026",
+          "iso_date": "2026-12-02",
+          "events": [
+            "رجوع الإمام أمير المؤمنين (ع) من حرب الجمل، سنة (36 هـ)",
+            "وفاة أم كلثوم بنت الإمام أمير المؤمنين (ع)، سنة (61 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 22,
+          "day_of_week": "الخميس",
+          "gregorian_date": "3 كانون الأول 2026",
+          "iso_date": "2026-12-03",
+          "events": []
+        },
+        {
+          "hijri_day": 23,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "4 كانون الأول 2026",
+          "iso_date": "2026-12-04",
+          "events": []
+        },
+        {
+          "hijri_day": 24,
+          "day_of_week": "السبت",
+          "gregorian_date": "5 كانون الأول 2026",
+          "iso_date": "2026-12-05",
+          "events": [
+            "دخول القمر برج العقرب الساعة 7:36 صباحاً"
+          ]
+        },
+        {
+          "hijri_day": 25,
+          "day_of_week": "الأحد",
+          "gregorian_date": "6 كانون الأول 2026",
+          "iso_date": "2026-12-06",
+          "events": []
+        },
+        {
+          "hijri_day": 26,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "7 كانون الأول 2026",
+          "iso_date": "2026-12-07",
+          "events": [
+            "خروج القمر من برج العقرب الساعة 06:06 مساءً"
+          ]
+        },
+        {
+          "hijri_day": 27,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "8 كانون الأول 2026",
+          "iso_date": "2026-12-08",
+          "events": []
+        },
+        {
+          "hijri_day": 28,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "9 كانون الأول 2026",
+          "iso_date": "2026-12-09",
+          "events": []
+        },
+        {
+          "hijri_day": 29,
+          "day_of_week": "الخميس",
+          "gregorian_date": "10 كانون الأول 2026",
+          "iso_date": "2026-12-10",
+          "events": [
+            "وفاة السيد محمد بن الإمام علي الهادي (ع)، سنة (252 هـ)"
+          ]
+        }
+      ]
+    },
+    {
+      "month_order": 7,
+      "name": "رجب الأصب",
+      "year_hijri": 1448,
+      "total_days": 30,
+      "gregorian_period": "كانون الأول 2026 م / كانون الثاني 2027 م",
+      "crescent_forecast": {
+        "primary_night": {
+          "hijri_date": "29 جمادى الآخرة 1448 هـ",
+          "gregorian_date": "10 كانون الأول 2026 م",
+          "day_of_week": "الخميس",
+          "sunset_time": "4:59",
+          "moon_age": "37 ساعة و6 دقائق",
+          "altitude_deg": "8 درجات و42 دقيقة",
+          "duration_after_sunset": "55 دقيقة",
+          "illuminated_fraction": "1.73%",
+          "visibility_expectation": "في هذه الحالة يُتوقع أن يُرى الهلال واضحاً."
+        },
+        "previous_night": null
+      },
+      "days": [
+        {
+          "hijri_day": 1,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "11 كانون الأول 2026",
+          "iso_date": "2026-12-11",
+          "events": [
+            "ولادة الإمام محمد بن علي الباقر (ع)، سنة (57 هـ)، على رواية"
+          ]
+        },
+        {
+          "hijri_day": 2,
+          "day_of_week": "السبت",
+          "gregorian_date": "12 كانون الأول 2026",
+          "iso_date": "2026-12-12",
+          "events": [
+            "ولادة الإمام علي بن محمد الهادي (ع)، سنة (212 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 3,
+          "day_of_week": "الأحد",
+          "gregorian_date": "13 كانون الأول 2026",
+          "iso_date": "2026-12-13",
+          "events": [
+            "غزوة تبوك، سنة (9 هـ)",
+            "شهادة الإمام علي بن محمد الهادي (ع)، سنة (254 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 4,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "14 كانون الأول 2026",
+          "iso_date": "2026-12-14",
+          "events": []
+        },
+        {
+          "hijri_day": 5,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "15 كانون الأول 2026",
+          "iso_date": "2026-12-15",
+          "events": []
+        },
+        {
+          "hijri_day": 6,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "16 كانون الأول 2026",
+          "iso_date": "2026-12-16",
+          "events": []
+        },
+        {
+          "hijri_day": 7,
+          "day_of_week": "الخميس",
+          "gregorian_date": "17 كانون الأول 2026",
+          "iso_date": "2026-12-17",
+          "events": []
+        },
+        {
+          "hijri_day": 8,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "18 كانون الأول 2026",
+          "iso_date": "2026-12-18",
+          "events": []
+        },
+        {
+          "hijri_day": 9,
+          "day_of_week": "السبت",
+          "gregorian_date": "19 كانون الأول 2026",
+          "iso_date": "2026-12-19",
+          "events": []
+        },
+        {
+          "hijri_day": 10,
+          "day_of_week": "الأحد",
+          "gregorian_date": "20 كانون الأول 2026",
+          "iso_date": "2026-12-20",
+          "events": [
+            "ولادة الإمام محمد بن علي الجواد (ع)، سنة (195 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 11,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "21 كانون الأول 2026",
+          "iso_date": "2026-12-21",
+          "events": [
+            "وصول الإمام أمير المؤمنين (ع) إلى الكوفة بعد حرب الجمل، سنة (36 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 12,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "22 كانون الأول 2026",
+          "iso_date": "2026-12-22",
+          "events": [
+            "دخول الإمام أمير المؤمنين (ع) الكوفة واتخاذها مقراً للخلافة، سنة (36 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 13,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "23 كانون الأول 2026",
+          "iso_date": "2026-12-23",
+          "events": [
+            "ولادة الإمام أمير المؤمنين علي بن أبي طالب (ع) في جوف الكعبة المشرفة، سنة (23) قبل الهجرة"
+          ]
+        },
+        {
+          "hijri_day": 14,
+          "day_of_week": "الخميس",
+          "gregorian_date": "24 كانون الأول 2026",
+          "iso_date": "2026-12-24",
+          "events": []
+        },
+        {
+          "hijri_day": 15,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "25 كانون الأول 2026",
+          "iso_date": "2026-12-25",
+          "events": [
+            "تحويل القبلة من بيت المقدس إلى الكعبة المشرفة، سنة (2 هـ)، على رواية",
+            "وفاة السيدة زينب بنت الإمام أمير المؤمنين (ع)، سنة (62 هـ)، على رواية"
+          ]
+        },
+        {
+          "hijri_day": 16,
+          "day_of_week": "السبت",
+          "gregorian_date": "26 كانون الأول 2026",
+          "iso_date": "2026-12-26",
+          "events": []
+        },
+        {
+          "hijri_day": 17,
+          "day_of_week": "الأحد",
+          "gregorian_date": "27 كانون الأول 2026",
+          "iso_date": "2026-12-27",
+          "events": []
+        },
+        {
+          "hijri_day": 18,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "28 كانون الأول 2026",
+          "iso_date": "2026-12-28",
+          "events": [
+            "وفاة إبراهيم بن الرسول الأكرم (ص)، سنة (10 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 19,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "29 كانون الأول 2026",
+          "iso_date": "2026-12-29",
+          "events": []
+        },
+        {
+          "hijri_day": 20,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "30 كانون الأول 2026",
+          "iso_date": "2026-12-30",
+          "events": []
+        },
+        {
+          "hijri_day": 21,
+          "day_of_week": "الخميس",
+          "gregorian_date": "31 كانون الأول 2026",
+          "iso_date": "2026-12-31",
+          "events": []
+        },
+        {
+          "hijri_day": 22,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "1 كانون الثاني 2027",
+          "iso_date": "2027-01-01",
+          "events": [
+            "دخول القمر برج العقرب الساعة 1:17 مساءً"
+          ]
+        },
+        {
+          "hijri_day": 23,
+          "day_of_week": "السبت",
+          "gregorian_date": "2 كانون الثاني 2027",
+          "iso_date": "2027-01-02",
+          "events": []
+        },
+        {
+          "hijri_day": 24,
+          "day_of_week": "الأحد",
+          "gregorian_date": "3 كانون الثاني 2027",
+          "iso_date": "2027-01-03",
+          "events": [
+            "فتح خيبر على يد الإمام علي بن أبي طالب (ع)، سنة (7 هـ)، وعودة جعفر بن أبي طالب (ع) من الحبشة",
+            "خروج القمر من برج العقرب الساعة 11:57 مساءً"
+          ]
+        },
+        {
+          "hijri_day": 25,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "4 كانون الثاني 2027",
+          "iso_date": "2027-01-04",
+          "events": [
+            "شهادة الإمام موسى بن جعفر الكاظم (ع)، سنة (183 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 26,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "5 كانون الثاني 2027",
+          "iso_date": "2027-01-05",
+          "events": [
+            "وفاة أبي طالب (ع) عم النبي الأكرم (ص)، سنة (3) قبل الهجرة، على رواية"
+          ]
+        },
+        {
+          "hijri_day": 27,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "6 كانون الثاني 2027",
+          "iso_date": "2027-01-06",
+          "events": [
+            "المبعث النبوي الشريف - بعثة النبي الأكرم (ص)، سنة (13) قبل الهجرة"
+          ]
+        },
+        {
+          "hijri_day": 28,
+          "day_of_week": "الخميس",
+          "gregorian_date": "7 كانون الثاني 2027",
+          "iso_date": "2027-01-07",
+          "events": [
+            "خروج الإمام الحسين (ع) من المدينة إلى مكة، سنة (60 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 29,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "8 كانون الثاني 2027",
+          "iso_date": "2027-01-08",
+          "events": []
+        },
+        {
+          "hijri_day": 30,
+          "day_of_week": "السبت",
+          "gregorian_date": "9 كانون الثاني 2027",
+          "iso_date": "2027-01-09",
+          "events": []
+        }
+      ]
+    },
+    {
+      "month_order": 8,
+      "name": "شعبان المعظم",
+      "year_hijri": 1448,
+      "total_days": 30,
+      "gregorian_period": "كانون الثاني / شباط 2027 م",
+      "crescent_forecast": {
+        "primary_night": {
+          "hijri_date": "30 رجب 1448 هـ",
+          "gregorian_date": "9 كانون الثاني 2027 م",
+          "day_of_week": "السبت",
+          "sunset_time": "5:16",
+          "moon_age": "41 ساعة و52 دقيقة",
+          "altitude_deg": "14 درجة و31 دقيقة",
+          "duration_after_sunset": "1 ساعة و24 دقيقة",
+          "illuminated_fraction": "2.09%",
+          "visibility_expectation": "في هذه الحالة يُتوقع التمكن من رؤية الهلال مرتفعاً واضحاً جداً."
+        },
+        "previous_night": {
+          "hijri_date": "29 رجب 1448 هـ",
+          "gregorian_date": "8 كانون الثاني 2027 م",
+          "sunset_time": "5:15",
+          "moon_age": "17 ساعة و51 دقيقة",
+          "altitude_deg": "4 درجات و32 دقيقة",
+          "duration_after_sunset": "27 دقيقة",
+          "illuminated_fraction": "0.41%",
+          "visibility_expectation": "في هذه الحالة لا يُتوقع التمكن من رؤية الهلال بالعين المجردة."
+        }
+      },
+      "days": [
+        {
+          "hijri_day": 1,
+          "day_of_week": "الأحد",
+          "gregorian_date": "10 كانون الثاني 2027",
+          "iso_date": "2027-01-10",
+          "events": []
+        },
+        {
+          "hijri_day": 2,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "11 كانون الثاني 2027",
+          "iso_date": "2027-01-11",
+          "events": []
+        },
+        {
+          "hijri_day": 3,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "12 كانون الثاني 2027",
+          "iso_date": "2027-01-12",
+          "events": [
+            "ولادة سبط النبي الأكرم (ص) الإمام الحسين بن علي (ع)، سنة (4 هـ)",
+            "دخول الإمام الحسين (ع) مكة، سنة (60 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 4,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "13 كانون الثاني 2027",
+          "iso_date": "2027-01-13",
+          "events": [
+            "ولادة العباس بن علي بن أبي طالب (ع) (أبو الفضل العباس)، سنة (26 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 5,
+          "day_of_week": "الخميس",
+          "gregorian_date": "14 كانون الثاني 2027",
+          "iso_date": "2027-01-14",
+          "events": [
+            "ولادة الإمام علي بن الحسين زين العابدين (ع)، سنة (38 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 6,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "15 كانون الثاني 2027",
+          "iso_date": "2027-01-15",
+          "events": []
+        },
+        {
+          "hijri_day": 7,
+          "day_of_week": "السبت",
+          "gregorian_date": "16 كانون الثاني 2027",
+          "iso_date": "2027-01-16",
+          "events": []
+        },
+        {
+          "hijri_day": 8,
+          "day_of_week": "الأحد",
+          "gregorian_date": "17 كانون الثاني 2027",
+          "iso_date": "2027-01-17",
+          "events": []
+        },
+        {
+          "hijri_day": 9,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "18 كانون الثاني 2027",
+          "iso_date": "2027-01-18",
+          "events": []
+        },
+        {
+          "hijri_day": 10,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "19 كانون الثاني 2027",
+          "iso_date": "2027-01-19",
+          "events": []
+        },
+        {
+          "hijri_day": 11,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "20 كانون الثاني 2027",
+          "iso_date": "2027-01-20",
+          "events": [
+            "ولادة علي الأكبر بن الإمام الحسين (ع)، سنة (33 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 12,
+          "day_of_week": "الخميس",
+          "gregorian_date": "21 كانون الثاني 2027",
+          "iso_date": "2027-01-21",
+          "events": [
+            "وفاة الحسين بن روح (رضوان الله عليه) السفير الثالث للإمام المهدي (عج)، سنة (326 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 13,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "22 كانون الثاني 2027",
+          "iso_date": "2027-01-22",
+          "events": []
+        },
+        {
+          "hijri_day": 14,
+          "day_of_week": "السبت",
+          "gregorian_date": "23 كانون الثاني 2027",
+          "iso_date": "2027-01-23",
+          "events": []
+        },
+        {
+          "hijri_day": 15,
+          "day_of_week": "الأحد",
+          "gregorian_date": "24 كانون الثاني 2027",
+          "iso_date": "2027-01-24",
+          "events": [
+            "ولادة بقية الله الأعظم الحجة بن الحسن العسكري (عجل الله تعالى فرجه الشريف)، سنة (255 هـ)",
+            "وفاة علي بن محمد السمري (رضوان الله عليه) السفير الرابع للإمام المهدي (عج)، سنة (329 هـ) وبداية الغيبة الكبرى"
+          ]
+        },
+        {
+          "hijri_day": 16,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "25 كانون الثاني 2027",
+          "iso_date": "2027-01-25",
+          "events": []
+        },
+        {
+          "hijri_day": 17,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "26 كانون الثاني 2027",
+          "iso_date": "2027-01-26",
+          "events": []
+        },
+        {
+          "hijri_day": 18,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "27 كانون الثاني 2027",
+          "iso_date": "2027-01-27",
+          "events": []
+        },
+        {
+          "hijri_day": 19,
+          "day_of_week": "الخميس",
+          "gregorian_date": "28 كانون الثاني 2027",
+          "iso_date": "2027-01-28",
+          "events": [
+            "غزوة بني المصطلق، سنة (5 هـ)",
+            "دخول القمر برج العقرب الساعة 8:22 مساءً"
+          ]
+        },
+        {
+          "hijri_day": 20,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "29 كانون الثاني 2027",
+          "iso_date": "2027-01-29",
+          "events": []
+        },
+        {
+          "hijri_day": 21,
+          "day_of_week": "السبت",
+          "gregorian_date": "30 كانون الثاني 2027",
+          "iso_date": "2027-01-30",
+          "events": []
+        },
+        {
+          "hijri_day": 22,
+          "day_of_week": "الأحد",
+          "gregorian_date": "31 كانون الثاني 2027",
+          "iso_date": "2027-01-31",
+          "events": [
+            "خروج القمر من برج العقرب الساعة 6:13 صباحاً"
+          ]
+        },
+        {
+          "hijri_day": 23,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "1 شباط 2027",
+          "iso_date": "2027-02-01",
+          "events": []
+        },
+        {
+          "hijri_day": 24,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "2 شباط 2027",
+          "iso_date": "2027-02-02",
+          "events": []
+        },
+        {
+          "hijri_day": 25,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "3 شباط 2027",
+          "iso_date": "2027-02-03",
+          "events": []
+        },
+        {
+          "hijri_day": 26,
+          "day_of_week": "الخميس",
+          "gregorian_date": "4 شباط 2027",
+          "iso_date": "2027-02-04",
+          "events": []
+        },
+        {
+          "hijri_day": 27,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "5 شباط 2027",
+          "iso_date": "2027-02-05",
+          "events": []
+        },
+        {
+          "hijri_day": 28,
+          "day_of_week": "السبت",
+          "gregorian_date": "6 شباط 2027",
+          "iso_date": "2027-02-06",
+          "events": []
+        },
+        {
+          "hijri_day": 29,
+          "day_of_week": "الأحد",
+          "gregorian_date": "7 شباط 2027",
+          "iso_date": "2027-02-07",
+          "events": []
+        },
+        {
+          "hijri_day": 30,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "8 شباط 2027",
+          "iso_date": "2027-02-08",
+          "events": []
+        }
+      ]
+    },
+    {
+      "month_order": 9,
+      "name": "شهر رمضان المبارك",
+      "year_hijri": 1448,
+      "total_days": 29,
+      "gregorian_period": "شباط / آذار 2027 م",
+      "crescent_forecast": {
+        "primary_night": {
+          "hijri_date": "30 شعبان 1448 هـ",
+          "gregorian_date": "8 شباط 2027 م",
+          "day_of_week": "الاثنين",
+          "sunset_time": "5:42",
+          "moon_age": "46 ساعة و46 دقيقة",
+          "altitude_deg": "19 درجة و48 دقيقة",
+          "duration_after_sunset": "1 ساعة و41 دقيقة",
+          "illuminated_fraction": "2.86%",
+          "visibility_expectation": "في هذه الحالة يُتوقع أن يُرى الهلال واضحاً."
+        },
+        "previous_night": {
+          "hijri_date": "29 شعبان 1448 هـ",
+          "gregorian_date": "7 شباط 2027 م",
+          "sunset_time": "5:42",
+          "moon_age": "22 ساعة و46 دقيقة",
+          "altitude_deg": "8 درجات و43 دقيقة",
+          "duration_after_sunset": "45 دقيقة",
+          "illuminated_fraction": "0.66%",
+          "visibility_expectation": "في هذه الحالة لا يُتوقع التمكن من رؤية الهلال بالعين المجردة."
+        }
+      },
+      "days": [
+        {
+          "hijri_day": 1,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "9 شباط 2027",
+          "iso_date": "2027-02-09",
+          "events": [
+            "وفاة عثمان بن سعيد (رضوان الله عليه) النائب الأول للإمام المهدي (عج)، سنة (267 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 2,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "10 شباط 2027",
+          "iso_date": "2027-02-10",
+          "events": [
+            "تولي الإمام الرضا (ع) ولاية عهد المأمون العباسي، سنة (201 هـ) على رواية"
+          ]
+        },
+        {
+          "hijri_day": 3,
+          "day_of_week": "الخميس",
+          "gregorian_date": "11 شباط 2027",
+          "iso_date": "2027-02-11",
+          "events": [
+            "غزوة تبوك، سنة (9 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 4,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "12 شباط 2027",
+          "iso_date": "2027-02-12",
+          "events": []
+        },
+        {
+          "hijri_day": 5,
+          "day_of_week": "السبت",
+          "gregorian_date": "13 شباط 2027",
+          "iso_date": "2027-02-13",
+          "events": []
+        },
+        {
+          "hijri_day": 6,
+          "day_of_week": "الأحد",
+          "gregorian_date": "14 شباط 2027",
+          "iso_date": "2027-02-14",
+          "events": [
+            "بيعة الناس للإمام الرضا (ع)، سنة (201 هـ)، على رواية"
+          ]
+        },
+        {
+          "hijri_day": 7,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "15 شباط 2027",
+          "iso_date": "2027-02-15",
+          "events": []
+        },
+        {
+          "hijri_day": 8,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "16 شباط 2027",
+          "iso_date": "2027-02-16",
+          "events": [
+            "خروج النبي الأكرم (ص) لغزوة بدر الكبرى، سنة (2 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 9,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "17 شباط 2027",
+          "iso_date": "2027-02-17",
+          "events": []
+        },
+        {
+          "hijri_day": 10,
+          "day_of_week": "الخميس",
+          "gregorian_date": "18 شباط 2027",
+          "iso_date": "2027-02-18",
+          "events": [
+            "وفاة الصديقة خديجة الكبرى (ع)، سنة (3) قبل الهجرة"
+          ]
+        },
+        {
+          "hijri_day": 11,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "19 شباط 2027",
+          "iso_date": "2027-02-19",
+          "events": []
+        },
+        {
+          "hijri_day": 12,
+          "day_of_week": "السبت",
+          "gregorian_date": "20 شباط 2027",
+          "iso_date": "2027-02-20",
+          "events": [
+            "المؤاخاة بين المهاجرين والأنصار في المدينة المنورة، السنة الأولى للهجرة"
+          ]
+        },
+        {
+          "hijri_day": 13,
+          "day_of_week": "الأحد",
+          "gregorian_date": "21 شباط 2027",
+          "iso_date": "2027-02-21",
+          "events": []
+        },
+        {
+          "hijri_day": 14,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "22 شباط 2027",
+          "iso_date": "2027-02-22",
+          "events": [
+            "مقتل المختار الثقفي (رض)، سنة (67 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 15,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "23 شباط 2027",
+          "iso_date": "2027-02-23",
+          "events": [
+            "ولادة سبط النبي الأكرم (ص) الإمام الحسن بن علي بن أبي طالب (ع)، سنة (3 هـ)",
+            "خروج مسلم بن عقيل (ع) رسولاً عن الإمام الحسين (ع) لأهل الكوفة، سنة (60 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 16,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "24 شباط 2027",
+          "iso_date": "2027-02-24",
+          "events": []
+        },
+        {
+          "hijri_day": 17,
+          "day_of_week": "الخميس",
+          "gregorian_date": "25 شباط 2027",
+          "iso_date": "2027-02-25",
+          "events": [
+            "عروج الرسول الأكرم (ص) إلى السماء قبل ستة أشهر من الهجرة (الإسراء والمعراج)",
+            "معركة بدر الكبرى، سنة (2 هـ)",
+            "دخول القمر برج العقرب الساعة 5:25 صباحاً"
+          ]
+        },
+        {
+          "hijri_day": 18,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "26 شباط 2027",
+          "iso_date": "2027-02-26",
+          "events": []
+        },
+        {
+          "hijri_day": 19,
+          "day_of_week": "السبت",
+          "gregorian_date": "27 شباط 2027",
+          "iso_date": "2027-02-27",
+          "events": [
+            "جرح الإمام أمير المؤمنين علي بن أبي طالب (ع) في محراب الكوفة على يد عبد الرحمن بن ملجم، سنة (40 هـ)",
+            "خروج القمر من برج العقرب الساعة 1:52 مساءً"
+          ]
+        },
+        {
+          "hijri_day": 20,
+          "day_of_week": "الأحد",
+          "gregorian_date": "28 شباط 2027",
+          "iso_date": "2027-02-28",
+          "events": [
+            "فتح مكة، سنة (8 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 21,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "1 آذار 2027",
+          "iso_date": "2027-03-01",
+          "events": [
+            "شهادة مولى المتقين الإمام أمير المؤمنين علي بن أبي طالب (ع)، سنة (40 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 22,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "2 آذار 2027",
+          "iso_date": "2027-03-02",
+          "events": []
+        },
+        {
+          "hijri_day": 23,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "3 آذار 2027",
+          "iso_date": "2027-03-03",
+          "events": [
+            "ليلة الثالث والعشرين من ليلة القدر على أقرب الاحتمالات فيها"
+          ]
+        },
+        {
+          "hijri_day": 24,
+          "day_of_week": "الخميس",
+          "gregorian_date": "4 آذار 2027",
+          "iso_date": "2027-03-04",
+          "events": []
+        },
+        {
+          "hijri_day": 25,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "5 آذار 2027",
+          "iso_date": "2027-03-05",
+          "events": []
+        },
+        {
+          "hijri_day": 26,
+          "day_of_week": "السبت",
+          "gregorian_date": "6 آذار 2027",
+          "iso_date": "2027-03-06",
+          "events": []
+        },
+        {
+          "hijri_day": 27,
+          "day_of_week": "الأحد",
+          "gregorian_date": "7 آذار 2027",
+          "iso_date": "2027-03-07",
+          "events": []
+        },
+        {
+          "hijri_day": 28,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "8 آذار 2027",
+          "iso_date": "2027-03-08",
+          "events": []
+        },
+        {
+          "hijri_day": 29,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "9 آذار 2027",
+          "iso_date": "2027-03-09",
+          "events": []
+        }
+      ]
+    },
+    {
+      "month_order": 10,
+      "name": "شوال المكرم",
+      "year_hijri": 1448,
+      "total_days": 30,
+      "gregorian_period": "آذار / نيسان 2027 م",
+      "crescent_forecast": {
+        "primary_night": {
+          "hijri_date": "29 رمضان 1448 هـ",
+          "gregorian_date": "9 آذار 2027 م",
+          "day_of_week": "الثلاثاء",
+          "sunset_time": "6:06",
+          "moon_age": "29 ساعة و36 دقيقة",
+          "altitude_deg": "13 درجة و10 دقائق",
+          "duration_after_sunset": "1 ساعة و5 دقائق",
+          "illuminated_fraction": "1.40%",
+          "visibility_expectation": "في هذه الحالة يُتوقع أن يُرى الهلال واضحاً مرتفعاً."
+        },
+        "previous_night": null
+      },
+      "days": [
+        {
+          "hijri_day": 1,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "10 آذار 2027",
+          "iso_date": "2027-03-10",
+          "events": [
+            "عيد الفطر المبارك"
+          ]
+        },
+        {
+          "hijri_day": 2,
+          "day_of_week": "الخميس",
+          "gregorian_date": "11 آذار 2027",
+          "iso_date": "2027-03-11",
+          "events": []
+        },
+        {
+          "hijri_day": 3,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "12 آذار 2027",
+          "iso_date": "2027-03-12",
+          "events": [
+            "معركة الخندق (الأحزاب)، سنة (5 هـ)، على رواية"
+          ]
+        },
+        {
+          "hijri_day": 4,
+          "day_of_week": "السبت",
+          "gregorian_date": "13 آذار 2027",
+          "iso_date": "2027-03-13",
+          "events": [
+            "غزوة حنين، سنة (8 هـ)، على رواية"
+          ]
+        },
+        {
+          "hijri_day": 5,
+          "day_of_week": "الأحد",
+          "gregorian_date": "14 آذار 2027",
+          "iso_date": "2027-03-14",
+          "events": [
+            "توجه الإمام أمير المؤمنين (ع) إلى صفين، سنة (36 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 6,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "15 آذار 2027",
+          "iso_date": "2027-03-15",
+          "events": []
+        },
+        {
+          "hijri_day": 7,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "16 آذار 2027",
+          "iso_date": "2027-03-16",
+          "events": []
+        },
+        {
+          "hijri_day": 8,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "17 آذار 2027",
+          "iso_date": "2027-03-17",
+          "events": [
+            "هدم قبور أئمة البقيع (ع)، سنة (1344 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 9,
+          "day_of_week": "الخميس",
+          "gregorian_date": "18 آذار 2027",
+          "iso_date": "2027-03-18",
+          "events": []
+        },
+        {
+          "hijri_day": 10,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "19 آذار 2027",
+          "iso_date": "2027-03-19",
+          "events": []
+        },
+        {
+          "hijri_day": 11,
+          "day_of_week": "السبت",
+          "gregorian_date": "20 آذار 2027",
+          "iso_date": "2027-03-20",
+          "events": [
+            "الاعتدال الربيعي الساعة 11:24 مساءً"
+          ]
+        },
+        {
+          "hijri_day": 12,
+          "day_of_week": "الأحد",
+          "gregorian_date": "21 آذار 2027",
+          "iso_date": "2027-03-21",
+          "events": []
+        },
+        {
+          "hijri_day": 13,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "22 آذار 2027",
+          "iso_date": "2027-03-22",
+          "events": []
+        },
+        {
+          "hijri_day": 14,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "23 آذار 2027",
+          "iso_date": "2027-03-23",
+          "events": []
+        },
+        {
+          "hijri_day": 15,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "24 آذار 2027",
+          "iso_date": "2027-03-24",
+          "events": [
+            "وفاة السيد عبد العظيم الحسني (رضوان الله عليه)، سنة (252 هـ)",
+            "معركة أحد وشهادة حمزة سيد الشهداء (ع)، سنة (3 هـ)",
+            "رد الشمس للإمام أمير المؤمنين (ع) بالمدينة المنورة بمسجد الفضيخ (مسجد رد الشمس)، سنة (3 هـ)",
+            "غزوة بني قينقاع، سنة (2 هـ)",
+            "دخول القمر برج العقرب الساعة 3:19 مساءً"
+          ]
+        },
+        {
+          "hijri_day": 16,
+          "day_of_week": "الخميس",
+          "gregorian_date": "25 آذار 2027",
+          "iso_date": "2027-03-25",
+          "events": []
+        },
+        {
+          "hijri_day": 17,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "26 آذار 2027",
+          "iso_date": "2027-03-26",
+          "events": [
+            "غزوة بني سليم، سنة (2 هـ)",
+            "خروج القمر من برج العقرب الساعة 10:43 مساءً"
+          ]
+        },
+        {
+          "hijri_day": 18,
+          "day_of_week": "السبت",
+          "gregorian_date": "27 آذار 2027",
+          "iso_date": "2027-03-27",
+          "events": []
+        },
+        {
+          "hijri_day": 19,
+          "day_of_week": "الأحد",
+          "gregorian_date": "28 آذار 2027",
+          "iso_date": "2027-03-28",
+          "events": []
+        },
+        {
+          "hijri_day": 20,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "29 آذار 2027",
+          "iso_date": "2027-03-29",
+          "events": []
+        },
+        {
+          "hijri_day": 21,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "30 آذار 2027",
+          "iso_date": "2027-03-30",
+          "events": []
+        },
+        {
+          "hijri_day": 22,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "31 آذار 2027",
+          "iso_date": "2027-03-31",
+          "events": []
+        },
+        {
+          "hijri_day": 23,
+          "day_of_week": "الخميس",
+          "gregorian_date": "1 نيسان 2027",
+          "iso_date": "2027-04-01",
+          "events": []
+        },
+        {
+          "hijri_day": 24,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "2 نيسان 2027",
+          "iso_date": "2027-04-02",
+          "events": []
+        },
+        {
+          "hijri_day": 25,
+          "day_of_week": "السبت",
+          "gregorian_date": "3 نيسان 2027",
+          "iso_date": "2027-04-03",
+          "events": [
+            "شهادة الإمام جعفر بن محمد الصادق (ع)، سنة (148 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 26,
+          "day_of_week": "الأحد",
+          "gregorian_date": "4 نيسان 2027",
+          "iso_date": "2027-04-04",
+          "events": []
+        },
+        {
+          "hijri_day": 27,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "5 نيسان 2027",
+          "iso_date": "2027-04-05",
+          "events": [
+            "خروج النبي الأكرم (ص) إلى الطائف لدعوتهم إلى الإسلام"
+          ]
+        },
+        {
+          "hijri_day": 28,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "6 نيسان 2027",
+          "iso_date": "2027-04-06",
+          "events": []
+        },
+        {
+          "hijri_day": 29,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "7 نيسان 2027",
+          "iso_date": "2027-04-07",
+          "events": []
+        },
+        {
+          "hijri_day": 30,
+          "day_of_week": "الخميس",
+          "gregorian_date": "8 نيسان 2027",
+          "iso_date": "2027-04-08",
+          "events": []
+        }
+      ]
+    },
+    {
+      "month_order": 11,
+      "name": "ذي القعدة الحرام",
+      "year_hijri": 1448,
+      "total_days": 29,
+      "gregorian_period": "نيسان / أيار 2027 م",
+      "crescent_forecast": {
+        "primary_night": {
+          "hijri_date": "30 شوال 1448 هـ",
+          "gregorian_date": "8 نيسان 2027 م",
+          "day_of_week": "الخميس",
+          "sunset_time": "6:26",
+          "moon_age": "39 ساعة و32 دقيقة",
+          "altitude_deg": "19 درجة و38 دقيقة",
+          "duration_after_sunset": "1 ساعة و42 دقيقة",
+          "illuminated_fraction": "3.04%",
+          "visibility_expectation": "في هذه الحالة يُتوقع أن يُرى الهلال مرتفعاً واضحاً جداً."
+        },
+        "previous_night": {
+          "hijri_date": "29 شوال 1448 هـ",
+          "gregorian_date": "7 نيسان 2027 م",
+          "sunset_time": "6:25",
+          "moon_age": "15 ساعة و31 دقيقة",
+          "altitude_deg": "7 درجات و34 دقيقة",
+          "duration_after_sunset": "37 دقيقة",
+          "illuminated_fraction": "0.58%",
+          "visibility_expectation": "في هذه الحالة لا يُتوقع التمكن من رؤية الهلال بالعين المجردة."
+        }
+      },
+      "days": [
+        {
+          "hijri_day": 1,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "9 نيسان 2027",
+          "iso_date": "2027-04-09",
+          "events": [
+            "ولادة السيدة فاطمة المعصومة بنت الإمام موسى بن جعفر الكاظم (ع)، سنة (173 هـ)، على رواية"
+          ]
+        },
+        {
+          "hijri_day": 2,
+          "day_of_week": "السبت",
+          "gregorian_date": "10 نيسان 2027",
+          "iso_date": "2027-04-10",
+          "events": []
+        },
+        {
+          "hijri_day": 3,
+          "day_of_week": "الأحد",
+          "gregorian_date": "11 نيسان 2027",
+          "iso_date": "2027-04-11",
+          "events": []
+        },
+        {
+          "hijri_day": 4,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "12 نيسان 2027",
+          "iso_date": "2027-04-12",
+          "events": []
+        },
+        {
+          "hijri_day": 5,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "13 نيسان 2027",
+          "iso_date": "2027-04-13",
+          "events": [
+            "تجديد بناء الكعبة المعظمة على يد إبراهيم الخليل وولده إسماعيل (ع)"
+          ]
+        },
+        {
+          "hijri_day": 6,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "14 نيسان 2027",
+          "iso_date": "2027-04-14",
+          "events": []
+        },
+        {
+          "hijri_day": 7,
+          "day_of_week": "الخميس",
+          "gregorian_date": "15 نيسان 2027",
+          "iso_date": "2027-04-15",
+          "events": []
+        },
+        {
+          "hijri_day": 8,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "16 نيسان 2027",
+          "iso_date": "2027-04-16",
+          "events": []
+        },
+        {
+          "hijri_day": 9,
+          "day_of_week": "السبت",
+          "gregorian_date": "17 نيسان 2027",
+          "iso_date": "2027-04-17",
+          "events": [
+            "إرسال مسلم بن عقيل (ع) رسالة إلى الإمام الحسين (ع) عن أحوال الكوفة وأهلها، سنة (60 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 10,
+          "day_of_week": "الأحد",
+          "gregorian_date": "18 نيسان 2027",
+          "iso_date": "2027-04-18",
+          "events": []
+        },
+        {
+          "hijri_day": 11,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "19 نيسان 2027",
+          "iso_date": "2027-04-19",
+          "events": [
+            "ولادة الإمام علي بن موسى الرضا (ع)، سنة (148 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 12,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "20 نيسان 2027",
+          "iso_date": "2027-04-20",
+          "events": []
+        },
+        {
+          "hijri_day": 13,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "21 نيسان 2027",
+          "iso_date": "2027-04-21",
+          "events": [
+            "دخول القمر برج العقرب الساعة 00:21 بعد منتصف الليل"
+          ]
+        },
+        {
+          "hijri_day": 14,
+          "day_of_week": "الخميس",
+          "gregorian_date": "22 نيسان 2027",
+          "iso_date": "2027-04-22",
+          "events": []
+        },
+        {
+          "hijri_day": 15,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "23 نيسان 2027",
+          "iso_date": "2027-04-23",
+          "events": [
+            "خروج القمر من برج العقرب الساعة 7:37 صباحاً"
+          ]
+        },
+        {
+          "hijri_day": 16,
+          "day_of_week": "السبت",
+          "gregorian_date": "24 نيسان 2027",
+          "iso_date": "2027-04-24",
+          "events": []
+        },
+        {
+          "hijri_day": 17,
+          "day_of_week": "الأحد",
+          "gregorian_date": "25 نيسان 2027",
+          "iso_date": "2027-04-25",
+          "events": []
+        },
+        {
+          "hijri_day": 18,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "26 نيسان 2027",
+          "iso_date": "2027-04-26",
+          "events": []
+        },
+        {
+          "hijri_day": 19,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "27 نيسان 2027",
+          "iso_date": "2027-04-27",
+          "events": []
+        },
+        {
+          "hijri_day": 20,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "28 نيسان 2027",
+          "iso_date": "2027-04-28",
+          "events": []
+        },
+        {
+          "hijri_day": 21,
+          "day_of_week": "الخميس",
+          "gregorian_date": "29 نيسان 2027",
+          "iso_date": "2027-04-29",
+          "events": []
+        },
+        {
+          "hijri_day": 22,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "30 نيسان 2027",
+          "iso_date": "2027-04-30",
+          "events": []
+        },
+        {
+          "hijri_day": 23,
+          "day_of_week": "السبت",
+          "gregorian_date": "1 أيار 2027",
+          "iso_date": "2027-05-01",
+          "events": [
+            "غزوة بني قريظة، سنة (5 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 24,
+          "day_of_week": "الأحد",
+          "gregorian_date": "2 أيار 2027",
+          "iso_date": "2027-05-02",
+          "events": []
+        },
+        {
+          "hijri_day": 25,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "3 أيار 2027",
+          "iso_date": "2027-05-03",
+          "events": [
+            "يوم دحو الأرض من تحت الكعبة المشرفة",
+            "خروج النبي الأكرم (ص) من المدينة لأداء فريضة الحج (حجة الوداع)، سنة (10 هـ)",
+            "خروج الإمام علي بن موسى الرضا (ع) من المدينة المنورة إلى خراسان، سنة (200 هـ)",
+            "ولادة محمد بن أبي بكر (رضوان الله عليه)، سنة (10 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 26,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "4 أيار 2027",
+          "iso_date": "2027-05-04",
+          "events": []
+        },
+        {
+          "hijri_day": 27,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "5 أيار 2027",
+          "iso_date": "2027-05-05",
+          "events": []
+        },
+        {
+          "hijri_day": 28,
+          "day_of_week": "الخميس",
+          "gregorian_date": "6 أيار 2027",
+          "iso_date": "2027-05-06",
+          "events": []
+        },
+        {
+          "hijri_day": 29,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "7 أيار 2027",
+          "iso_date": "2027-05-07",
+          "events": [
+            "شهادة الإمام محمد بن علي الجواد (ع)، سنة (220 هـ) (آخر يوم من ذي القعدة)"
+          ]
+        }
+      ]
+    },
+    {
+      "month_order": 12,
+      "name": "ذي الحجة الحرام",
+      "year_hijri": 1448,
+      "total_days": 29,
+      "gregorian_period": "أيار / حزيران 2027 م",
+      "crescent_forecast": {
+        "primary_night": {
+          "hijri_date": "29 ذي القعدة 1448 هـ",
+          "gregorian_date": "7 أيار 2027 م",
+          "day_of_week": "الجمعة",
+          "sunset_time": "6:47",
+          "moon_age": "28 ساعة و47 دقيقة",
+          "altitude_deg": "14 درجة و56 دقيقة",
+          "duration_after_sunset": "1 ساعة و22 دقيقة",
+          "illuminated_fraction": "1.96%",
+          "visibility_expectation": "في هذه الحالة يُتوقع أن يُرى الهلال بالعين المجردة مرتفعاً واضحاً."
+        },
+        "previous_night": null
+      },
+      "days": [
+        {
+          "hijri_day": 1,
+          "day_of_week": "السبت",
+          "gregorian_date": "8 أيار 2027",
+          "iso_date": "2027-05-08",
+          "events": [
+            "زواج الإمام أمير المؤمنين علي بن أبي طالب (ع) من فاطمة الزهراء (ع)، سنة (2 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 2,
+          "day_of_week": "الأحد",
+          "gregorian_date": "9 أيار 2027",
+          "iso_date": "2027-05-09",
+          "events": []
+        },
+        {
+          "hijri_day": 3,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "10 أيار 2027",
+          "iso_date": "2027-05-10",
+          "events": [
+            "دخول النبي الأكرم (ص) مكة في حجة الوداع، سنة (10 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 4,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "11 أيار 2027",
+          "iso_date": "2027-05-11",
+          "events": [
+            "سجن الإمام موسى بن جعفر (ع)، سنة (179 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 5,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "12 أيار 2027",
+          "iso_date": "2027-05-12",
+          "events": []
+        },
+        {
+          "hijri_day": 6,
+          "day_of_week": "الخميس",
+          "gregorian_date": "13 أيار 2027",
+          "iso_date": "2027-05-13",
+          "events": []
+        },
+        {
+          "hijri_day": 7,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "14 أيار 2027",
+          "iso_date": "2027-05-14",
+          "events": [
+            "شهادة الإمام محمد الباقر (ع)، سنة (114 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 8,
+          "day_of_week": "السبت",
+          "gregorian_date": "15 أيار 2027",
+          "iso_date": "2027-05-15",
+          "events": [
+            "يوم التروية",
+            "خروج الإمام الحسين بن علي (ع) من مكة إلى الكوفة، سنة (60 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 9,
+          "day_of_week": "الأحد",
+          "gregorian_date": "16 أيار 2027",
+          "iso_date": "2027-05-16",
+          "events": [
+            "يوم عرفة",
+            "شهادة العبد الصالح سفير الحسين (ع) لأهل الكوفة مسلم بن عقيل (ع) مع هانئ بن عروة (رضوان الله عليهما)، سنة (60 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 10,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "17 أيار 2027",
+          "iso_date": "2027-05-17",
+          "events": [
+            "عيد الأضحى المبارك"
+          ]
+        },
+        {
+          "hijri_day": 11,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "18 أيار 2027",
+          "iso_date": "2027-05-18",
+          "events": [
+            "رمي الحجاج بن يوسف الثقفي الكعبة المشرفة بالمنجنيق، سنة (73 هـ)",
+            "دخول القمر برج العقرب الساعة 7:37 صباحاً"
+          ]
+        },
+        {
+          "hijri_day": 12,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "19 أيار 2027",
+          "iso_date": "2027-05-19",
+          "events": []
+        },
+        {
+          "hijri_day": 13,
+          "day_of_week": "الخميس",
+          "gregorian_date": "20 أيار 2027",
+          "iso_date": "2027-05-20",
+          "events": [
+            "خروج القمر من برج العقرب الساعة 3:27 مساءً"
+          ]
+        },
+        {
+          "hijri_day": 14,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "21 أيار 2027",
+          "iso_date": "2027-05-21",
+          "events": [
+            "نحلة النبي الأكرم (ص) فدك لفاطمة الزهراء (ع)، سنة (7 هـ)، على رواية"
+          ]
+        },
+        {
+          "hijri_day": 15,
+          "day_of_week": "السبت",
+          "gregorian_date": "22 أيار 2027",
+          "iso_date": "2027-05-22",
+          "events": []
+        },
+        {
+          "hijri_day": 16,
+          "day_of_week": "الأحد",
+          "gregorian_date": "23 أيار 2027",
+          "iso_date": "2027-05-23",
+          "events": []
+        },
+        {
+          "hijri_day": 17,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "24 أيار 2027",
+          "iso_date": "2027-05-24",
+          "events": []
+        },
+        {
+          "hijri_day": 18,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "25 أيار 2027",
+          "iso_date": "2027-05-25",
+          "events": [
+            "عيد الغدير الأغر (عيد الله الأكبر)، سنة (10 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 19,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "26 أيار 2027",
+          "iso_date": "2027-05-26",
+          "events": [
+            "بيعة المسلمين للإمام أمير المؤمنين علي بن أبي طالب (ع) بالخلافة، سنة (35 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 20,
+          "day_of_week": "الخميس",
+          "gregorian_date": "27 أيار 2027",
+          "iso_date": "2027-05-27",
+          "events": []
+        },
+        {
+          "hijri_day": 21,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "28 أيار 2027",
+          "iso_date": "2027-05-28",
+          "events": [
+            "تعامد الشمس على الكعبة وتحديد القبلة الدقيقة الساعة 12:17 بعد الظهر"
+          ]
+        },
+        {
+          "hijri_day": 22,
+          "day_of_week": "السبت",
+          "gregorian_date": "29 أيار 2027",
+          "iso_date": "2027-05-29",
+          "events": [
+            "شهادة ميثم التمار (رضوان الله عليه)، سنة (60 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 23,
+          "day_of_week": "الأحد",
+          "gregorian_date": "30 أيار 2027",
+          "iso_date": "2027-05-30",
+          "events": [
+            "شهادة طفلي مسلم بن عقيل (ع) واسمهما محمد وإبراهيم، سنة (62 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 24,
+          "day_of_week": "الاثنين",
+          "gregorian_date": "31 أيار 2027",
+          "iso_date": "2027-05-31",
+          "events": [
+            "يوم المباهلة - خروج النبي الأكرم (ص) بأهل بيته (ع) للمباهلة مع نصارى نجران، سنة (10 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 25,
+          "day_of_week": "الثلاثاء",
+          "gregorian_date": "1 حزيران 2027",
+          "iso_date": "2027-06-01",
+          "events": [
+            "نزول سورة (هل أتى / الإنسان) في المدينة المنورة في شأن أهل البيت (ع)"
+          ]
+        },
+        {
+          "hijri_day": 26,
+          "day_of_week": "الأربعاء",
+          "gregorian_date": "2 حزيران 2027",
+          "iso_date": "2027-06-02",
+          "events": []
+        },
+        {
+          "hijri_day": 27,
+          "day_of_week": "الخميس",
+          "gregorian_date": "3 حزيران 2027",
+          "iso_date": "2027-06-03",
+          "events": [
+            "وفاة علي بن جعفر الصادق (ع)، سنة (210 هـ)، الملقب بـ (العريضي)"
+          ]
+        },
+        {
+          "hijri_day": 28,
+          "day_of_week": "الجمعة",
+          "gregorian_date": "4 حزيران 2027",
+          "iso_date": "2027-06-04",
+          "events": [
+            "وقعة الحرة التي استباح فيها جيش يزيد بن معاوية المدينة المنورة، سنة (63 هـ)"
+          ]
+        },
+        {
+          "hijri_day": 29,
+          "day_of_week": "السبت",
+          "gregorian_date": "5 حزيران 2027",
+          "iso_date": "2027-06-05",
+          "events": []
+        }
+      ]
+    }
+  ]
+}

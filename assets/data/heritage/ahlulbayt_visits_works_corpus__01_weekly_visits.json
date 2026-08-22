@@ -1,0 +1,263 @@
+[
+  {
+    "topic": "زيارات وأعمال أهل البيت",
+    "source_name": "مفاتيح الجنان",
+    "author_or_compiler": "الشيخ عباس القمي",
+    "attribution_status": "imami_transmission",
+    "dialect": "classical_arabic",
+    "is_original_quote": true,
+    "corpus_version": "0.1.0",
+    "id": "weekly-ziyarah-001",
+    "title": "زيارة النبي محمد ﷺ يوم السبت",
+    "text": "زيارة النبي محمد ﷺ يوم السبت",
+    "text_scope": "catalog_entry",
+    "category": "imami_devotional_manual",
+    "speaker": "النبي محمد ﷺ",
+    "source_locator": "ج1، ص105؛ الباب الأول، الفصل الخامس",
+    "source_url": "https://lib.eshia.ir/10505/1/905",
+    "verification_note": "سجل فهرسة: يُراجع النص التفصيلي في موضعه؛ لا يتضمن هذا السجل حكمًا بصحة السند.",
+    "item_type": "weekly_ziyarah",
+    "calendar": {
+      "cycle": "weekly",
+      "weekday": "السبت"
+    },
+    "action_summary": "راجع النص التفصيلي في المصدر المسجل؛ هذا السجل فهرسي وليس بديلاً عن النص الكامل.",
+    "tags": [
+      "زيارة",
+      "أسبوعية",
+      "السبت"
+    ]
+  },
+  {
+    "topic": "زيارات وأعمال أهل البيت",
+    "source_name": "مفاتيح الجنان",
+    "author_or_compiler": "الشيخ عباس القمي",
+    "attribution_status": "imami_transmission",
+    "dialect": "classical_arabic",
+    "is_original_quote": true,
+    "corpus_version": "0.1.0",
+    "id": "weekly-ziyarah-002",
+    "title": "زيارة أمير المؤمنين علي عليه السلام يوم الأحد",
+    "text": "زيارة أمير المؤمنين علي عليه السلام يوم الأحد",
+    "text_scope": "catalog_entry",
+    "category": "imami_devotional_manual",
+    "speaker": "الإمام علي بن أبي طالب عليه السلام",
+    "source_locator": "ج1، ص107؛ الباب الأول، الفصل الخامس",
+    "source_url": "https://lib.eshia.ir/10505/1/905",
+    "verification_note": "سجل فهرسة: يُراجع النص التفصيلي في موضعه؛ لا يتضمن هذا السجل حكمًا بصحة السند.",
+    "item_type": "weekly_ziyarah",
+    "calendar": {
+      "cycle": "weekly",
+      "weekday": "الأحد"
+    },
+    "action_summary": "راجع النص التفصيلي في المصدر المسجل؛ هذا السجل فهرسي وليس بديلاً عن النص الكامل.",
+    "tags": [
+      "زيارة",
+      "أسبوعية",
+      "الأحد"
+    ]
+  },
+  {
+    "topic": "زيارات وأعمال أهل البيت",
+    "source_name": "مفاتيح الجنان",
+    "author_or_compiler": "الشيخ عباس القمي",
+    "attribution_status": "imami_transmission",
+    "dialect": "classical_arabic",
+    "is_original_quote": true,
+    "corpus_version": "0.1.0",
+    "id": "weekly-ziyarah-003",
+    "title": "زيارة فاطمة الزهراء عليها السلام يوم الأحد",
+    "text": "زيارة فاطمة الزهراء عليها السلام يوم الأحد",
+    "text_scope": "catalog_entry",
+    "category": "imami_devotional_manual",
+    "speaker": "فاطمة الزهراء عليها السلام",
+    "source_locator": "ج1، ص107؛ الباب الأول، الفصل الخامس",
+    "source_url": "https://lib.eshia.ir/10505/1/905",
+    "verification_note": "سجل فهرسة: يُراجع النص التفصيلي في موضعه؛ لا يتضمن هذا السجل حكمًا بصحة السند.",
+    "item_type": "weekly_ziyarah",
+    "calendar": {
+      "cycle": "weekly",
+      "weekday": "الأحد"
+    },
+    "action_summary": "راجع النص التفصيلي في المصدر المسجل؛ هذا السجل فهرسي وليس بديلاً عن النص الكامل.",
+    "tags": [
+      "زيارة",
+      "أسبوعية",
+      "الأحد"
+    ]
+  },
+  {
+    "topic": "زيارات وأعمال أهل البيت",
+    "source_name": "مفاتيح الجنان",
+    "author_or_compiler": "الشيخ عباس القمي",
+    "attribution_status": "imami_transmission",
+    "dialect": "classical_arabic",
+    "is_original_quote": true,
+    "corpus_version": "0.1.0",
+    "id": "weekly-ziyarah-004",
+    "title": "زيارة الحسن المجتبى عليه السلام يوم الاثنين",
+    "text": "زيارة الحسن المجتبى عليه السلام يوم الاثنين",
+    "text_scope": "catalog_entry",
+    "category": "imami_devotional_manual",
+    "speaker": "الإمام الحسن المجتبى عليه السلام",
+    "source_locator": "ج1، ص108؛ الباب الأول، الفصل الخامس",
+    "source_url": "https://lib.eshia.ir/10505/1/905",
+    "verification_note": "سجل فهرسة: يُراجع النص التفصيلي في موضعه؛ لا يتضمن هذا السجل حكمًا بصحة السند.",
+    "item_type": "weekly_ziyarah",
+    "calendar": {
+      "cycle": "weekly",
+      "weekday": "الاثنين"
+    },
+    "action_summary": "راجع النص التفصيلي في المصدر المسجل؛ هذا السجل فهرسي وليس بديلاً عن النص الكامل.",
+    "tags": [
+      "زيارة",
+      "أسبوعية",
+      "الاثنين"
+    ]
+  },
+  {
+    "topic": "زيارات وأعمال أهل البيت",
+    "source_name": "مفاتيح الجنان",
+    "author_or_compiler": "الشيخ عباس القمي",
+    "attribution_status": "imami_transmission",
+    "dialect": "classical_arabic",
+    "is_original_quote": true,
+    "corpus_version": "0.1.0",
+    "id": "weekly-ziyarah-005",
+    "title": "زيارة الحسين عليه السلام يوم الاثنين",
+    "text": "زيارة الحسين عليه السلام يوم الاثنين",
+    "text_scope": "catalog_entry",
+    "category": "imami_devotional_manual",
+    "speaker": "الإمام الحسين بن علي عليه السلام",
+    "source_locator": "ج1، ص109؛ الباب الأول، الفصل الخامس",
+    "source_url": "https://lib.eshia.ir/10505/1/905",
+    "verification_note": "سجل فهرسة: يُراجع النص التفصيلي في موضعه؛ لا يتضمن هذا السجل حكمًا بصحة السند.",
+    "item_type": "weekly_ziyarah",
+    "calendar": {
+      "cycle": "weekly",
+      "weekday": "الاثنين"
+    },
+    "action_summary": "راجع النص التفصيلي في المصدر المسجل؛ هذا السجل فهرسي وليس بديلاً عن النص الكامل.",
+    "tags": [
+      "زيارة",
+      "أسبوعية",
+      "الاثنين"
+    ]
+  },
+  {
+    "topic": "زيارات وأعمال أهل البيت",
+    "source_name": "مفاتيح الجنان",
+    "author_or_compiler": "الشيخ عباس القمي",
+    "attribution_status": "imami_transmission",
+    "dialect": "classical_arabic",
+    "is_original_quote": true,
+    "corpus_version": "0.1.0",
+    "id": "weekly-ziyarah-006",
+    "title": "زيارة السجاد والباقر والصادق عليهم السلام يوم الثلاثاء",
+    "text": "زيارة السجاد والباقر والصادق عليهم السلام يوم الثلاثاء",
+    "text_scope": "catalog_entry",
+    "category": "imami_devotional_manual",
+    "speaker": "الأئمة: السجاد والباقر والصادق عليهم السلام",
+    "source_locator": "ج1، ص109؛ الباب الأول، الفصل الخامس",
+    "source_url": "https://lib.eshia.ir/10505/1/905",
+    "verification_note": "سجل فهرسة: يُراجع النص التفصيلي في موضعه؛ لا يتضمن هذا السجل حكمًا بصحة السند.",
+    "item_type": "weekly_ziyarah",
+    "calendar": {
+      "cycle": "weekly",
+      "weekday": "الثلاثاء"
+    },
+    "action_summary": "راجع النص التفصيلي في المصدر المسجل؛ هذا السجل فهرسي وليس بديلاً عن النص الكامل.",
+    "tags": [
+      "زيارة",
+      "أسبوعية",
+      "الثلاثاء"
+    ]
+  },
+  {
+    "topic": "زيارات وأعمال أهل البيت",
+    "source_name": "مفاتيح الجنان",
+    "author_or_compiler": "الشيخ عباس القمي",
+    "attribution_status": "imami_transmission",
+    "dialect": "classical_arabic",
+    "is_original_quote": true,
+    "corpus_version": "0.1.0",
+    "id": "weekly-ziyarah-007",
+    "title": "زيارة الكاظم والرضا والجواد والهادي عليهم السلام يوم الأربعاء",
+    "text": "زيارة الكاظم والرضا والجواد والهادي عليهم السلام يوم الأربعاء",
+    "text_scope": "catalog_entry",
+    "category": "imami_devotional_manual",
+    "speaker": "الأئمة: الكاظم والرضا والجواد والهادي عليهم السلام",
+    "source_locator": "ج1، ص110؛ الباب الأول، الفصل الخامس",
+    "source_url": "https://lib.eshia.ir/10505/1/905",
+    "verification_note": "سجل فهرسة: يُراجع النص التفصيلي في موضعه؛ لا يتضمن هذا السجل حكمًا بصحة السند.",
+    "item_type": "weekly_ziyarah",
+    "calendar": {
+      "cycle": "weekly",
+      "weekday": "الأربعاء"
+    },
+    "action_summary": "راجع النص التفصيلي في المصدر المسجل؛ هذا السجل فهرسي وليس بديلاً عن النص الكامل.",
+    "tags": [
+      "زيارة",
+      "أسبوعية",
+      "الأربعاء"
+    ]
+  },
+  {
+    "topic": "زيارات وأعمال أهل البيت",
+    "source_name": "مفاتيح الجنان",
+    "author_or_compiler": "الشيخ عباس القمي",
+    "attribution_status": "imami_transmission",
+    "dialect": "classical_arabic",
+    "is_original_quote": true,
+    "corpus_version": "0.1.0",
+    "id": "weekly-ziyarah-008",
+    "title": "زيارة الحسن العسكري عليه السلام يوم الخميس",
+    "text": "زيارة الحسن العسكري عليه السلام يوم الخميس",
+    "text_scope": "catalog_entry",
+    "category": "imami_devotional_manual",
+    "speaker": "الإمام الحسن العسكري عليه السلام",
+    "source_locator": "ج1، ص111؛ الباب الأول، الفصل الخامس",
+    "source_url": "https://lib.eshia.ir/10505/1/905",
+    "verification_note": "سجل فهرسة: يُراجع النص التفصيلي في موضعه؛ لا يتضمن هذا السجل حكمًا بصحة السند.",
+    "item_type": "weekly_ziyarah",
+    "calendar": {
+      "cycle": "weekly",
+      "weekday": "الخميس"
+    },
+    "action_summary": "راجع النص التفصيلي في المصدر المسجل؛ هذا السجل فهرسي وليس بديلاً عن النص الكامل.",
+    "tags": [
+      "زيارة",
+      "أسبوعية",
+      "الخميس"
+    ]
+  },
+  {
+    "topic": "زيارات وأعمال أهل البيت",
+    "source_name": "مفاتيح الجنان",
+    "author_or_compiler": "الشيخ عباس القمي",
+    "attribution_status": "imami_transmission",
+    "dialect": "classical_arabic",
+    "is_original_quote": true,
+    "corpus_version": "0.1.0",
+    "id": "weekly-ziyarah-009",
+    "title": "زيارة صاحب الزمان عليه السلام يوم الجمعة",
+    "text": "زيارة صاحب الزمان عليه السلام يوم الجمعة",
+    "text_scope": "catalog_entry",
+    "category": "imami_devotional_manual",
+    "speaker": "الإمام المهدي عجل الله فرجه",
+    "source_locator": "ج1، ص111؛ الباب الأول، الفصل الخامس",
+    "source_url": "https://lib.eshia.ir/10505/1/905",
+    "verification_note": "سجل فهرسة: يُراجع النص التفصيلي في موضعه؛ لا يتضمن هذا السجل حكمًا بصحة السند.",
+    "item_type": "weekly_ziyarah",
+    "calendar": {
+      "cycle": "weekly",
+      "weekday": "الجمعة"
+    },
+    "action_summary": "راجع النص التفصيلي في المصدر المسجل؛ هذا السجل فهرسي وليس بديلاً عن النص الكامل.",
+    "tags": [
+      "زيارة",
+      "أسبوعية",
+      "الجمعة"
+    ]
+  }
+]

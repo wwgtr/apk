@@ -1,0 +1,152 @@
+[
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "social-001",
+    "topic": "العلاقات والآداب",
+    "text": "أحب إخواني إلي من أهدى إلي عيوبي.",
+    "speaker": "الإمام جعفر الصادق عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص523-527؛ قصار معان من تحف العقول",
+    "source_url": "https://almerja.com/reading.php?idm=21024",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "أخوة",
+      "نصيحة",
+      "عيوب"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "social-002",
+    "topic": "العلاقات والآداب",
+    "text": "من ملك نفسه إذا غضب وإذا رغب وإذا رهب وإذا اشتهى حرّم الله جسده على النار.",
+    "speaker": "الإمام جعفر الصادق عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص523-527؛ قصار معان من تحف العقول",
+    "source_url": "https://almerja.com/reading.php?idm=21024",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "ضبط النفس",
+      "غضب"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "social-003",
+    "topic": "العلاقات والآداب",
+    "text": "التودد إلى الناس نصف العقل.",
+    "speaker": "الإمام علي الرضا عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص568-570؛ منقول في الصفحة عن تحف العقول",
+    "source_url": "https://ns1.almerja.com/more.php?idm=20902",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "مداراة",
+      "علاقات"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "social-004",
+    "topic": "العلاقات والآداب",
+    "text": "من هانت عليه نفسه فلا تأمن شره.",
+    "speaker": "الإمام علي الهادي عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص585؛ منقول في الصفحة عن تحف العقول",
+    "source_url": "https://mail.almerja.com/more.php?idm=21193",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "نفس",
+      "حذر"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "social-005",
+    "topic": "العلاقات والآداب",
+    "text": "إظهار الشيء قبل أن يستحكم مفسدة.",
+    "speaker": "الإمام محمد الجواد عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص580؛ منقول في الصفحة عن تحف العقول",
+    "source_url": "https://mail.almerja.com/more.php?idm=20873",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "تدبير",
+      "سر"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "social-006",
+    "topic": "العلاقات والآداب",
+    "text": "من التواضع السلام على كل من تمر به والجلوس دون شرف المجلس.",
+    "speaker": "الإمام الحسن العسكري عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص588-589؛ منقول في الصفحة عن تحف العقول",
+    "source_url": "https://ns1.almerja.com/more.php?idm=20882",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "تواضع",
+      "سلام",
+      "مجلس"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "social-007",
+    "topic": "العلاقات والآداب",
+    "text": "من وعظ أخاه سراً فقد زانه، ومن وعظه علانية فقد شانه.",
+    "speaker": "الإمام الحسن العسكري عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص588-589؛ منقول في الصفحة عن تحف العقول",
+    "source_url": "https://ns1.almerja.com/more.php?idm=20882",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "نصيحة",
+      "ستر",
+      "أخوة"
+    ]
+  }
+]

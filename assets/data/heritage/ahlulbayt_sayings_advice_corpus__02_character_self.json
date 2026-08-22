@@ -1,0 +1,214 @@
+[
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "character-001",
+    "topic": "تزكية النفس والخلق",
+    "text": "من أنصف الناس من نفسه رضي به حكماً لغيره.",
+    "speaker": "الإمام جعفر الصادق عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص523-527؛ قصار معان من تحف العقول",
+    "source_url": "https://almerja.com/reading.php?idm=21024",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "إنصاف",
+      "عدل"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "character-002",
+    "topic": "تزكية النفس والخلق",
+    "text": "الرغبة في الدنيا تورث الغم والحزن، والزهد في الدنيا راحة القلب والبدن.",
+    "speaker": "الإمام جعفر الصادق عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص523-527؛ قصار معان من تحف العقول",
+    "source_url": "https://almerja.com/reading.php?idm=21024",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "زهد",
+      "دنيا",
+      "راحة"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "character-003",
+    "topic": "تزكية النفس والخلق",
+    "text": "لا تكذب.",
+    "speaker": "الإمام جعفر الصادق عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص523-527؛ قصار معان من تحف العقول",
+    "source_url": "https://almerja.com/reading.php?idm=21024",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "صدق",
+      "كذب"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "character-004",
+    "topic": "تزكية النفس والخلق",
+    "text": "الغضب مفتاح الشر.",
+    "speaker": "الإمام موسى الكاظم عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص541؛ من وصية لهشام، مع عزو داخلي إلى تحف العقول",
+    "source_url": "https://ns1.almerja.com/more.php?idm=21145",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "غضب",
+      "نفس"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "character-005",
+    "topic": "تزكية النفس والخلق",
+    "text": "إياك والكبر، فإنه لا يدخل الجنة من كان في قلبه مثقال حبة من كبر.",
+    "speaker": "الإمام موسى الكاظم عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص541؛ من وصية لهشام، مع عزو داخلي إلى تحف العقول",
+    "source_url": "https://ns1.almerja.com/more.php?idm=21145",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "تواضع",
+      "كبر"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "character-006",
+    "topic": "تزكية النفس والخلق",
+    "text": "ليس العبادة كثرة الصيام والصلاة، وإنما العبادة كثرة التفكر في أمر الله.",
+    "speaker": "الإمام علي الرضا عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص568-570؛ منقول في الصفحة عن تحف العقول",
+    "source_url": "https://ns1.almerja.com/more.php?idm=20902",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "عبادة",
+      "تفكر"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "character-007",
+    "topic": "تزكية النفس والخلق",
+    "text": "من اتقى الله يُتقى، ومن أطاع الله يُطاع، ومن أطاع الخالق لم يبال سخط المخلوقين.",
+    "speaker": "الإمام علي الهادي عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص585؛ منقول في الصفحة عن تحف العقول",
+    "source_url": "https://mail.almerja.com/more.php?idm=21193",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "تقوى",
+      "طاعة"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "character-008",
+    "topic": "تزكية النفس والخلق",
+    "text": "الشاكر أسعد بالشكر منه بالنعمة التي أوجبت الشكر.",
+    "speaker": "الإمام علي الهادي عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص585؛ منقول في الصفحة عن تحف العقول",
+    "source_url": "https://mail.almerja.com/more.php?idm=21193",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "شكر",
+      "نعمة"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "character-009",
+    "topic": "تزكية النفس والخلق",
+    "text": "تأخير التوبة اغترار، وطول التسويف حيرة، والاعتلال على الله هلكة.",
+    "speaker": "الإمام محمد الجواد عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص580؛ منقول في الصفحة عن تحف العقول",
+    "source_url": "https://mail.almerja.com/more.php?idm=20873",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "توبة",
+      "تسويف"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "character-010",
+    "topic": "تزكية النفس والخلق",
+    "text": "أورع الناس من وقف عند الشبهة، أعبد الناس من أقام على الفرائض، أزهد الناس من ترك الحرام، أشد الناس اجتهاداً من ترك الذنوب.",
+    "speaker": "الإمام الحسن العسكري عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص588-589؛ منقول في الصفحة عن تحف العقول",
+    "source_url": "https://ns1.almerja.com/more.php?idm=20882",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "ورع",
+      "فرائض",
+      "زهد"
+    ]
+  }
+]

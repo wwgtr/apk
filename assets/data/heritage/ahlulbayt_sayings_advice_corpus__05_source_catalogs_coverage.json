@@ -1,0 +1,118 @@
+[
+  {
+    "id": "catalog-001",
+    "topic": "فهارس وملاحظات التغطية",
+    "text": "تصف صفحة ببليوغرافية الكتاب بأنه يضم 10760 من كلمات وحكم ومواعظ أمير المؤمنين، جمعها أبو الفتح الآمدي ورتبها على حروف المعجم. لا تنسخ هذه الحزمة تلك المادة كاملة لغياب طبعة نصية مقروءة ومقابلة في هذه الجولة.",
+    "speaker": "الإمام علي بن أبي طالب عليه السلام",
+    "source_name": "غرر الحكم ودرر الكلم",
+    "author_or_compiler": "أبو الفتح الآمدي",
+    "source_locator": "بيانات الكتاب وفهرسه العام",
+    "source_url": "https://ar.wikishia.net/view/%D8%BA%D8%B1%D8%B1_%D8%A7%D9%84%D8%AD%D9%83%D9%85_%D9%88%D8%AF%D8%B1%D8%B1_%D8%A7%D9%84%D9%83%D9%84%D9%85_(%D9%83%D8%AA%D8%A7%D8%A8)",
+    "locator_status": "bibliographic_catalog",
+    "attribution_status": "meaning_paraphrase",
+    "verification_note": "هذا سجل فهرسي أو ملاحظة تغطية لا اقتباس حرفي. لا يحول العنوان أو العدد إلى توثيق سندي لكل مادة مفردة.",
+    "dialect": "msa",
+    "category": "source_catalog_or_coverage",
+    "is_original_quote": false,
+    "tags": [
+      "الإمام علي",
+      "غرر الحكم",
+      "فهرس"
+    ],
+    "corpus_version": "0.1.0",
+    "title": "غرر الحكم ودرر الكلم"
+  },
+  {
+    "id": "catalog-002",
+    "topic": "فهارس وملاحظات التغطية",
+    "text": "لا يتضمن هذا الإصدار نصوصاً نبوية مفردة؛ يحتاج استكمال هذا القسم إلى تحديد طبعة من مصدر حديثي إمامي مع رقم باب أو حديث لكل نص.",
+    "speaker": "النبي محمد ﷺ",
+    "source_name": "ملاحظة تغطية corpus",
+    "author_or_compiler": "Manus AI",
+    "source_locator": "نطاق المصادر المفحوصة في research_log.md",
+    "source_url": "https://ar.wikishia.net/view/%D8%BA%D8%B1%D8%B1_%D8%A7%D9%84%D8%AD%D9%83%D9%85_%D9%88%D8%AF%D8%B1%D8%B1_%D8%A7%D9%84%D9%83%D9%84%D9%85_(%D9%83%D8%AA%D8%A7%D8%A8)",
+    "locator_status": "bibliographic_catalog",
+    "attribution_status": "meaning_paraphrase",
+    "verification_note": "هذا سجل فهرسي أو ملاحظة تغطية لا اقتباس حرفي. لا يحول العنوان أو العدد إلى توثيق سندي لكل مادة مفردة.",
+    "dialect": "msa",
+    "category": "source_catalog_or_coverage",
+    "is_original_quote": false,
+    "tags": [
+      "النبي",
+      "تغطية",
+      "يحتاج توسعة"
+    ],
+    "corpus_version": "0.1.0",
+    "title": "تغطية النصائح النبوية"
+  },
+  {
+    "id": "catalog-003",
+    "topic": "فهارس وملاحظات التغطية",
+    "text": "لم يُدرج قول مفرد لفاطمة الزهراء في هذا الإصدار لعدم تثبيت موضع نصي قصير في المصادر المفحوصة. يظل القسم مفتوحاً للمقابلة مع الاحتجاج ومصادر الخطب.",
+    "speaker": "فاطمة الزهراء عليها السلام",
+    "source_name": "ملاحظة تغطية corpus",
+    "author_or_compiler": "Manus AI",
+    "source_locator": "نطاق المصادر المفحوصة في research_log.md",
+    "source_url": "https://ar.wikishia.net/view/%D8%BA%D8%B1%D8%B1_%D8%A7%D9%84%D8%AD%D9%83%D9%85_%D9%88%D8%AF%D8%B1%D8%B1_%D8%A7%D9%84%D9%83%D9%84%D9%85_(%D9%83%D8%AA%D8%A7%D8%A8)",
+    "locator_status": "bibliographic_catalog",
+    "attribution_status": "meaning_paraphrase",
+    "verification_note": "هذا سجل فهرسي أو ملاحظة تغطية لا اقتباس حرفي. لا يحول العنوان أو العدد إلى توثيق سندي لكل مادة مفردة.",
+    "dialect": "msa",
+    "category": "source_catalog_or_coverage",
+    "is_original_quote": false,
+    "tags": [
+      "الزهراء",
+      "تغطية",
+      "يحتاج توسعة"
+    ],
+    "corpus_version": "0.1.0",
+    "title": "تغطية النصائح الفاطمية"
+  },
+  {
+    "id": "catalog-004",
+    "topic": "فهارس وملاحظات التغطية",
+    "text": "لم تُدرج نصوص قصيرة مفردة في هذا الإصدار لهؤلاء الأئمة لعدم اكتمال مقابلة مواضعها في طبعة محددة. راجع حزمة الخطب السابقة للمواد الخطابية ذات الصلة.",
+    "speaker": "الإمام الحسن والإمام الحسين والإمام السجاد عليهم السلام",
+    "source_name": "ملاحظة تغطية corpus",
+    "author_or_compiler": "Manus AI",
+    "source_locator": "نطاق المصادر المفحوصة في research_log.md",
+    "source_url": "https://ar.wikishia.net/view/%D8%BA%D8%B1%D8%B1_%D8%A7%D9%84%D8%AD%D9%83%D9%85_%D9%88%D8%AF%D8%B1%D8%B1_%D8%A7%D9%84%D9%83%D9%84%D9%85_(%D9%83%D8%AA%D8%A7%D8%A8)",
+    "locator_status": "bibliographic_catalog",
+    "attribution_status": "meaning_paraphrase",
+    "verification_note": "هذا سجل فهرسي أو ملاحظة تغطية لا اقتباس حرفي. لا يحول العنوان أو العدد إلى توثيق سندي لكل مادة مفردة.",
+    "dialect": "msa",
+    "category": "source_catalog_or_coverage",
+    "is_original_quote": false,
+    "tags": [
+      "الحسن",
+      "الحسين",
+      "السجاد",
+      "تغطية"
+    ],
+    "corpus_version": "0.1.0",
+    "title": "تغطية النصائح المبكرة"
+  },
+  {
+    "id": "catalog-005",
+    "topic": "فهارس وملاحظات التغطية",
+    "text": "لم تدرج التوقيعات والرسائل في corpus الأقوال؛ فهي جنس نصي مستقل يحتاج رجوعاً إلى الاحتجاج وكمال الدين وكتب الغيبة مع تحديد التوقيع والوسيط.",
+    "speaker": "الإمام محمد المهدي عجل الله فرجه",
+    "source_name": "ملاحظة تغطية corpus",
+    "author_or_compiler": "Manus AI",
+    "source_locator": "نطاق المصادر المفحوصة في research_log.md",
+    "source_url": "https://ar.wikishia.net/view/%D8%BA%D8%B1%D8%B1_%D8%A7%D9%84%D8%AD%D9%83%D9%85_%D9%88%D8%AF%D8%B1%D8%B1_%D8%A7%D9%84%D9%83%D9%84%D9%85_(%D9%83%D8%AA%D8%A7%D8%A8)",
+    "locator_status": "bibliographic_catalog",
+    "attribution_status": "meaning_paraphrase",
+    "verification_note": "هذا سجل فهرسي أو ملاحظة تغطية لا اقتباس حرفي. لا يحول العنوان أو العدد إلى توثيق سندي لكل مادة مفردة.",
+    "dialect": "msa",
+    "category": "source_catalog_or_coverage",
+    "is_original_quote": false,
+    "tags": [
+      "المهدي",
+      "توقيعات",
+      "تغطية"
+    ],
+    "corpus_version": "0.1.0",
+    "title": "تغطية التوقيعات"
+  }
+]

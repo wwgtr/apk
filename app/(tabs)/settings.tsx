@@ -1,99 +1,32 @@
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
-import { useEffect, useState } from "react";
-import { ActivityIndicator, Alert, KeyboardAvoidingView, Platform, ScrollView, Text, TextInput, TouchableOpacity, View } from "react-native";
+import { router } from "expo-router";
+import { ScrollView, StyleSheet, Text, View } from "react-native";
 
+import { ActionRow, BackButton, MetaPill, ScreenHeading, SectionTitle, sirajColors } from "@/components/siraj-ui";
 import { ScreenContainer } from "@/components/screen-container";
-import { getSettings, saveSettings } from "@/lib/download-store";
-import { testService } from "@/lib/yt-dlp-client";
+import { calendar, heritageEntries } from "@/lib/siraj-data";
 
 export default function SettingsScreen() {
-  const [endpoint, setEndpoint] = useState("");
-  const [testing, setTesting] = useState(false);
-  const [saving, setSaving] = useState(false);
-
-  useEffect(() => {
-    getSettings().then((settings) => setEndpoint(settings.endpoint));
-  }, []);
-
-  const validateEndpoint = (): string | null => {
-    try {
-      const url = new URL(endpoint.trim());
-      if (url.protocol !== "https:" && url.hostname !== "localhost" && url.hostname !== "10.0.2.2") {
-        return "استخدم رابط HTTPS لخدمة التنزيل، أو localhost أثناء التطوير فقط.";
-      }
-      return null;
-    } catch {
-      return "أدخل عنوان خدمة صحيحًا يبدأ بـ https://";
-    }
-  };
-
-  const save = async () => {
-    const error = validateEndpoint();
-    if (error) return Alert.alert("عنوان غير صالح", error);
-    setSaving(true);
-    await saveSettings({ endpoint: endpoint.trim().replace(/\/+$/, "") });
-    setSaving(false);
-    Alert.alert("تم الحفظ", "سيستخدم التطبيق هذا العنوان لطلبات التنزيل الجديدة.");
-  };
-
-  const test = async () => {
-    const error = validateEndpoint();
-    if (error) return Alert.alert("عنوان غير صالح", error);
-    setTesting(true);
-    try {
-      await testService(endpoint);
-      Alert.alert("الخدمة متاحة", "تم الوصول إلى نقطة الفحص بنجاح.");
-    } catch (connectionError) {
-      Alert.alert("تعذر الاتصال", connectionError instanceof Error ? connectionError.message : "تحقق من العنوان وحالة الخدمة.");
-    } finally {
-      setTesting(false);
-    }
-  };
-
   return (
-    <ScreenContainer className="px-5" edges={["top", "left", "right"]}>
-      <KeyboardAvoidingView className="flex-1" behavior={Platform.OS === "ios" ? "padding" : undefined}>
-        <ScrollView contentContainerStyle={{ paddingTop: 12, paddingBottom: 40 }} keyboardShouldPersistTaps="handled">
-          <Text className="text-3xl font-bold text-foreground">إعدادات الخدمة</Text>
-          <Text className="text-sm leading-6 text-muted mt-2">يرتبط التطبيق بخدمة تنزيل خاصة بك تعمل فيها yt-dlp وFFmpeg. لا تُرسل كلمات المرور أو ملفات تعريف الارتباط من الهاتف.</Text>
-
-          <View className="bg-surface border border-border rounded-3xl p-5 mt-6">
-            <View className="flex-row items-center gap-3 mb-4">
-              <View className="w-10 h-10 rounded-2xl bg-[#FCE8E8] items-center justify-center"><MaterialIcons name="dns" size={21} color="#E84545" /></View>
-              <View className="flex-1"><Text className="text-base font-bold text-foreground">عنوان خدمة التنزيل</Text><Text className="text-xs text-muted mt-0.5">مثال: https://downloads.example.com</Text></View>
-            </View>
-            <TextInput
-              value={endpoint}
-              onChangeText={setEndpoint}
-              autoCapitalize="none"
-              autoCorrect={false}
-              keyboardType="url"
-              placeholder="https://..."
-              placeholderTextColor="#9CA3AF"
-              className="h-14 px-4 rounded-2xl bg-background border border-border text-foreground text-left"
-              style={{ writingDirection: "ltr" }}
-              returnKeyType="done"
-            />
-            <TouchableOpacity onPress={test} disabled={testing} className="h-12 mt-3 rounded-2xl bg-background border border-border items-center justify-center flex-row gap-2" style={{ opacity: testing ? 0.65 : 1 }}>
-              {testing ? <ActivityIndicator color="#E84545" /> : <MaterialIcons name="network-check" size={20} color="#151515" />}
-              <Text className="font-bold text-foreground">اختبار الاتصال</Text>
-            </TouchableOpacity>
-          </View>
-
-          <TouchableOpacity onPress={save} disabled={saving} className="h-14 rounded-2xl bg-primary items-center justify-center mt-5" style={{ opacity: saving ? 0.7 : 1 }}>
-            {saving ? <ActivityIndicator color="#FFFFFF" /> : <Text className="text-white font-bold text-base">حفظ العنوان</Text>}
-          </TouchableOpacity>
-
-          <View className="bg-[#FFF7E7] border border-[#F0D7A2] rounded-3xl p-5 mt-6">
-            <View className="flex-row gap-3"><MaterialIcons name="gpp-good" size={22} color="#C47916" /><View className="flex-1"><Text className="font-bold text-[#6B4C10]">الخصوصية وحقوق الاستخدام</Text><Text className="text-sm leading-6 text-[#785A1F] mt-1">استخدم التطبيق فقط مع المحتوى الذي تملكه أو تملك إذنًا صريحًا لتنزيله. لا تحتفظ هذه الواجهة ببيانات تسجيل الدخول إلى يوتيوب.</Text></View></View>
-          </View>
-
-          <View className="mt-6 px-1">
-            <Text className="text-base font-bold text-foreground">عقد الخدمة المتوقع</Text>
-            <Text className="text-sm leading-6 text-muted mt-2">يستدعي التطبيق GET /health للتحقق، ثم POST /api/downloads مع الرابط والصيغة والجودة لإنشاء المهمة، ويمكنه طلب DELETE /api/downloads/:id للإلغاء.</Text>
-          </View>
-        </ScrollView>
-      </KeyboardAvoidingView>
+    <ScreenContainer>
+      <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
+        <BackButton onPress={() => router.back()} />
+        <ScreenHeading eyebrow="محلي · بلا حساب · بلا ذكاء اصطناعي" title="حول البيانات" body="سراج الولاية قارئ محلي للتراث والتقويم. تبقى المفضلة على جهازك." />
+        <View style={styles.statRow}><View style={styles.statCard}><Text style={styles.statValue}>{heritageEntries.length}</Text><Text style={styles.statLabel}>مادة تراثية</Text></View><View style={styles.statCard}><Text style={styles.statValue}>354</Text><Text style={styles.statLabel}>يومًا في 1448هـ</Text></View></View>
+        <SectionTitle title="شفافية المصدر" />
+        <View style={styles.transparencyCard}><MaterialIcons name="fact-check" size={24} color={sirajColors.jade} /><Text style={styles.transparencyText}>تظهر كل مادة باسم الكتاب والموضع وحالة النسبة. لا يعني ورود المادة في مصدر إمامي أن التطبيق صحح سندها أو أثبتها تاريخيًا.</Text></View>
+        <SectionTitle title="التقويم" />
+        <View style={styles.calendarCard}><Text style={styles.calendarTitle}>{calendar.title}</Text><Text style={styles.calendarText}>المصدر: {calendar.source}</Text><MetaPill label="توقعات الرؤية ليست ثبوتًا شرعيًا" tone="gold" /></View>
+        <SectionTitle title="معلومات التطبيق" />
+        <View style={styles.rows}><ActionRow icon="auto-stories" label="خارطة الميزات الخمسين" onPress={() => {}} trailing={<MetaPill label="قريبًا" tone="muted" />} /><ActionRow icon="privacy-tip" label="الخصوصية المحلية" onPress={() => {}} /></View>
+      </ScrollView>
     </ScreenContainer>
   );
 }
+
+const styles = StyleSheet.create({
+  content: { backgroundColor: sirajColors.paper, gap: 10, paddingBottom: 34, paddingHorizontal: 18, paddingTop: 12 },
+  statRow: { flexDirection: "row-reverse", gap: 10 }, statCard: { alignItems: "flex-end", backgroundColor: "#FFFFFF", borderColor: sirajColors.mist, borderRadius: 18, borderWidth: 1, flex: 1, padding: 15 }, statValue: { color: sirajColors.jade, fontSize: 24, fontWeight: "900" }, statLabel: { color: sirajColors.muted, fontSize: 11, marginTop: 4, textAlign: "right", writingDirection: "rtl" },
+  transparencyCard: { alignItems: "flex-start", backgroundColor: "#E3F0EC", borderRadius: 19, flexDirection: "row-reverse", gap: 11, padding: 15 }, transparencyText: { color: "#315A52", flex: 1, fontSize: 13, lineHeight: 22, textAlign: "right", writingDirection: "rtl" },
+  calendarCard: { alignItems: "flex-end", backgroundColor: "#F5EBD9", borderRadius: 19, gap: 7, padding: 15 }, calendarTitle: { color: "#5B481F", fontSize: 14, fontWeight: "800", lineHeight: 22, textAlign: "right", writingDirection: "rtl" }, calendarText: { color: "#725F35", fontSize: 12, lineHeight: 19, textAlign: "right", writingDirection: "rtl" }, rows: { gap: 8 },
+});

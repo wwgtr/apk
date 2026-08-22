@@ -1,0 +1,139 @@
+[
+  {
+    "id": "wasaya-001",
+    "topic": "الوصايا والرسائل",
+    "text": "اعلم أن لله عز وجل عليك حقوقا محيطة بك في كل حركة تحركتها أو سكنة سكنتها أو حال حلتها أو منزلة نزلتها أو جارحة قلبتها أو آلة تصرفت بها، بعضها أكبر من بعض.",
+    "speaker": "الإمام علي بن الحسين السجاد عليه السلام",
+    "source_name": "تحف العقول عن آل الرسول",
+    "author_or_compiler": "الحسن بن علي بن شعبة الحراني",
+    "source_locator": "رسالة الحقوق، ص255-272؛ نقل النص ومقابلته مع الخصال في أعيان الشيعة ج2 ص476-483",
+    "source_url": "https://ns1.almerja.com/more.php?idm=21573",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "ورد النص بصيغ متقاربة في تحف العقول والخصال ومن لا يحضره الفقيه؛ يسجل هنا وفق الموضع الناقل الذي يبيّن الفروق.",
+    "dialect": "classical_arabic",
+    "category": "imami_hadith",
+    "is_original_quote": true,
+    "tags": [
+      "رسالة الحقوق",
+      "وصية",
+      "حقوق"
+    ],
+    "corpus_version": "0.1.0"
+  },
+  {
+    "id": "wasaya-002",
+    "topic": "الوصايا والرسائل",
+    "title": "رسالة الحقوق: العائلات المصدرية",
+    "text": "تذكر المصادر أن رسالة الحقوق مروية عن الإمام السجاد، وأن نصها ورد في تحف العقول والخصال ومن لا يحضره الفقيه والأمالي؛ وتختلف بعض الافتتاحات والزيادات بين النسخ.",
+    "speaker": "الإمام علي بن الحسين السجاد عليه السلام",
+    "source_name": "تحف العقول / الخصال / من لا يحضره الفقيه / الأمالي",
+    "author_or_compiler": "ابن شعبة الحراني ومحمد بن علي الصدوق",
+    "source_locator": "تحف العقول ص255-272؛ الخصال ص564-570؛ من لا يحضره الفقيه ج2 ص618-625؛ الأمالي ص368-375",
+    "source_url": "https://ar.wikishia.net/view/%D8%B1%D8%B3%D8%A7%D9%84%D8%A9_%D8%A7%D9%84%D8%AD%D9%82%D9%88%D9%82",
+    "locator_status": "needs_edition_check",
+    "attribution_status": "meaning_paraphrase",
+    "verification_note": "سجل فهرسي أو تلخيص موضعي، لا اقتباس حرفي ولا حكم بصحة الإسناد. يلزم الرجوع إلى الطبعة المحددة قبل النقل العلمي أو إيراد النص الكامل.",
+    "dialect": "msa",
+    "category": "source_catalog_or_coverage",
+    "is_original_quote": false,
+    "tags": [
+      "رسالة",
+      "حقوق",
+      "مصادر"
+    ],
+    "corpus_version": "0.1.0"
+  },
+  {
+    "id": "wasaya-003",
+    "topic": "الوصايا والرسائل",
+    "title": "وصية أمير المؤمنين لابنه الحسن",
+    "text": "يسجل نهج البلاغة الرسالة 31 بوصفها وصية تربوية وأخلاقية موجهة إلى الإمام الحسن، وتُفهرس مستقلة لكونها نصاً طويلاً يحتاج مقابلة طبعة قبل إدخال المتن.",
+    "speaker": "الإمام علي بن أبي طالب عليه السلام",
+    "source_name": "نهج البلاغة",
+    "author_or_compiler": "الشريف الرضي",
+    "source_locator": "الرسالة 31",
+    "source_url": "https://al-islam.org/nahjul-balagha-part-2-letters-and-sayings/letter-31",
+    "locator_status": "needs_edition_check",
+    "attribution_status": "meaning_paraphrase",
+    "verification_note": "سجل فهرسي أو تلخيص موضعي، لا اقتباس حرفي ولا حكم بصحة الإسناد. يلزم الرجوع إلى الطبعة المحددة قبل النقل العلمي أو إيراد النص الكامل.",
+    "dialect": "msa",
+    "category": "source_catalog_or_coverage",
+    "is_original_quote": false,
+    "tags": [
+      "وصية",
+      "تربية",
+      "الإمام الحسن"
+    ],
+    "corpus_version": "0.1.0"
+  },
+  {
+    "id": "wasaya-004",
+    "topic": "الوصايا والرسائل",
+    "title": "عهد أمير المؤمنين إلى مالك الأشتر",
+    "text": "يسجل نهج البلاغة الرسالة 53، المعروفة بعهد مالك الأشتر، في باب الرسائل. تحفظ الحزمة عنوانها وموضعها ولا تستبدل النص الطويل بملخص منسوب.",
+    "speaker": "الإمام علي بن أبي طالب عليه السلام",
+    "source_name": "نهج البلاغة",
+    "author_or_compiler": "الشريف الرضي",
+    "source_locator": "الرسالة 53",
+    "source_url": "https://al-islam.org/nahjul-balagha-part-2-letters-and-sayings/letter-53",
+    "locator_status": "needs_edition_check",
+    "attribution_status": "meaning_paraphrase",
+    "verification_note": "سجل فهرسي أو تلخيص موضعي، لا اقتباس حرفي ولا حكم بصحة الإسناد. يلزم الرجوع إلى الطبعة المحددة قبل النقل العلمي أو إيراد النص الكامل.",
+    "dialect": "msa",
+    "category": "source_catalog_or_coverage",
+    "is_original_quote": false,
+    "tags": [
+      "عهد",
+      "رسالة",
+      "إدارة",
+      "مالك الأشتر"
+    ],
+    "corpus_version": "0.1.0"
+  },
+  {
+    "id": "wasaya-005",
+    "topic": "الوصايا والرسائل",
+    "title": "التوقيعات: مصادرها الأساسية",
+    "text": "تذكر المراجع أن من أهم مصادر توقيعات الإمام المهدي كمال الدين للصدوق والغيبة للطوسي، وأنهما أفردا أقساماً للتوقيعات. يفصل corpus بين فهرسة التوقيع وإثبات سنده.",
+    "speaker": "الإمام محمد المهدي عجل الله فرجه",
+    "source_name": "كمال الدين وتمام النعمة / الغيبة",
+    "author_or_compiler": "محمد بن علي الصدوق / محمد بن الحسن الطوسي",
+    "source_locator": "أقسام التوقيعات في الكتابين؛ يلزم تعيين التوقيع عند إضافة المتن",
+    "source_url": "https://ar.wikishia.net/view/%D8%AA%D9%88%D9%82%D9%8A%D8%B9%D8%A7%D8%AA_%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85_%D8%A7%D9%84%D9%85%D9%87%D8%AF%D9%8A_(%D8%B9)",
+    "locator_status": "needs_edition_check",
+    "attribution_status": "meaning_paraphrase",
+    "verification_note": "سجل فهرسي أو تلخيص موضعي، لا اقتباس حرفي ولا حكم بصحة الإسناد. يلزم الرجوع إلى الطبعة المحددة قبل النقل العلمي أو إيراد النص الكامل.",
+    "dialect": "msa",
+    "category": "source_catalog_or_coverage",
+    "is_original_quote": false,
+    "tags": [
+      "توقيعات",
+      "غيبة صغرى",
+      "رسائل"
+    ],
+    "corpus_version": "0.1.0"
+  },
+  {
+    "id": "wasaya-006",
+    "topic": "الوصايا والرسائل",
+    "text": "إن الله جل جلاله هو الذي خلق الأجسام وقسم الأرزاق، لأنه ليس بجسم ولا حال في جسم، ليس كمثله شيء وهو السميع العليم، وأما الأئمة عليهم السلام فإنهم يسألون الله تعالى فيخلق ويسألونه فيرزق إيجابا لمسألتهم وإعظاما لحقهم.",
+    "speaker": "الإمام محمد المهدي عجل الله فرجه",
+    "source_name": "الاحتجاج",
+    "author_or_compiler": "أحمد بن علي الطبرسي",
+    "source_locator": "توقيع في جواب مسألة التفويض؛ ينقله مقال توثيقي مع عزو إلى الغيبة والاحتجاج",
+    "source_url": "https://m-mahdi.net/posts/7558",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المقال عن الغيبة والاحتجاج؛ ينبغي مقابلة طبعة الكتابين قبل استعماله في بحث سندي.",
+    "dialect": "classical_arabic",
+    "category": "imami_hadith",
+    "is_original_quote": true,
+    "tags": [
+      "توقيع",
+      "توحيد",
+      "تفويض"
+    ],
+    "corpus_version": "0.1.0"
+  }
+]

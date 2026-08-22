@@ -1,0 +1,132 @@
+[
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "knowledge-001",
+    "topic": "العقل والمعرفة",
+    "text": "إن لله على الناس حجتين: حجة ظاهرة وحجة باطنة؛ فأما الظاهرة فالرسل والأنبياء والأئمة، وأما الباطنة فالعقول.",
+    "speaker": "الإمام موسى الكاظم عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص541؛ من وصية لهشام، مع عزو داخلي إلى تحف العقول",
+    "source_url": "https://ns1.almerja.com/more.php?idm=21145",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "العقل",
+      "حجة",
+      "معرفة"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "knowledge-002",
+    "topic": "العقل والمعرفة",
+    "text": "الصمت باب من أبواب الحكمة.",
+    "speaker": "الإمام علي الرضا عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص568-570؛ منقول في الصفحة عن تحف العقول",
+    "source_url": "https://ns1.almerja.com/more.php?idm=20902",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "صمت",
+      "حكمة"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "knowledge-003",
+    "topic": "العقل والمعرفة",
+    "text": "صديق كل امرئ عقله وعدوه جهله.",
+    "speaker": "الإمام علي الرضا عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص568-570؛ منقول في الصفحة عن تحف العقول",
+    "source_url": "https://ns1.almerja.com/more.php?idm=20902",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "عقل",
+      "جهل"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "knowledge-004",
+    "topic": "العقل والمعرفة",
+    "text": "من لم يجعل الله له من نفسه واعظاً، فإن مواعظ الناس لن تغني عنه شيئاً.",
+    "speaker": "الإمام محمد الباقر عليه السلام",
+    "source_name": "أعلام الهداية",
+    "author_or_compiler": "المجمع العالمي لأهل البيت — لجنة التأليف",
+    "source_locator": "ج7، ص146-154؛ الإحالة الداخلية: تحف العقول ص214",
+    "source_url": "https://www.almerja.com/more.php?idm=188909",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "نفس",
+      "مراقبة",
+      "تزكية"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "knowledge-005",
+    "topic": "العقل والمعرفة",
+    "text": "من أصغى إلى ناطق فقد عبده؛ فإن كان الناطق عن الله فقد عبد الله، وإن كان الناطق ينطق عن لسان إبليس فقد عبد إبليس.",
+    "speaker": "الإمام محمد الجواد عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص580؛ منقول في الصفحة عن تحف العقول",
+    "source_url": "https://mail.almerja.com/more.php?idm=20873",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "استماع",
+      "اتباع",
+      "تمييز"
+    ]
+  },
+  {
+    "corpus_version": "0.1.0",
+    "dialect": "classical_arabic",
+    "category": "imam_saying",
+    "is_original_quote": true,
+    "id": "knowledge-006",
+    "topic": "العقل والمعرفة",
+    "text": "قلب الأحمق في فمه، وفم الحكيم في قلبه.",
+    "speaker": "الإمام الحسن العسكري عليه السلام",
+    "source_name": "أعيان الشيعة",
+    "author_or_compiler": "السيد محسن الأمين",
+    "source_locator": "ج2، ص588-589؛ منقول في الصفحة عن تحف العقول",
+    "source_url": "https://ns1.almerja.com/more.php?idm=20882",
+    "locator_status": "page_or_internal_reference_available",
+    "attribution_status": "imami_transmission",
+    "verification_note": "النص منقول في المصدر المحدد. وجوده في المصدر لا يكفي وحده للحكم بصحة السند، ويستحسن مقابلة الطبعة المشار إليها عند الدراسة العلمية أو النشر النقدي.",
+    "tags": [
+      "حكمة",
+      "كلام",
+      "عقل"
+    ]
+  }
+]
